@@ -1,13 +1,244 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head>
-<meta charset="utf-8">
+<html lang="pt-BR"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="refresh" content="1800">
 <title>Notícias</title>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0b3d5c">
 <link rel="icon" href="icon-192.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<style>body{font-family:system-ui,sans-serif;background:#0b3d5c;color:#fff;display:grid;place-items:center;min-height:100vh;margin:0;text-align:center}</style>
-</head><body><div><h1>Notícias</h1><p>Aguardando a primeira atualização…</p></div>
-<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js')}</script>
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Notícias">
+<style>
+  :root{--bg:#f4f5f7;--card:#fff;--txt:#1c1c1e;--mut:#6b7280;--topo:#0b3d5c}
+  @media (prefers-color-scheme:dark){:root{--bg:#10151a;--card:#1a2129;--txt:#e8eaed;--mut:#9aa4af;--topo:#0b3d5c}}
+  *{box-sizing:border-box}
+  body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);margin:0;color:var(--txt)}
+  header{position:sticky;top:0;z-index:5;background:var(--topo);color:#fff;
+    padding:calc(env(safe-area-inset-top,0px) + 14px) 16px 12px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+  header h1{margin:0;font-size:1.25rem}
+  header small{color:#fff;opacity:.8;display:block;margin-top:2px}
+  header button{background:#ffffff22;color:#fff;border:0;border-radius:8px;padding:8px 12px;font-size:1.1rem;cursor:pointer}
+  main{max-width:860px;margin:auto;padding:14px 14px calc(env(safe-area-inset-bottom,0px) + 20px);display:grid;gap:12px}
+  .card{background:var(--card);border-radius:12px;padding:14px 16px;box-shadow:0 1px 3px #0002}
+  .card h2{font-size:1.02rem;margin:6px 0 0;line-height:1.35}
+  .card a{color:inherit;text-decoration:none}
+  .card a:hover{text-decoration:underline}
+  .card p{margin:8px 0 0;color:var(--mut);font-size:.9rem}
+  small{color:var(--mut)}
+</style></head>
+<body>
+<header>
+  <div><h1>Notícias</h1><small>Atualizado em 12/10/2026, 17:52 · a cada 3 horas</small></div>
+  <button onclick="location.reload()" aria-label="Atualizar">↻</button>
+</header>
+<main>
+  <article class="card">
+    <small>Brasil 247 · 12/10/2026, 17:32</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPLWI1dVhJWDBRZWo5UHBaM0dOTGk3dFdPWFExcW1TdHdKdlFHd1AxLWVheU45R0VfQ1otSjJNMzBxOGI3a0tpbi1wS2R5NU9ORWZidFNIc2ctWG03cmV3RzdCOE1FS0dmeTZ4YWlWNzlSMzFNSDFWQi1Sbm9oaE9nS2xvT3RvbnZwMnV3QTVxRFNXb0NtbVlaazFYTEFPRnlzdUNfWWJMbm5HemZ6b3VvMVJwVXhKNW8?oc=5" target="_blank" rel="noopener">Norte-americanos ganham Prêmio Nobel por trabalhos sobre estabilização de economias</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Instagram · 12/10/2026, 17:24</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KLXhMY2JjcGkxeUN3b2JHa2tCQ1FhRmx1QTQ3ajJLYng4Ym5BYVFHanlmcEEwcGhUU1FPN1lDcHRuV1g4M3dRSjFxSXJCN3otN1BWVlRR?oc=5" target="_blank" rel="noopener">C-LEVEL | &quot;É conversa fiada essa história de que uma maior eficiência resolve um corte de R$ 190 bilhões a R$ 200 bilhões&quot;, diz Bruno Moretti, ministro do Planejamento. Ele afirma, no entanto, que é central trabalhar pela melhoria da eficiência dos gastos p</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>CNN Brasil · 12/10/2026, 15:39</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNcHZ5cWJqSEQtNUZqSTZYbmVOZmU0ME1RdldpdS1WOUFLMjBVMml0bU5Yc2Q1cElPRW9sZVZTMVpNT3AxakppRjJ2N2lxR3FDZ1ZqbkNuc2xrWVF3MklzWWlaT3A4eGFfMlAzN0hiUG1laUhQeU50X2lIVVZkbWtEOVd0b1VuTEtDcEdMM0FxcXRKai1nTzVkWGhKMUNieHhiOG4xVzRXUXB1ZkQ1V1ByRmoyWUxxN0FzbGlJZA?oc=5" target="_blank" rel="noopener">Após 1º turno, investidores devem ter cautela com euforia do mercado</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>diariodigital.com.br · 12/10/2026, 15:19</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxQMF93ZF9aczR2Zm1BTUNPbnBJX1JnTW1aenhlLV9YcHVrbTdhVlRrbWJDNUNIMUtzcXBBdXdmYmJEMGJqZEFKY2o0LVN5WGZyM2hhYXBrRUtEZlFrMVM3U2d0MThaeWQ2X2ZJTU9xS1lEc29rLVktUUFvTjJ2Q1VwclA4bThZS3l3NU9sS2s1MkJvX3BDVzhxTHc4VXBUemlTYXdCS09B0gGmAUFVX3lxTFByLWQxUnZEa25PdUlCNHNyZnhQekhkUGd4bmZmUk9TZ0xZZWlGZEhrTHJaWC1UeFF5SXIzU3UzVzE4MDZoSFZzWlpnOHIzdGRUajRMY2R3cnZSRE5NalRkZGhXTWNER2d1U3lndXpRR1ZSbE1UeHd0QjZWV1hTUWVsNWxnZnhScWd4bU9uYmRTOFZVQ3E5MXhEUnhwQXhfX041M2NKUGc?oc=5" target="_blank" rel="noopener">Prazo do Desenrola Adimplentes é prorrogado até 26 de outubro</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>NSC Total · 12/10/2026, 15:17</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxOQmpLc2NTWllXeFdWQ1huZGpEWnVzcDRpUGd1bGlEWGU2UVI5aUt3Tmo3dDdJS1JINlNaa2JxRzJxVS0yYk1nSmFhQnBtWF9fSFBhNkkzX240T1lneWJjdVBESWthYWozazA4VTdZcHpHU0pOcVhwbGpleTVHOTBpMTBORXh6a0lTdVM1d3QzX0xPMnFBWGtma25GcFJfLWJwb3M0WFlITVllZlZ1TnJjdVdRM1I?oc=5" target="_blank" rel="noopener">Coritiba x Botafogo ao vivo: link para assistir com imagens ao jogo da Série A</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Tribuna do Sertão · 12/10/2026, 15:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOOEZYUlJacTdHSGxzV3ZXRGEzQUNua3lYanRJVTJnbzJOM1JRZ2xnSmxDdXBYMk1aTU52VDV5akZ1MmlSMVZZMWozMElfVGF4UFFieU1BSjlwTXJfMWdDTXotSDFQS0ZNUmFGWmNKQUFkcGo3dEF3dzVQUG1iVHBEZFRUaDZBVDVsVXViSGdOTmRUd2ZmcDMyclBKUFRpdw?oc=5" target="_blank" rel="noopener">Como aproximar a economia da vida real?</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>CNN Brasil · 12/10/2026, 14:27</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxOZG56eWdrQ0ZuWlJnWFBvQlNaUkVWVl9OSVlIbE92NDN3WC16UVVjcVFWYVF5MDVpQUdaNzZWRnRrMHk1OFNVVkNEbTlyNW5BNHVYTW5DTWp0V1R4ZnNHMmNreFpfR0NCUzNVTjdBNWRhOXpEYkxVY1Yta3hjVnRibEN5eXhkb1NIRl9fUHA5bHBSMjI4MklQR3NJMWpXcHRnZU0wYWx2dFlCNkV2STl6UG9FSG4?oc=5" target="_blank" rel="noopener">Hackers causam incêndios e danos a centenas de supermercados na França</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Agora Litoral · 12/10/2026, 13:51</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSTRMTFFkVlBuS0J1SVFObUtfZWllNnY3WXhtR1kwaTA4cXlrQ1dNLVBTZFltb2tVSTREOGJVUWdkWlNRQkZaalpoQ1JJNlVPdHh3MGJUazVYb2kzMnhXQktTcERrR1hZcDlHcm5WbktBMDJmbG9YZUxKN3Rabm5xT1lkcnJSMTZLTVY1OEkyM1JlWnJIQUJoV25ia28zeUotY3pVUHR6Z2YwaDg?oc=5" target="_blank" rel="noopener">Previsão do tempo aponta onde vai chover mais no Brasil esta semana</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Tribuna do Agreste · 12/10/2026, 13:41</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNQjBMWlVPTWU5V0pZd0lTQ2VhaTF5b0xaQkhISWdDTXdLbTNjYUhBdG1iQXdoVno4ZVNPWUdmeDEtVzRla0p4aDJzaU5feHBKcTIzMzYzT1ZyQTFsTVJFUEtZbTE3ZEFCNU9XRG81SjlUVjdYV245eGFmWWRCSDJnX0RFLXlFZWduSmdxTzlpWGpQcFZRMlgwenhQbmFBdk9zYnFZR1BXVkQxUVN4UUo0X2xwa2c?oc=5" target="_blank" rel="noopener">Robôs humanoides se preparam para o varejo dinamarquês</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>SuperVarejo · 12/10/2026, 13:22</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNMTlGeWhSQ08tOERGNW4zd1VJVmRNRlhHR3pjTFhva1hnbml2N1NTbENQNmZWS3hjakdMbmJXUmY0cUZLY3RHVVZDRFBJc2R5VFJSYXdBdXh6dEFIVGJqa2xHU3Z5Yl9EX2pCd1pSWDV3QUh6cnVqUWhHSUJObXBTZXpiR0p0dXA5ekE4WjYwVTZQWU1xWG1hUjE1ci0?oc=5" target="_blank" rel="noopener">Liv Up expande operação e passa a operar em João Pessoa (PB)</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>BOL · 12/10/2026, 13:21</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTFZXc29YbFZ5N3ZmbkFlZkVCMS1yT2RTYWgwWEhraVBheFNLbEhCcC1zY2FQaVVrVjBoaXNTRVJ4aEQ0ZjQteEJnejhreHIzNkJtNmJmZm9PNkZLZ252RDFkTFdzV2xfVWtDYjNjc3NDZ1ZXQXR5cVM0Wk11NGhhRF9UTllLeWtuYnByTE9SQzk1d3NOdXJHSWZ4RGp4MEc4cjV6WkplR2VfekIyNVktSFVRcWJyNDJZWDBpc2hHT0FlLWQ4ZWdSSlNIbi02cEdVTlNLWnJDRHZqdE9iRUtBRE01OHfSAeQBQVVfeXFMUExWV3NvWGxWeTd2Zm5BZWZFQjEtck9kU2FoMFhIa2lQYXhTS2xIQnAtc2NhUGlVa1YwaGlzU0VSeGhENGY0LXhCZ3o4a3hyMzZCbTZiZmZvTzZGS2dudkQxZExXc1dsX1VrQ2IzY3NzQ2dWV0F0eXFTNFpNdTRoYURfVE5ZS3lrbmJwckxPUkM5NXdzTnVyR0lmeERqeDBHOHI1elpKZUdlX3pCMjVZLUhVUXFicjQyWVgwaXNoR09BZS1kOGVnUkpTSG4tNnBHVU5TS1pyQ0R2anRPYkVLQURNNTh3?oc=5" target="_blank" rel="noopener">Hackers aquecem geladeiras de supermercado na França, provocando incêndios e perdas de alimentos</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Valor Econômico · 12/10/2026, 13:07</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTzNRV0dMY2ItajMyYVRmQ2JzMGZ5cDU3c0lVdlRGX1RoWHBfYUhkTmRrQTZNUEpNQUlXNk5fSnBTZEZmVXR1c1Y4MHBCbW5HZ2NCMmphclZTXzdfdkstVFRtVVlHZlU5QkRsX3FqZk1yZ2VaTjBxaG9OdTJlaldTdDhLeldmSV9KMzRGUWlLU1h3cFloOUFnRmVfWTdGczJlTkZOVzMxc21kZXVuMEFrWXA1U01FcWd1a2h0QnQ2T0poenQ0NGp5VlZtU2VMVnNNam9WbU1QQUtjd9IB6AFBVV95cUxPOEVicVMxSUdHYkp5Ylo5am9zcXMzMEp3T2p5OE12VlpRdzJoT3pQcy00cXJmSjJDczU0bVIwWXQzTkF3OWlfNHh1NkdtbEJjN3VRaFZ5aVdOR0tsWWtRTExOaWllQ2NEX1hIM2xZNzFOSmtVNXB5eE03dVl6TS00MnBZMUhja2Y2VjFwekV2Y3Z6WmRMOGtSUzFJUW9WcUJBYmxYd2FqQUZweEdXZjBCT3RDOHlYYjg4dm5URFZfT2VZNjFhZVJEY3hSTW1SYlN1QUlmbTFBYmQtZ29iamJzVjFuakdRVlZs?oc=5" target="_blank" rel="noopener">Vencedor do Nobel esteve no Brasil em julho e escreveu paper com pesquisador brasileiro</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>NeoFeed · 12/10/2026, 13:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxORHdlSGo2NHN0SUFrVVBSUkx0SkgxR0VGM2dOZHFkWUQyOWcwaEd5UmQ5VFc0TnZXVmFvV0llOWdtZnNxc0NxTVkyaEpSTlVjaDd2MDhGVVJmV3JtbFVXWmJOWkdoUWtSNlZ1ZlJSQ3NORjFQeW1kYlAwcF94UVFHVjFFZFIzeS1Eb0c4cjdEb2cycnBpM25IUk1MMXVsTVp5R0dHdmVEeEM0R28tRGViYjV2V3YwMzVKR3hia0pmNDV5SFU0ZFFSRC1zNA?oc=5" target="_blank" rel="noopener">André Freitas, da Hedge, critica meta de inflação de 3% e defende produtos incentivados</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>VEJA · 12/10/2026, 13:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPSTJMZXI3T1VnMFk0cEZMS1V1NDNlVDVUSWg2eVU4R2ZBQ3pyRGFMSVgwWFhGdWhKVUo0VTVTU0VlWGJYT0xUQXhxb2tUYlBHaVJ4eUh1MXZYRkZTaGJoZFZkZWZkQUVQMEhrWGN6V0gyUDVuYVcyTDFnOHNITGxJYWZVdmtNbWdDYzRKekFiZnZSSDlqWEhjWGVhQWxNWWM4S2kxXzZB?oc=5" target="_blank" rel="noopener">Diesel russo volta à rota do Brasil após acordo entre Trump e Putin</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>CNN Brasil · 12/10/2026, 12:58</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxNdm8taXg0Qi03UDB2SDE3T1dYQ3pPTy0tNEJLanVPU3UyZ1laMFNYQnBzSXpBZ0t1Q1JpQVM2SlVkRkhkRlh4ZzY3WnF0bklqc1dBUnZsQmZEVG1iU3ZOazJiTFhsZFBXT3JTR0lxMDJiWEtqMmY2VmZWMWFCXzZsc3hrU3NabjllcE1EUTF4RDZUSDE2R0pNWUpHdkUweXZhc0tvX2lHbWdsaWw3bWZHZXZ4QVM0WGhfaVE?oc=5" target="_blank" rel="noopener">Merz critica acordo EUA-Rússia sobre diesel e descarta apoio europeu</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>O Cafezinho · 12/10/2026, 12:49</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxOUy1OQU9reXdMSnIwRGxKT2xIdUFUVDBOU0NJMUo2RHVUb3pLcVVHTFQzWk1Sd2hIVWY3N1U4S1Z0WHVIQ0N2TThMaGRxZ2NqdHVFM0dTbkZDd05tWU53QzRjWFExeG53Y1AxZjBZd2VvcjVaNzFqUTd3andUeFFjNjZycnpUUjZNN2htcDhGTXVWcW9FcmpNckNzQnBTRlBJ0gGmAUFVX3lxTE9qZEE1c1dZM2dyT0JVc3RROGFxRWRNSUF2U0s0LXREd2NiYWFDZUx0LUFLRGZma3NVbUVoVGZJR3BUR18ycFdnZld1MEc2YVpWZlFLd1dzSGg2d0NYMTRBY3h1UEM0QVgtRU1ZTlk3dk9TWjB0cU9CZ2JuVHcxekN6SDN0bEVia2Y2TTFmYVM4Y2Y2OXVnZ0Y2ZHc1ZXFpeUsyTXU1cGc?oc=5" target="_blank" rel="noopener">Ciberataque derruba câmaras frigoríficas de centenas de supermercados na França</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>CNN Brasil · 12/10/2026, 12:01</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxPWlFybDN0WnhLRnFnMlE2blpsUTU5LTRRNXJ1QWU4ckxHNDFmX3VzUU1zSDBWaGhpMFREeWViUEtxQVpDaU5KeUVleGpvTUVUWUxiQnU2MktQaEEtdTdhYXptenNVVkx0SUdQQlByMk1rTVdVTUxSMHNreVczd3oyai1oeWQ5djNSVmtyekJ1NmRLMDhuV3FBNVBDNTFRVlJjM2k1YUtkdWJGbU9lT0xlc2lxSnZpSFpCSHNMMFBTQ0VrY1lHVEVYWlBFR3dOdw?oc=5" target="_blank" rel="noopener">Economia da Argentina deve se recuperar lentamente em 2027, dizem analistas</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>TV BRICS · 12/10/2026, 12:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPNEhvdkp1UkdoNW9nZ1NqOGtuZFRZRHlJS1BLTW9feENzRXN0SWhfRHRINlE3RFZkS1k1Tl9kRVUwUWZCTXljbFN2dkJUY0dNYXBTZHdaaTRzc3NFbWIySllWeW9HdlJUQmV3SkFDSkR4YU9VSnFEcC1xS0c4ZE1fVmQ0MExGNjlocVA1VA?oc=5" target="_blank" rel="noopener">Vacina 100% brasileira contra malária avança para testes em humanos</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Brasil 247 · 12/10/2026, 11:51</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxOWHNiQk1aZXdNd0VlYkEwVW9NTEIyQmFwSEdDbFM3bjNtWkJWNVg4bFJCdjVzcnl1Ty16VVRxMDRBTVFTem40ajdwdmR4QktWaFRUNnlPdVNMQ1UwTENtbHFfT3VLV2g5eHctQURwaXl0QjFFdEgwZkxrNnhpWG00NWVwTldVaDBha05oWGVGa2xFaGVyZE9hdlZDS3ZZNm10d3RpRmNEVnZob2xzbTZRYmJlRXJEVEhKYmllcUhWTGItUVpUaDVHazM5bw?oc=5" target="_blank" rel="noopener">Índia pode se tornar maior economia do mundo até 2047, afirma chefe de governo de Andhra Pradesh</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>CNN Brasil · 12/10/2026, 11:46</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxOUUtESDZlT0FmcWtMRFBzNDZMREJhekxXTWJUbDVWQzFIUjFWNWNldUhhTkRCQnNPZWZjUFdROXdtczdtZU5xZ0lubnVjYnpOdzVuaFdEQm1Tdmk4eHdmUkE3VGJKNVNUVGdMQzJpTHFKRjhuZF9ybFR1RC1VSkUtRlotUXByZ2dDelhhUG1pNjROMzNEdGtpQldCYzZwWGlMVWZRRHlZMkJlQ2ZFdTQzOEpIc0hmZUR5Sk5ESlBWQ25tMkNxd0lyUFEycw?oc=5" target="_blank" rel="noopener">Federal Reserve alerta para &quot;dor&quot; inevitável ao controlar inflação; entenda</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Economic News Brasil · 12/10/2026, 10:43</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxNYU9Ob2plZllZWWxPQ3NiZnVkY0l1dmNGUS1Xa0FLRmlLMzRYdnZhQXZGOWlLYkhtWUJYb2p4TFNtWU9BTVM3MV85QWtNaEs2S0FMSFQtbmNjelg5V0VWQlVGUDRYV09YdXJxU0pIbkIyRmQ2SHhKbjA5OTM1NmN3UmtST1U3cHJ4V3hvR1hB?oc=5" target="_blank" rel="noopener">Nobel de Economia 2026 premia estudos que mudaram o controle da inflação</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>BBC · 12/10/2026, 10:06</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhQ1p6QV9XMURLSUk1UG5acTd6anFpNWFnMTNJbU9QSWFfRlRuaDUzVGZDaS1XQzBLUUExYVMyZkx0Rk1QRGUxVDU2Z1JGOGpnY0FVZGd6ck1BMS10dDJsSUxERGdZNkhC0gFoQVVfeXFMUGFDWnpBX1cxREtJSTVQblpxN3pqcWk1YWcxM0ltT1BJYV9GVG5oNTNUZkNpLVdDMEtRQTFhUzJmTHRGTVBEZTFUNTZnUkY4amdjQVVkZ3pyTUExLXR0MmxJTEREZ1k2SEI?oc=5" target="_blank" rel="noopener">Nobel de Economia: americanos ganham prêmio por modelo para entender decisões de famílias e empresas</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>O POVO · 12/10/2026, 10:01</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeFhRYnFxbGVackc3YmMzSDgwN1VWYVJkNzE1bjd4RUhpUl80NUo2M2h4RHc1QmJUaUh0VnloeS1kbVpXUk1Ic1ZDRnIxNW8xNE1GejlaVnluTXhBLXhySG10NzBTWS1PbnBhZkx5ZnZKS0MzbjZqa3ZfcXdaajVPc25EM2xjaW9CaE45X3hQUFp3WnN3blJfMVA4QUM4dlYweTRJQVJSbU9xbFlTLXFQZUtYa3pXSkJ6Y1VxcGtGT1YyQTdCNE1ieS1GZHB2cnVSQ3JoZnVUel8wTmV6cFE?oc=5" target="_blank" rel="noopener">Americanos vencem Nobel de Economia por modelo para entender decisões de famílias e empresas</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>CNN Brasil · 12/10/2026, 09:52</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxPVGdWbTFXX0JJSEE4NjdsRzNZQzNWbTBTUHpQUkwtNnZWWEV6Y1pjdmY2cHpKS25EbDVybHNqX211NnIzMURpX2g1RHdlakdrMWhCZVp1OUVxQTJSUFR0UkkxTUxfTmY1dW5zZ0x4T3dqV3V1TEhWRmo5QV9zZ1ExSy1oRVpTOFB6SHcyYWZndzZMY2R1d3FVMXhEWFJ0Q2hmWlRtRFVTRGtuNDJBT1Zod0NuSWhMUQ?oc=5" target="_blank" rel="noopener">Nos EUA, um boom de riqueza e um choque de preços colidem</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Economic News Brasil · 12/10/2026, 09:41</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxOYy00RktKdnhGSHBIOVVnNllkQW1fSjltV29yOFZiODJNMVM0VDVuX3hySXQ0QWxMb3JhdnNHVlV2RmpVZVpZTDRGVzVYZFRTLU13NS1rSXNQMFVfTW1Gb2R5RTh1Ql9UeFZuc1dMQW5MdENJUDM4UXZHQUstak5IX25qdTU0R2gycXRHQnZSaw?oc=5" target="_blank" rel="noopener">Mais de 40 marcas coreanas já disputam mercado em que Cimed investe R$ 80 milhões</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>InMagazine · 12/10/2026, 09:38</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBveGFhS1A0MkdBZHdDQ2dDWTAtRmxvNzJ2Z2haZjYtZDRVWHdnWFViSHZ4UXJwXzZtNWpkeVd0Vm5jdHZkMXotZ1JIeTJtcThuUFp3N3lySGpNTEVGWHZDX0tQeDBNMmFTbGk5UWI3N0NjZHJhb3pjRkNtZVg4OXc?oc=5" target="_blank" rel="noopener">Congresso eleito pode mudar impostos e investimentos no Brasil</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>TV Sim Brasil · 12/10/2026, 09:21</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNb0pNVVNRS05FVGFvbmgxck9nTWNCUHNqN2pQOXFHUUpNVXY2ckI3QlVETFZVdDd4NG90X0YxU2pjRGJEenV6YzBmMm9tUzk1SUxwUzZkd3ZhQkdLUnl1VjBQTVNfZ21BSlZjMXhqS1VwQU1YTXRoSHlPTHBtbGxtbnlDMmJTYTh1REZGWVRWUzVYVFdFZ0VQZUJ2ZThhaF8xeGZZdGpoaDBKeEJYWHc?oc=5" target="_blank" rel="noopener">Juro real do Brasil cai ao menor nível em 2 anos com a eleição</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>TV Sim Brasil · 12/10/2026, 08:58</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNWmVrY2hjMGdVenAyOFJ5T2JtNGhrM0xORG4zNkQ2YkNURkNfN3BSR2tGdFBKQWtweld2Q3hpWnI3WTFNQkFUVTRJaTFGRkZrY2F2Z0w2YmxiMU5nSGdzM2VrQ3lVd2VUTmZKa252aXVjMUFTT2xHUUZWZUtpZmRKUmp0N0QzQzg5ci1kNHcySGM4XzBXVkMwWV94dTdlWmo4Mk0yV0h0SVZKRUVsR0E?oc=5" target="_blank" rel="noopener">Nobel de Economia 2026 premia teoria que já orienta a Selic no Brasil</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>soubrasilia.com · 12/10/2026, 08:39</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNNDNJQzE2bnNsaVQ2TmhGR2dVUkhSWFEySkFyUzRxTVJ0T3Q0Q2p3eVg4VXlHOUJlN0VIODh5cVpmMW9tT2lmcWJzU09HR3JURllhWWxPWDB3MzRMR3F2bkNZSVAtaVFLX3JrS0lkOG1BUjdiYkZRclJ0TF9jN1YtQUgzTUlpNVJmN2VOTWJkaw?oc=5" target="_blank" rel="noopener">CBS: 86% das notas fiscais de empresas obrigadas já destacam a nova contribuição</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>UOL Economia · 12/10/2026, 08:23</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWnVVbnllX2xld3dZRXhUT3hQbzhSN1BhMmRRdFBzZWt6U2dzS1oyTGdGX2U4TlJUb3I1ak1ZdEdfMjJDWkM3YlZXZmVLR2RFcjM2T3FnOWd2TXJ5ekJwcHgzOUxmekFOT3U4S1M1UzcxVm5jeU1YMTRPTzZLWXlIZ0U2UXN1bUZNTFAwcnJuWmdQU2N4cDB1RzctRllLeFFfS0V4ZHJVN0dEWUR4VG4xTnpaeVM2TWFEYlBrZkpMV0RwdVE?oc=5" target="_blank" rel="noopener">Agenda do mercado tem prévia do PIB e dados do varejo e serviços no Brasil</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Três Passos News · 12/10/2026, 08:08</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOeWdyTG41a2FoOFdncndrcmNhLVdZZzNRUXdpX0pWYUNOdVZZS2RSVDdlc1dnZFlyNzdBUzJRbDlrZG1wWWlLNklGWVJOSktodHJpODVxYnRiQlJrRy1zQTNLZkd6dldzUklCSlJwMk55Y3dHR2pTTEtsYzUwMEVDUC1XOGlNbGEzd2hqZktXLVNmcEhXX0U2TFVsUGZrdHlXVm9Hd0lvYUw1c2RReWtYQzJqYVFCMF95MjNIdw?oc=5" target="_blank" rel="noopener">Brasil está prestes a passar os Estados Unidos como maior superpotência agrícola</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Farol da Bahia · 12/10/2026, 08:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxOd3lLUkR0b2pRdjg2TURuRlJscmR2cW14Rmlvd3REOTNzT2t3N2J3aG9PVUJ2TXl2ZGlkWWFDZ0VaWXVUQzN6WXJkdF9aOWxnYWY5QkJ6NmNxZlQzRDlPU0xyTExoSXJKSjQ3N3BWQnVwR1RSVlN4WXFtU3dzSHRHN2p0NVNuS0JMN25xYWFqc3RCWDlMZ3M3S0lUTmh6Yk9WMEoxZ2hiSF9qblNIUG9rVmszejJxNk5q?oc=5" target="_blank" rel="noopener">Consumo deixa de ser motor do PIB e deve ter menor crescimento desde pandemia</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>RFI · 12/10/2026, 07:56</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU1lZX3JWWlVvOUhXclE3a3pqanVHZFVTSnZUU3dTYVk1eWU1azAzUXhHMWx2aGRtQjZPb2c2Y3JZeHpaOGlJcDJPZmp4VmV3UFozeTJoSnFKdW1FVjlTVmF4ODNxYjBUdUhYZXQxb0ZmMGpjMXlrNC04NG9SckVPRUdkYUlDMVRDRnVQTjc3ZTBUUFlmZTRYMHo2b1hRT2dqYi1lVS1WdGlQRjhibE5wMGZsYkJ5eGc0SzN4TFYwOUowNkViQXgteGFEQWViNnlYS3ZQSDE2b2tKdGp6U2IzN0dzei11N3NRaTVlMy0zc0hIQVduSFdSX0hONHc?oc=5" target="_blank" rel="noopener">Americanos vencem Nobel de Economia por estudos de estabilização macroeconômica</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Rádio Guaíba · 12/10/2026, 07:45</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNeE5VckIwa0JFN2xnb2xUYTdTaC1lbFdUZFdXbnVvME14WnhISVl6SmFtU3RwTGRsZHRMM3ctM3Vzcnl5S2E3SF9iUHQtUDJKdWhZS3Noc0psU1ZMS1E3eHkwTl9ZYk1qTkY3Wml2X0VpaUlBVWNOVFBFS3hJNl84NjAzLWZ5M3M?oc=5" target="_blank" rel="noopener">Atividade econômica no Brasil é destaque na semana mais curta</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Times Brasil | CNBC · 12/10/2026, 07:41</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQ1ZPZHFyYkE0UXBsZlFkUlJtZmVkVTdLZWE1YmlNbU90VkxEd2puUTA3X05yRnRkRUl2UkY5MWJNcTZkemJiRnZueHFVaVFzVkQtbHpCSnlCNGhaUjNJejNuaVRwTmNKZXJ1dGJiSlhDSHQ3RzY1VElEYkRwOUF6aGFmUl9RZzJPSlRhVkszUDVCYUI3THBvZlNCTmtvbmt4Q1NfbDJkTlkyM09yd2hwVWV6bmVzSExYeXVXYnptNFFqUTJ4QnRQODZkZ0lEalgySmVYbmI2U0IzVFE?oc=5" target="_blank" rel="noopener">Nobel de Economia 2026: Robert Hall e Michael Woodford são premiados por estudos sobre estabilização econômica</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>TV BRICS · 12/10/2026, 07:33</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaldrekRWUFlTTkVQYXU5ZjhPMDBYR2tRUm9oMVE4d2F2MG5wSndadkpyanZGUjlfZ0FxNnU4VWFuZzlmdlNUand5VnNxVk1NT2Fxem9WQWZYbFRBd2g2X2cySzhHV3gwX1ZKazd0Wk00MjJOX3JmQzh3R0lMeGtOUUxHZDhTaE9MQ1BwTHo2TVlPeWU1R1lMcUdjUjZ0WmEyakFDcTFuQ2RmUQ?oc=5" target="_blank" rel="noopener">Brasil investirá R$ 160 bi no desenvolvimento de portos, aeroportos e hidrovias</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>CNN Portugal · 12/10/2026, 07:20</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi-gFBVV95cUxNTE1leWVmejZiRFkzRDNmMnZETTFRTGVKZzJIZTZPTmdJS1dQRUlNMGE0N0lFREhHclRrUDRySkVVVUlCVHpSVTZERnplRGdyYWM5TWVpN0hVX19mWk10UkJoSjhSUXBfbkw0TUhqQXMxTHgydWRmcWRwOGZHNXJ2WGlEbHVtQmNxam53WW4xQ0NpNWkyUGVoMmw0ZEJNYkdyb2k5MGxxMGtmaWt1MlBmRDREVHkyZlk4UE5sS3FxSldaS2kxQS1NZ1RGaXF4SEdtTEdBWW85M1BEcmxJb0Rfa214Nzk0cmJmZWVNenRFWHJDT0VBSGFqdXlR?oc=5" target="_blank" rel="noopener">Brasil: um país sempre à espera de si mesmo</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>CNN Brasil · 12/10/2026, 07:12</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQbDJBQTlSSmxta0RMemhYWlpiWFhtTm1DcFNFMDN5bm55RTdKaFJOR3FhSDZwVkIzWE5pUnY0bTJsbThVUlZPNlVsTm5LZmNFdUFibnViQmN4blVYVjJYV3liSXVlRVJjbWpKUXNfRU9fekFaVDJWdUZmdGc5X2txUTBTRzZ1TC1zekFyanhEeTBZT01FZl90ZFd2RVdqdC1RN3pWd1hPbkR5MEU0TnJJaGJlLWVGZGM5Mnc?oc=5" target="_blank" rel="noopener">Americanos Hall e Woodford ganham Nobel de Economia de 2026</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>conexaoes.com.br · 12/10/2026, 07:07</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOSnFPUm5mX3ZER0liU3o5T1NHbE5wSEk4RDVDNFY4WVBGeHRMMEFBdHBJTENUZGd5S1ZzZHRrMnI1UHZYbnVxN2pUVllZUHpkZ01jc1lCNnR0enlQM0kxUXdYM2wyXy1naTNDcTNRcmJ5R2pEWnlwMEMtdVpkY2dOU2VkekV3RklnQkpsYW84bkFFZ3F3amFqNlhPV05TdDhqZXl1bFJSNGdZbENsYmlmS2pSTnByTjlLYWVveTlyQQ?oc=5" target="_blank" rel="noopener">Brasil vende mais de meio milhão de veículos e registra o melhor setembro da história</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>O TEMPO · 12/10/2026, 07:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxOSUdFWHR0RHp5bFJfTHF6WXRqNTZFSzdNMlhScmhtbVhGclc2X0xTS2xhVnJrZlBxYUFUb1kydDNvQkxXZG16LWtTOHFNV01YaDhQN0xyQUw4NmRDcExyQUNnUU1FeW1rNnNZVW1rQnhVN0Ywektjam1rUFlla0NTTU5nZVVBMU5BNkZ4MEFRZTMyRzB0VC0wSHByNVhPTlRpcEpnVGRPcDk5dVRpNzZF?oc=5" target="_blank" rel="noopener">Herança fiscal do governo ameaça futuro do Brasil</a></h2>
+    
+  </article></main>
+<script>
+if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js'); }
+const carregado = Date.now();
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden && Date.now() - carregado > 10 * 60 * 1000) location.reload();
+});
+</script>
 </body></html>
