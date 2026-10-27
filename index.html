@@ -30,10 +30,40 @@
 </style></head>
 <body>
 <header>
-  <div><h1>Notícias</h1><small>Atualizado em 26/10/2026, 19:00 · a cada 3 horas</small></div>
-  <button onclick="location.reload()" aria-label="Atualizar">↻</button>
+  <div><h1>Notícias</h1><small id="upd">Atualizado em 26/10/2026, 21:25 · a cada 3 horas</small></div>
+  <button id="bt" onclick="atualizar()" aria-label="Atualizar">↻</button>
 </header>
 <main>
+  <article class="card">
+    <small>Diário do Comércio · 26/10/2026, 20:58</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNN0l5ZFRqbFp0VkdhbG1BaGRxSVMxNDlsMUFaSTRadzV2QmJpLTlLd3JFR0tsQjV4U0dQcUhMRko0ZWhINkEzVFpqLVNrT1lHa2QwcmNaaVpkbzdVRHFxNlFlOUhsZlpyRXMzdVlZbmdwdUNJRjFOT2s1cTF4RVhrUm1welhjM0pyeXZJdHJnNG1YRFB2d3N3?oc=5" target="_blank" rel="noopener">Grupo Supernosso deve crescer 20% em 2027, puxado pelo braço de atacado distribuidor</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>G1 · 26/10/2026, 19:57</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxOMHV0NDlRQTZkMmk2cVpEekZoTldMeFRfNDdVM05CSGhXbUJYa3pEcGZ4cU1LSWNVaklnX1N1OUxna1lKdnFvSUJKRW9Jbi00RUt5bFpuREhad0hjQWZLWmxVWmdwaE90Ri1jcDJqTExMUE9DWS1tbG5jd0FscDRsT193Qk5DSThsUy1wcnRHTFc0V2F2QXRqVUw1alZNUkhiQzR4ckVqMTdvazhxUlRIQUpGbVRGUV9xTzk0enFFQUlNeW9LekZsYl9rc9IB2gFBVV95cUxPM0tZRTNvQ3A3Q0tLM1I1a1FZVXFUYkVpOGVTZ05RSFZIMmtHOFk3QjFEVjF4a2xYeFZfLUEyTzFhSDBRd2xBLXpQWEVKdzZfeDNrSm5BclJrUnB4bzRfcUZLSDN2VUk1N0VfaldVQTl6WndNLXJYS0ZVN2d6ZnlBd21uMTctbjdVWWVhUUVWeTRyLU1QMS1XRUQ3Uld4Z0dkTmVSNjZFd2pfeXlTVFNsdkRsS0lGcUhmWEk0RHVIV3J3NHZabTg1eGRiVUN0Y1FndnFpRXk4aDkzdw?oc=5" target="_blank" rel="noopener">SUS ampliou distribuição de insulina de longa duração</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>UOL Economia · 26/10/2026, 19:43</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSE1aM1hzQWF0aG5jTVEtT1RBTlcwUm9vN0Y2YXpZR2U4NjJGRDdJeGlTazBpcnhvVFB4aXViTmlGeHp0aE9YN29SQ0JfQ0lCMjQzbEFUY0hYTnA3MU9iNl91cWdNM0Y1R0tvWklnbmk2NUNGZEdpM3oxSGhuWWNwUUJSQ3k2c3F6MkJRRG56SXJnU2ZjcFM3Z250eVAzY2cxNDE3eG9XRDR0bTl0QzVmWmphbnQ2QnR3TkZIUmxWZ3JVQQ?oc=5" target="_blank" rel="noopener">Queda da Bolsa abre oportunidade de compra no Brasil, diz Gavekal</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>BBC · 26/10/2026, 19:24</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9WVlE1Y3A1MnFaYmhHZF9GcUlKM1MzaFh1TVQ0a19KRnM3T1hZVTZObDU1SWJETlNuNkV6SDlkemFRNVdzRW4zcGoxUU5JSHE0ZFdXaC12T3hsdFB0djAw?oc=5" target="_blank" rel="noopener">Eleições 2026</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Agência Brasil · 26/10/2026, 19:07</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQaWhZRWg3WlFaYzVqZUM0eHJTdzk0dTAyaFU5VE1sTy01eHRmX2szd045VkY1VEZGRTFfZThfemluTlF5ZjI1ZDQwMjBqcVJ6NmVzcU5kT0Fud21VWFdOT0I1Z0xJdm5sUkRTVGNtVXRNT3ExNW50d1Biemo2bzFxWkt1S2JMVjZQOWxCcVB2ODZQRWxPcXI0VmZyRXdBZE03N18zRlk4LVk1dGJqTGdLZC13?oc=5" target="_blank" rel="noopener">Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>InfoMoney · 26/10/2026, 18:48</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeG5OYk9pRjhwWEpCbDZXZ3QyOUE5Nm5jb0RDVno0LW1HMlQ1Q0dURjhHQkIxa1RnNTNzWGFJRkhmV0k3eG5YN1p6OWZfYno3VEUtQ1dUeWNYdWROaG53NGhfNG45dng5S0hrZG5QNWUxOUlsQnMwaXN2cUVIRHlWbV93bTJwOXlKSXhOcGxxZkI5bGtWMWZueVY0QnY5V1Jyczl0d0x3WTh1dl9JZ05XamN6dzR3VTBkd2xqNk1yWkLSAcYBQVVfeXFMUDJVb0JPVHEtTGptR19jRmx3dGVsX0JJVXVSaGVCN2h1QjdlWGtHSzY1dEV3Nm5peWppX3UtMHBKQTNBLTZlN3lhYklpcU9laTdRcVJETlJCVmJ3ZmprOG9qQmJPb2FZZEdndVpFbnpZVGItY0MxeTRIWE04b0FkMm5XUERvRVlVeE1XZnB6MmJtS2Q4WW9xOW9Ydm5RWUJjdVU0cXllRXlMV1Iya1lCbzYtcF9GQmpRa3l6dHZBd1BBU2VlRFZR?oc=5" target="_blank" rel="noopener">Morgan Stanley rebaixa ações do Brasil após eleição e reforça aposta em exportadoras</a></h2>
+    
+  </article>
   <article class="card">
     <small>BBC · 26/10/2026, 18:27</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE5tZ3FwLUJORDYxR2N5djgxZERKVWxCRGZKalRNVDhCelFMVVZVSFg1eFlzT1dTOVpPbnhXN2lLZWxacGg5cElCc20tWHpzSVY0RG5uU3VqU3M2WFRMVDB5TTYwdw?oc=5" target="_blank" rel="noopener">Virada de Lula aponta caminho para a esquerda voltar a vencer, diz pesquisador americano</a></h2>
@@ -45,7 +75,7 @@
     
   </article>
   <article class="card">
-    <small>dpontanews.com.br · 26/10/2026, 18:11</small>
+    <small>D'Ponta News · 26/10/2026, 18:11</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPcVc0S3lBNnhReC1xdkVBQnNXZ0xPZERaYjN5QWgzbHpVX3A3amVBa2ZIWFFPTktsUWcyeXlZbW96MFA5eVpEZXBzT2ZnVU83YTFKQnBNVU9wQXlTWG8tQjJXNzR6TjFCbUh1SFRkMFVlLXA5WkZENnpOdl9oMDk3UzdzZmpXMWZPYUtNRmFyR3gwNWZza3M2ZUY0emNmZWxVVXc?oc=5" target="_blank" rel="noopener">Grupo varejista fecha 28 lojas e demite mais de 6 mil funcionários</a></h2>
     
   </article>
@@ -70,13 +100,8 @@
     
   </article>
   <article class="card">
-    <small>adnews.com.br · 26/10/2026, 17:49</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNUUhYM3BMZm1BdDNETHUwSVdsSTdXUEZmRHRjdGlPQkNjeVdaMk5TM3pOYVFKdGpYcXgyaWhFU1hZTTQ2X2NtSF85RXo4eUpCOWFqRS13TzhITS1OOWR1NXN5c1RydUdoSnJ1THJUcmFIbjZIbkdLNzhJT2NDdkEzY19sZzdFRHVCRm5TMGtEWXoteUZzUkVV?oc=5" target="_blank" rel="noopener">Heineken 0.0 leva experiência de Fórmula 1 ao varejo em São Paulo</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>UOL Economia · 26/10/2026, 17:46</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSE1aM1hzQWF0aG5jTVEtT1RBTlcwUm9vN0Y2YXpZR2U4NjJGRDdJeGlTazBpcnhvVFB4aXViTmlGeHp0aE9YN29SQ0JfQ0lCMjQzbEFUY0hYTnA3MU9iNl91cWdNM0Y1R0tvWklnbmk2NUNGZEdpM3oxSGhuWWNwUUJSQ3k2c3F6MkJRRG56SXJnU2ZjcFM3Z250eVAzY2cxNDE3eG9XRDR0bTl0QzVmWmphbnQ2QnR3TkZIUmxWZ3JVQQ?oc=5" target="_blank" rel="noopener">Queda da Bolsa abre oportunidade de compra no Brasil, diz Gavekal</a></h2>
+    <small>economiasp.com · 26/10/2026, 17:55</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxPeVJQWnQ0YkxqRi1XVmVITUVERUV5R0JxbFo3d3lSUFFIZ2FFUVg1WnF3QlQ4eFB3ajZoV010MVY2a1dUY0ZoMnNTckNlMDdnRzhIYjJ1dnRUZVpKd2NMV3VUZ1FPTzdZX28zX1E2cDIyZEJuT0oxLURBNmhLUTlZVzlLdzFjOFhrWkx5YWczZTE0VGRvUmIxTEpqeVVEU2ZKUXNZ?oc=5" target="_blank" rel="noopener">O que o setor produtivo espera para continuar investindo no Brasil?</a></h2>
     
   </article>
   <article class="card">
@@ -87,6 +112,11 @@
   <article class="card">
     <small>SuperVarejo · 26/10/2026, 17:20</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNMFhsdDlKcmY1dWRWWmEyLU5uWTlZcnNHWEN1NkpMbFpVSnZUUlVUX0xMZkFVOTVNdmdnVlNrY2I1U0pmN0RYZEM5RFZRcjloZUJNTmZsTTBZS2RxZUVjd0Q0VlhYam9Qcm1pdTRJNkhOc1RhR0d2cXB0aENQME5JNkZYV1I4dlNLczdaazNkekpvNURuMUZXRGFHdGVZZWFlNUE?oc=5" target="_blank" rel="noopener">Fim da escala 6x1: o que muda para o supermercadista brasileiro</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Sociedade Brasileira de Diabetes · 26/10/2026, 17:05</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pSjZuUktqNV9rWGxybmltZXIxYzcyWHR5UXNjS21RbW85YTNHcTJYeGd0R3lwSUFyamtwU1pzd2t2Q3lRU01JdU5OMTNHMVJRRjk0QlFoaWIwa3RVMDNGMg?oc=5" target="_blank" rel="noopener">4ª Corrida e Caminhada SBD</a></h2>
     
   </article>
   <article class="card">
@@ -110,8 +140,23 @@
     
   </article>
   <article class="card">
+    <small>Hora Hiper · 26/10/2026, 16:50</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSkZkYkZHWi02TXYzYTRzSGZDa1N6MDdLQWtCZzhBVHp6aFVYNFNKaG9may1lZWo1RTNXVS1rTzVnUWIzMzh3MzFZUzd4eURIWDVXQTd4VThXZG5hcGZzdFktTkh5WjVPaFdPUEgzU1Y0Vzk0VDUzdk95QmxoRmNYbDVmbkVzZm5qRWl0SGJUTTdfaTVrVUNwekFsblZMZkdWNTZWb3pTdFk0Q1ozX0JIV2ZsUlB6RUlNd2NCdDd4MTlEUURZcnNiaw?oc=5" target="_blank" rel="noopener">Projeto que prevê política de atenção a pessoas com diabetes tipo 1 será votado em Criciúma</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>Portal OCorreio · 26/10/2026, 16:47</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNNHRMZjJMRkJBcGJ4aFBOS3h2NTY2SEVKdjVUdzBsRWxBQTFsbEtxb1FneVdKV1lnWDVESkV3YzFPZGNKTXBTNEZHcnpnUU1vNWRrTEtRcVFnMEhnazE2UjV2S1pWMjlsLUFmU05oOVlXOEV1TUhLcEI4TF9IOExCdUZUak1LSW5QQXVmbTdNZ3dqbVdsWlpFbjNaNERvandsSGk1aXhnMnV6dm1DTGJhdnVPV3V0MDduaGR4WA?oc=5" target="_blank" rel="noopener">Grupo Imec reúne parceiros em evento para apresentar resultados de 2026 e estratégias para 2027 -</a></h2>
+    <p>Grupo Imec reúne parceiros em evento para apresentar resultados de 2026 e estratégias para 2027  - Portal OCorreio</p>
+  </article>
+  <article class="card">
     <small>O Universo da TV · 26/10/2026, 16:44</small>
     <h2><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQZGdzRGZlaGtnZkxVcmEzM0xDWGJnNW8yNnczRTFnSDRMdnJxbm02RDRFaW5OYUoyZmdjcy11d1d4WXl5Vl9PVkpvcWNYVGE2WVl0bUZoMGNNYzRJRmlDZ3FaY09ndFVQNnNmaS0tSE8yNDU4Qk1jTDAyWXl2cFQzT1JabDV0VVk?oc=5" target="_blank" rel="noopener">Economia e Futuro estreia nesta terça (27) na TV Brasil com foco no desenvolvimento sustentável</a></h2>
+    
+  </article>
+  <article class="card">
+    <small>economiasp.com · 26/10/2026, 16:38</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNRE5wQ1hfaWNYNE0wMEhhLUFfNzg2bkRya0h4ZUNXNkNwRkNYOEFtekhSelJWYl8yX0RNdU9lYWx5RF9xX3JBNW1CUi1tLVczeDlHYmxPNlVYeF83YnJPNGNTdG1JaGQ2M21Rc1hMdXhTYi16X2k4UlVjRk5VcnZsUF9lVkRWRnpOTkl0Xy14LWpxMlJRX2tYTmp2OTFaOUJZUkprSFM3VQ?oc=5" target="_blank" rel="noopener">O Brasil está preparado para liderar a nova economia da energia limpa?</a></h2>
     
   </article>
   <article class="card">
@@ -125,13 +170,13 @@
     
   </article>
   <article class="card">
-    <small>CNN Brasil · 26/10/2026, 16:18</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxQazMzdFJzMTE5THg5eUpXaUI3OWt6TGVsTUZyamRCbzZZOEQ4U05VWS1xdGx5dXhKdDFQZ1JWMVN1V1J4cUxrcTBiUXI1N2tGYW4tNFpwOTB6d0gyeXQtcEgwNnk2eFF4bkZITFdka1dWQjJGT0EwOE1TX3p1LTNWV3c2cEZjanJ4THo5dm1BR0syYnBSd2hzeVhDemFMeGg5QnJoS1FmallyV0pnUGExYkxlbzBoUDkyaVY0NUxrWk5lZS1mNXFCU092TTRwRWVPUEYyc2ZtRkNaUE04WkJlZ0duZWNsZWhZ?oc=5" target="_blank" rel="noopener">Mercado espera sinal fiscal de Lula para conter turbulência após eleição</a></h2>
+    <small>SuperVarejo · 26/10/2026, 15:53</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMDlwWDAxazNEamV5ME1lRjBCcGVsbVpfSkRCa0hyOVlBbFpzTnFVTG1FcktoZlNtcnR6cXAwM28tS055NUdrWFFmN09ZR3UtbWQ5dnFrN1R5QV9ybjFsalpyRS1naktnbVpEQllreXFoN2ZOazE5YnItYlBDSlJuckNjMzRBRnp4OHg3aWlLNzRQMG5zWmRKTkc1cm9qdTUxNXdBWjZGdUdSdw?oc=5" target="_blank" rel="noopener">Supermercados Pague Menos inaugura segunda loja em Ribeirão Preto (SP)</a></h2>
     
   </article>
   <article class="card">
-    <small>Economic News Brasil · 26/10/2026, 16:18</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPN3hhUTRfblIzY0xOeXdKOE0tN3FUVFBkbXR2eVZwbEJzQl9fcllremZXZUZKZktEQ2NxQUUyd3ItaVNFd1ZHN2ZkOU5PSEpnLU9kbnhOMWl6V21KRW41Z0VGcTNwUmwyMmJhaEYyb1JtbXA4dTRLbmdXZ04wb0huZHpBczFPOTRTdkpYQTR0MjM?oc=5" target="_blank" rel="noopener">São Luiz Supermercado conquista homenagem histórica no GPTW Brasil 2026</a></h2>
+    <small>SuperVarejo · 26/10/2026, 15:45</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWlRIaXFrOExyWThYMUtDb05Jd0stNERpUThfa0VlN3lnOHdCdFBQOUZYYk9PQWtyVFRTVGRfRDNhSFNSdkNld3plRFNUblpiaHU3Y1BUTm9SUUJ5emk5YUpEQmxRZ3hzX0gtWFN2d0toUUNRU3RGaEMyWVBUN0IxM2Q5YXNJUHg0U1dHeW5fU053Mk42UW5VaEZiOTJOUEF1YmNvUWYxMjF6QUdJbklINHppaWMzbnpRN21HdEpwWHF4UQ?oc=5" target="_blank" rel="noopener">Black Friday e Natal pressionam logística e exigem mais planejamento dos supermercados</a></h2>
     
   </article>
   <article class="card">
@@ -155,18 +200,8 @@
     
   </article>
   <article class="card">
-    <small>Mercado&amp;Consumo · 26/10/2026, 15:09</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdnA4eUJYTTZuNDRRbFo4ZVBZQlVVSzFXZjA4TEJLcjk4cHplbU1FczNmQTdScDdheFI5V2I4TGZReWdWLXVlMzlUQlZJdmZSUFRKTG9SVjFKTGp5UUFuTWMxT3oxVU9XbWt6RFQ0dEhqTWpOVER0Um94VUZBajU1ZFNHOHBKUFFCUGxKTnFYM2lYeVhSYktVNHkyMjFOWWRSV3BVRnQxcnpUVDlxdHdlbXduaXlHQXExZFFLVV9weUtqUm0tRXNTQ19maC1CLWxZNEpUN0h1U3I2MG_SAeABQVVfeXFMTUxQcjBPTkVPUXRHOXYxdnduN1ZOekQyUW5Ra2FOWTJqQkFOSWh3OTZaS05rYUp1UTJNZXlqd0FldG5HMEplNzhscGdVMloycHBEbHVBcGppNF9mMzNiMkZOMUhiUmRVZXJpakpqR3MxZ0tqR2VndENPT1BsdWgzaU52eVVRckVnNWY1SUVsMXU2VUIxb2lPQWR1eWM2UGZ1Ym42U25DREtTTEtPc28zeDlIM25Bc3NLRFMxR19SWFNaeU5fbEprWlhGV3NXWUp5OUNKOGdXQnpaRDRuNElWX0U?oc=5" target="_blank" rel="noopener">Quero Quero, Magalu, C&amp;A e Centauro lideram perdas do varejo na Bolsa após reeleição de Lula</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>NSC Total · 26/10/2026, 15:08</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOZ3RPcDJUYnVqSHFraHdxbXBYV0RXVHBjNS1KOFo2UHozSHB2R2h4YU1EbDItbnFoSTVKXzJGZWUzNTVzaU5HMHpxR2dMRnBMdDJteHdiMmphT2huNEp2OVdRVHE1Y0hOalFnNm5DMUJXNFVJZkhteEQtNEVYeVFYM25oaE9NZHU4Q1gtNk9zVnBqZ1o3T3ZCUDVySjZTNVk2ZllyemF0bmVscURpSi16ZHQ1TjBiLUt1VE5iOGxFSUdLUlFZQ2JfbnljbUlUUQ?oc=5" target="_blank" rel="noopener">Vasco volta atrás em decisão crucial sobre o clássico contra o Flamengo no estádio Nilton Santos</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>SuperVarejo · 26/10/2026, 15:07</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWlRIaXFrOExyWThYMUtDb05Jd0stNERpUThfa0VlN3lnOHdCdFBQOUZYYk9PQWtyVFRTVGRfRDNhSFNSdkNld3plRFNUblpiaHU3Y1BUTm9SUUJ5emk5YUpEQmxRZ3hzX0gtWFN2d0toUUNRU3RGaEMyWVBUN0IxM2Q5YXNJUHg0U1dHeW5fU053Mk42UW5VaEZiOTJOUEF1YmNvUWYxMjF6QUdJbklINHppaWMzbnpRN21HdEpwWHF4UQ?oc=5" target="_blank" rel="noopener">Black Friday e Natal pressionam logística e exigem mais planejamento dos supermercados</a></h2>
+    <small>Panrotas · 26/10/2026, 15:08</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVlVlV3pOLWpfUU9MdmlqRFZDVWMtVmMzdkVLb0J0eUxMejJFS1RNeUtkbjl4eHgtSU9ycEZSQVhvX0NIVlczZVFQLXEwOUhiX1dURTE2S0dGYTdTRi1Yb05xaVg2RjBBN3ktZlRKNHhfUnZWT1BLdkRXRDVlaHJMMWhWbVVqREtPYnBQRi1XYWUzc1hWNUVaSnlmSGZKMGQ2WVE1dER0Z1U5cEFLa3ZzRkN3OFVGVnRzekJXQkZXMEFPSU5iam4tVXNqS2Z0b3lhMENETUpwZ0JDY2M2XzhmVg?oc=5" target="_blank" rel="noopener">Dólar dispara após reeleição de Lula; quais são os impactos para o Turismo?</a></h2>
     
   </article>
   <article class="card">
@@ -190,48 +225,13 @@
     
   </article>
   <article class="card">
-    <small>A TARDE · 26/10/2026, 15:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNYWV1Y0J6am52a2dnbVEwSTkzRTNldk1ILUIwbHU5UXJDR0toM1d5OVNoMVJJQnY1a05oZkhLZ1NZTHFSSHI4TTlDNHRmZ09DRW5pRGx4RHNXMWh2Y25MN1V1eW5qQXdNRWVnN2tZa05Rc2FoUnI0cHp5WkFmbUFLdmpWMWRsaXZCM2xXN1dfbHh5cDFvU3MtZ0x0TTh5TGcwdlN6LdIBrAFBVV95cUxQdjR6a2ltNHRWc3BNaUp5ZG01TTRhSXlCaDRqVjNUTHg2aHJ0QlVOMEVmTzc4Wi0zTXNjcFpwX01qRGIxV25nckI0b0pKSzV3U3hrMzE2VmJseDdxQVpXRWNQSm5vUDZMQ0EwRW1ZUjhjSFdwUTBxRjl4RXIwVHB5aUR5R3c5NUJzM1k2SXEtdXpmNUMwdVBTWEdmS21TVVhoZGlRWUhLOW9FY3lp?oc=5" target="_blank" rel="noopener">Com Lula reeleito, o que esperar da economia nos próximos 4 anos?</a></h2>
-    
-  </article>
-  <article class="card">
     <small>Monitor Mercantil · 26/10/2026, 14:59</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNTWRuZEFJamhNdl9wRDdIdW9HXzdtY2hHamJmc0RwSzZlZ3N3Y1ZqVTY1VUlWeHN1YTJSSWoxeXJ4U0VHVG4zUU5jeHJ5bjlwbmFfZEVrb0hTbW43c1hJNDItUjJnbEluVVRTMnN1WUxRRzM4aXplV3JCdXBoMHctd3QyUnRwS0FkV04yT1pEYzI?oc=5" target="_blank" rel="noopener">Faturamento do varejo alimentar cresceu 2,8% em setembro</a></h2>
+    <h2><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxNTWRuZEFJamhNdl9wRDdIdW9HXzdtY2hHamJmc0RwSzZlZ3N3Y1ZqVTY1VUlWeHN1YTJSSWoxeXJ4U0VHVG4zUU5jeHJ5bjlwbmFfZEVrb0hTbW43c1hJNDItUjJnbEluVVRTMnN1WUxRRzM4aXplV3JCdXBoMHctd3QyUnRwS0FkV04yT1pEYzI?oc=5" target="_blank" rel="noopener">Faturamento do varejo alimentar cresceu 2,8% em setembro ante igual mês de 2025</a></h2>
     
   </article>
   <article class="card">
     <small>CNN Brasil · 26/10/2026, 14:57</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMldKeEdQV0t5cExuNEg1MlRBT19KZWc1VVJEd2lyVHNTdDhBUHNWZjNJZ05YZUdJWkNwdDR5UVhXZUl2ZVdHOGtrRFNKc3BZd0VYSjhaZkN6eXVvdFRpVS13Q2tVZmo0ZEt5MkhFLXlYemdmZThFTElPLWU3d0RuM0podmhPMDRFbjdsenRUMWM5OWRjLXBsNDZwOUVRTG1Qcm9UdHpOeHVuLUp2OG9Ddmg1SHMwVUNFNjZCTGRzZGNBUjN1MENURUIxUHZZNkJKVmpiVTh3SQ?oc=5" target="_blank" rel="noopener">Os sinais que Lula pode dar para recuperar a confiança do mercado</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>Real Pioneiro · 26/10/2026, 14:47</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNZFA1ME43X2ZKaHBoV25wUHI5bnQ4MTlvekpYd0M0S0tuZzBBbWQwakZhWVI1TlNfV1VpZWRNSERpZXBFdTFqVlcxX281Z29ieFNReWVGZ29ycjhNMmlrQVg0clpSUmwyWFBiZ0huWER1LUlKWmI5ZGRWSm82UjRPZG12UWFvSHFtOUpySHUxWWhQY3FWaFVDUXdOUjZqVTFISVIyQXZKNk1MWVdNSWc?oc=5" target="_blank" rel="noopener">Projeto cria política para incentivar economia compartilhada no campo</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>SuperVarejo · 26/10/2026, 14:42</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMDlwWDAxazNEamV5ME1lRjBCcGVsbVpfSkRCa0hyOVlBbFpzTnFVTG1FcktoZlNtcnR6cXAwM28tS055NUdrWFFmN09ZR3UtbWQ5dnFrN1R5QV9ybjFsalpyRS1naktnbVpEQllreXFoN2ZOazE5YnItYlBDSlJuckNjMzRBRnp4OHg3aWlLNzRQMG5zWmRKTkc1cm9qdTUxNXdBWjZGdUdSdw?oc=5" target="_blank" rel="noopener">Supermercados Pague Menos inaugura segunda loja em Ribeirão Preto (SP)</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>WSCOM · 26/10/2026, 14:29</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi5wFBVV95cUxNc0x4NGliTDAxWmp1OUtlUjNKRVZoYTljQjRNdnJXMEFQczRHQ3VBcHVRcllWRXZuclNDcDh5MWxxUXo4Nldhb3U2MU45bEFzU3lyZ0ZxV1VZcXZRcWs3WXUxOUo3OEotRzQtY0ZQd3NpcDZtdlRXUXJYVG5iaWsxNVlUd2ZGc1hXVzNIY0FvT3FFbE9YLWRELVlFTHNMYzI3Z1RDOFp2R0NiWXRLSERmcXhRSEQwSi1ob3gwSGZMTDAxWlh1Z25BNzhIU3kzS2NVR2VVVDluQ1JEb1VmZkdkVjlxcWpRSFU?oc=5" target="_blank" rel="noopener">Quarto mandato de Lula: confira as principais propostas do governo para a economia do Brasil</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>Grandes Nomes da Propaganda · 26/10/2026, 14:25</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ2V4MXEwT09VUHNubGxqLXlLU1VrZmFtbkVNUWZTbkd1WXBoc1JFQllnRGM0LTZsY2FFM2ZqWmVYd0NsVmZ6NzRsTml3UTEtcmo1c1NvMkZZMXlrWlFJRy0tSE9zb1g4TVZZc1BDMEVFMWpUODhjekZRSVVEMXF3ZmpONFk3blZqYnBZaGRvZ091TnROZk9LM09TT2xmRVRlb3ZYdnNn?oc=5" target="_blank" rel="noopener">INVIAN anuncia integração direta com a Magnite</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>bra1.com.br · 26/10/2026, 14:25</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxPaDd0VG9vWmtpczFxTVV1YWwxNVVUODNfU1dUaV9PQk9OTUhaa20yVkRhY2hpMU9vaDZpd2VrQnVLYUtabXFydEk5NkwtVXg3Y0ZqSGNyT0JmYnRfRW5vYWNxYUQ4VUZxUG1uNDA0eW90V0xTcFFhcGdWcF9SWlk1SVg1OUZLMmx4bU9QYnlRR1phTEhYc2pTT2lLSnFHX3MtVVhmNFZpTTZncjNRN2RnZkttZU9MRG53bWxSaEVXblhNeWdnUzNyUTZzVUtKZHZIVHhXRERn?oc=5" target="_blank" rel="noopener">Pesquisa revela: 60% dos consumidores confiam em marcas próprias tanto quanto nas grandes marcas</a></h2>
-    
-  </article>
-  <article class="card">
-    <small>ASSERJ · 26/10/2026, 14:18</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOWENrNVdRTzVrSmF1Y3dXYy1jamg5dzRTc3FpRU5oSGs3ZG9CbGdTeUVQWldxUlhpamJvVEN4Skc3SjhYeTZlajBONVVnbjctQ3NYZVdBdmtqWUJtZFZXMXItdmlPZVBFbkNhZE5vZDF6Z2RXSFJBWHVldU9EdjdpeG5tUG1IRmhuaExYOGxEenFUT0VRUnpCbjV0Z2JBV000SkpJOEJpRQ?oc=5" target="_blank" rel="noopener">Corridas de rua ampliam as possibilidades de conexão com o consumidor</a></h2>
     
   </article></main>
 <script>
@@ -240,5 +240,23 @@ const carregado = Date.now();
 document.addEventListener('visibilitychange', () => {
   if (!document.hidden && Date.now() - carregado > 10 * 60 * 1000) location.reload();
 });
+async function atualizar(){
+  const bt=document.getElementById('bt'),u=document.getElementById('upd');
+  const antes=u.textContent;
+  bt.disabled=true;bt.textContent='…';u.textContent='Buscando notícias novas…';
+  try{
+    const r=await fetch('https://rmfidelis-n8n.ddns.net/webhook/noticias-atualizar',{method:'POST'});
+    const j=await r.json();
+    if(!j.ok){u.textContent=antes+' · já atualizado há pouco, tente em alguns minutos';bt.disabled=false;bt.textContent='↻';return}
+    for(let i=0;i<20;i++){
+      await new Promise(s=>setTimeout(s,8000));
+      const t=await (await fetch('index.html?x='+Date.now(),{cache:'no-store'})).text();
+      const m=t.match(/id="upd">([^<]*)</);
+      if(m&&m[1]!==antes){location.reload();return}
+    }
+    u.textContent='Ainda publicando. Atualize a página em instantes.';
+  }catch(e){u.textContent='Não foi possível atualizar agora.'}
+  bt.disabled=false;bt.textContent='↻';
+}
 </script>
 </body></html>
