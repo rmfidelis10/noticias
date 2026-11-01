@@ -40,19 +40,43 @@
 </style></head>
 <body>
 <header>
-  <div><h1>Notícias</h1><small id="upd">Atualizado em 31/10/2026, 19:00 · a cada 3 horas</small></div>
+  <div><h1>Notícias</h1><small id="upd">Atualizado em 31/10/2026, 22:00 · a cada 3 horas</small></div>
   <button id="bt" onclick="atualizar()" aria-label="Atualizar">↻</button>
 </header>
 <main>
   <div class="bar">
     <input id="q" type="search" placeholder="Buscar por assunto ou fonte…" oninput="filtra()" autocomplete="off">
-    <div class="chips" id="ch"><button class="on" data-t="" onclick="tema(this)">Todas (120)</button><button data-t="Diabetes" onclick="tema(this)">Diabetes (13)</button><button data-t="Varejo" onclick="tema(this)">Varejo (44)</button><button data-t="Laticínios" onclick="tema(this)">Laticínios (1)</button><button data-t="Power BI" onclick="tema(this)">Power BI (1)</button><button data-t="Economia" onclick="tema(this)">Economia (19)</button><button data-t="Outros" onclick="tema(this)">Outros (47)</button></div>
+    <div class="chips" id="ch"><button class="on" data-t="" onclick="tema(this)">Todas (120)</button><button data-t="Diabetes" onclick="tema(this)">Diabetes (13)</button><button data-t="Varejo" onclick="tema(this)">Varejo (43)</button><button data-t="Laticínios" onclick="tema(this)">Laticínios (1)</button><button data-t="Power BI" onclick="tema(this)">Power BI (1)</button><button data-t="Economia" onclick="tema(this)">Economia (20)</button><button data-t="Outros" onclick="tema(this)">Outros (47)</button></div>
     <div id="ct"></div>
   </div>
   
+  <article class="card" data-t="Economia" data-b="brasil pode voltar a ser a 8ª maior economia, apesar de dívida em alta e desaceleração redeutv.com.br ">
+    <small>redeutv.com.br · 31/10/2026, 22:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPXzZmNXl3aGFwbjBwOGxGU082bkQ0anBuR3VVRlBkSGN3NURYZWtzZ2JQbGhvbHJ4dmhGcWM5d0NsS3h3bUxPdVZSVWlRajJOLWZrbm9iMGo4TEw1cHRWTkFjR1JhVmhQVGduQlJmSGVpem9EODY3UkRONUU4N0tic1VoaGpzaXZxc3E2MkRnM2ZVVk93SE1jQkZpU214bXMxWDQ5enFnUWdKVEVV?oc=5" target="_blank" rel="noopener">Brasil pode voltar a ser a 8ª maior economia, apesar de dívida em alta e desaceleração</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="pirataria e contrabando causam prejuízo recorde de r$ 473 bilhões no brasil a tribuna ">
+    <small>A Tribuna · 31/10/2026, 21:44</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb3U2X3ZWenkzazdfNnlFR1ppS2pQNWYwN1dCN2xqdEtWVThwWi1rR2xmZUcya0sxY2ZwT09vZlJBODNKbFA4RTlWUVZCbHJ5U0l0d3lTSThUbFN4cmYwejZBb1dlY1Q2QW52aFp2azZVVXhMWGM5NjF1WjdqMVVMMHY5UnNzcFJpdGE5TlMtZy1Za2tsM1VlbmF2akRic1pqcUdpeVJ3QUNMbGVqT0lfSzg5Vk9MeDFQMkxmQTRSOTdIaGdHRzNXbjF6TUxLMTFhdHZLYQ?oc=5" target="_blank" rel="noopener">Pirataria e contrabando causam prejuízo recorde de R$ 473 bilhões no Brasil</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="economia do brasil pode voltar ao top 8 em 2027, diz fmi gazeta do povo ">
+    <small>Gazeta do Povo · 31/10/2026, 21:15</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxOTlRxSUZfYks2YWhCTGVPQ0Nfa3VWY2FSUkZ6ZDMwUHoxOVltUjl4cGduZDhaTDlaaWdkX2hJdFFCUUdnRnc0RThndk1KNGFOYjdaTjFIZlI1Z0ZBNmFBbWNpUHNhVHEwZm9jTUFoV0JZRmpwVGR4V2R6LWd3MTE2N05DUjJFRDFzbU1rTWxocjFLZG8z?oc=5" target="_blank" rel="noopener">Economia do Brasil pode voltar ao top 8 em 2027, diz FMI</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
   <article class="card" data-t="Outros" data-b="ford abre inscrições para nova turma de capacitação tecnológica em são paulo diário da manhã ">
     <small>Diário da Manhã · 31/10/2026, 18:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2g0X3VhRUJsc3NqWHhfdDd1TXFCeXRIeUNQVkFWQzdhV1JZSlNGUlVrNzgxMnFUTEl6ZVZ1LU04WDZ1bGpPeDBSNlpTcE9OaTBycUExaGd0bXdMcHNJZmdwZDZtSU9rNnplZGRUV05kY3RpakZ1OFVvRU1hWE5TWG1PMG9KbVUxZnQzVUpEY1RMQW9tdnF6d1ZEVlRyZndhcDIycV96OFE2Mnc?oc=5" target="_blank" rel="noopener">Ford abre inscrições para nova turma de capacitação tecnológica em São Paulo</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="regulação de cripto no brasil restringe operações com empresas sem licença economic news brasil ">
+    <small>Economic News Brasil · 31/10/2026, 17:08</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNM3pnVnM5Z0NNNFNaLVctamxnOTIyZjNTRkVBTkh4QmRIekRzMU1JbnZPNXpyaVpTdEJBS0F1V29DczdhLTJuRG1PT1lGdEVTRUthUEFja1VJS2RFMzI2ZVFpaHdZU0VTZXkxMmVkWHRQeGo0M0dVa0FzdW9iSHFvMA?oc=5" target="_blank" rel="noopener">Regulação de cripto no Brasil restringe operações com empresas sem licença</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
@@ -61,6 +85,12 @@
     <h2><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxNZEVkNmlmRVI4OXAwVjJOY3NxQWszSnBTVUhtenlRNzlJendfQUdNUVJLZElMaTF3UFlYQW56RFVVUEdtNkNCZWV1WnJVSWNlb3VubkY1VmhMa2NqemZWY0lNckNvMllIZGpqTmt2OE4wVUZvRGxkbDhRVVpUNVN4TXNsa1NZX2h1a0ZzUjRQaUdLNkFONllka20xUkVzM1ltaTJUYmtCVF9JcUxTQzhXbjZkSEFxeGR3d1hfY2xtUkprQXQ5YVHSAcYBQVVfeXFMTWRFZDZpZkVSODlwMFYyTmNzcUFrM0pwU1VIbXp5UTc5SXp3X0FHTVFSS2RJTGkxd1BZWEFuekRVVVBHbTZDQmVldVpyVUljZW91bm5GNVZoTGtjanpmVmNJTXJDbzJZSGRqak5rdjhOMFVGb0RsZGw4UVVaVDVTeE1zbGtTWV9odWtGc1I0UGlHSzZBTjZZZGttMVJFczNZbWkyVGJrQlRfSXFMU0M4V242ZEhBcXhkd3dYX2NsbVJKa0F0OWFR?oc=5" target="_blank" rel="noopener">Economista da UFSJ aponta possíveis impactos da proibição das bets no orçamento familiar</a></h2>
     
     <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Diabetes" data-b=" - sociedade brasileira de diabetes notícias sociedade brasileira de diabetes">
+    <small>Notícias · 31/10/2026, 16:27</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOcHRQYWdKc2UtYVgtdE5MVE8tdVBKck5vYWJfelVzVXpRaWJfSmhPME1ZVlZzWXRKVmw5aC1NRnVXRkdYX3R4RXMzRFhVVXVJX0pETGV2RTJOQjV0aGJtaExNM3F3ZHJZUlRTM1lkOGpycG8zdDNaemJwX2l0ZnlVOUxIMS1KTHYydFNQbl9xUkhYV3N0X3VrOFVYQnhwdw?oc=5" target="_blank" rel="noopener"> - Sociedade Brasileira de Diabetes</a></h2>
+    <p>Sociedade Brasileira de Diabetes</p>
+    <div class="tg"><span>Diabetes</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="cetam abre 50 mil vagas gratuitas em cursos on-line amazonas1 ">
     <small>Amazonas1 · 31/10/2026, 16:25</small>
@@ -86,8 +116,14 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
+  <article class="card" data-t="Outros" data-b="recuperação dos fundos de investimento após tombo eleitoral exige alta de quase 94% economic news brasil ">
+    <small>Economic News Brasil · 31/10/2026, 15:11</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGhoSFcybEZOTy1Scm1hYzJ5OHVJM19xWXp0dkNPblUtUXZBVUlkVXBQMk9IT21BaGVQVDJIa082TnVUQnF0NGN0MTNHUGhVam1UOUc2bmQ5WWhQQkFsQm0wNFRDdmhpZVBhQUdyNVNXZmRhbjNjU0VlVUNjcnp5MjdVVzRwNkFZai11Zm4yTDNCVlF4cWgw?oc=5" target="_blank" rel="noopener">Recuperação dos fundos de investimento após tombo eleitoral exige alta de quase 94%</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
   <article class="card" data-t="Economia" data-b="economia prateada, sucessão empresarial e a janela de oportunidade no brasil repórtermt ">
-    <small>RepórterMT · 31/10/2026, 15:00</small>
+    <small>RepórterMT · 31/10/2026, 15:03</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRm5jbjVpMEc2WTlVV0R1bkxhR1I3Q1l6QWU2NkZCNTMyUVpqRWV6bnVsc2lJaS1TR2RJRUlZMWxPaV9WR21WYjdHZG9DdVlvdEw2OVNocVRjVkwwN3ozZ0E3TExST3VxRGkwYnJJaW1SdThlbktFNjJqb18xQThDRXZBOG0ySTM0UnV4SEZ2aC1WSUVkZzBzWDBLamJYT3NZbGxLejBoMWN5dmdYN3FYMDdXYjliVWRq?oc=5" target="_blank" rel="noopener">Economia prateada, sucessão empresarial e a janela de oportunidade no Brasil</a></h2>
     
     <div class="tg"><span>Economia</span></div>
@@ -241,18 +277,6 @@
     <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxORG1ON216YnA5bTBfdmMwYllQaktCRWg5X0FXNUM0ajU2cWdhN0ZHeVJNcXBFTGlXb1BDc2lqVkxPbUdFUi15UWNEa2k3aGJ5alBFLXVYRmg5RWN3SXhmRUFWMnNlWmFNYXZaWVl6cXJtc2RBX3dCckx1bVlTVi1lbzl3b21OM2NVQ2dGRnRvTmJfYjBhZXIzR3g1NjNSVlRhTENuWXY1V0d4N05WcGVpMG1ISTJKbGo3TUFlRg?oc=5" target="_blank" rel="noopener">BoJ tenta estimular economia do Japão há muito tempo, diz economista</a></h2>
     
     <div class="tg"><span>Economia</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="lula: &quot;dinheiro das bets voltou para o consumo das famílias&quot; jornal onze de maio ">
-    <small>Jornal Onze de Maio · 31/10/2026, 05:51</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxNNUp6Qzh6bW1aZFVocXowd1ozSFlDc2NGWkpBT0NwejdDZnh5dkVlMm1Kcm95Y1hnbl84VXlKZGh4T1VyVW1JMHN1TGdqTTBQdnJNc01uTjQ2dEwwSnUyOFhDUzB2QjNnSUZaMHBMazZnemRydWstbEREWFVmTVg0ekxwYUpVVkx3ZHRKcA?oc=5" target="_blank" rel="noopener">Lula: &quot;Dinheiro das bets voltou para o consumo das famílias&quot;</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="brasil abre mercado de bangladesh para material genético bovino planetaosasco.com ">
-    <small>PlanetaOsasco.com · 31/10/2026, 05:37</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdC05YjJDSXBGWFYyYjk0dldzMXItU3hKOFpOWmdJa0dwai1JU19xZ3JOLXlLZnd5OU5Vb0JEbk02SmxnRlZWWUFVT3FfVUhDZ2FrY0w0MXlkTnI5TzU2Y0o2NGE0Tk1hZURzbzV0ZDB6ZXZPNnAzNEpoRVpoOFlqTHZJYVYxVGpBMDZzSXJPT1FaYmhuV2ZwV2toV0FvQWtOYkxrOGVZY0o?oc=5" target="_blank" rel="noopener">Brasil abre mercado de Bangladesh para material genético bovino</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
   </article>
   <article class="card" data-t="Varejo" data-b="da pequena mercearia ao império dos shoppings e supermercados na bahia! conheça a história da família paes m… bnews ">
     <small>Bnews · 31/10/2026, 05:00</small>
@@ -452,12 +476,6 @@
     
     <div class="tg"><span>Varejo</span></div>
   </article>
-  <article class="card" data-t="Diabetes" data-b=" - sociedade brasileira de diabetes notícias sociedade brasileira de diabetes">
-    <small>Notícias · 30/10/2026, 14:42</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOcHRQYWdKc2UtYVgtdE5MVE8tdVBKck5vYWJfelVzVXpRaWJfSmhPME1ZVlZzWXRKVmw5aC1NRnVXRkdYX3R4RXMzRFhVVXVJX0pETGV2RTJOQjV0aGJtaExNM3F3ZHJZUlRTM1lkOGpycG8zdDNaemJwX2l0ZnlVOUxIMS1KTHYydFNQbl9xUkhYV3N0X3VrOFVYQnhwdw?oc=5" target="_blank" rel="noopener"> - Sociedade Brasileira de Diabetes</a></h2>
-    <p>Sociedade Brasileira de Diabetes</p>
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
   <article class="card" data-t="Varejo" data-b="com fim das bets, dinheiro volta para a mesa dos brasileiros e supermercados registram alta nas vendas tribuna norte leste ">
     <small>Tribuna Norte Leste · 30/10/2026, 14:26</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOX250VkJFajEtRm4zY0tlUUc3SW1HLXo2WFJ5eGNKUkVJdmN4UFFwQU9IVkdCUF9sUjJkY3kzZG9vLWx3VWFhaHdZRlM4UG03cGZmVDNMdkgzWTdvM2hPYnpNSDJRYmlYTlJjQy1SZUtUYm1XaG1TdUFMRGZOSUxLREUwcjl1cXd2MjQ0R2lRclg3djdvcHNwYW80eEdKcTUwbnh2dkc1aUtHUEZEQUxadnhleWZRT1VielVXMkVTak5NV09ILWpaNGZkQ3hoS3Ex?oc=5" target="_blank" rel="noopener">Com fim das bets, dinheiro volta para a mesa dos brasileiros e supermercados registram alta nas vendas</a></h2>
@@ -602,12 +620,6 @@
     
     <div class="tg"><span>Varejo</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="brasil tem 4,3 milhões de trabalhadores em jornada menor que a desejada tribuna do paraná ">
-    <small>Tribuna do Paraná · 30/10/2026, 11:07</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOcmE0T2RjV1ZkZlRSQTNaLTRoTW05RHBRR0VYQzJFX2JJUUV3aG1HQjktWi1ocUZHMFVaNWZnc0xoQUl1VFZKWC1NQU1OWEtuTjEzajRXV18yTW5WdjNMVk5qb1Rpb0dTM0c0bUY4RlFocmxCbVA3SHg5amxDQ3VWdFo2TXBtUDM3VmsxZHppWnh1WGFQVGlKcmM4blBMYWd3ODJsYTFzZEtxLUx2Q2VHQmV6cmpub3NZZ2fSAb8BQVVfeXFMTkxRWm5xMUlVNktIbWFDRk1NTi1vN20zRmRDdGdkR2RuZkxVSVJUc282ZFlPUTUzQjNIVnRqdVYxWk5STDV2Qy1xajl4RWJsMXZKQkdPa2VlTGNFaTJ0LTY2YUJTbjRTVE54MTNJRHNETjZpUHF5R1NkdHFEYU03eWEzSUd6eUVrQVByemxaNENVN2NCZDlpWUNUazhWMHR6bXFSeHF2WkxLSzNPTzdfeFBYY2Q3LS00Z1lvNDZwLW8?oc=5" target="_blank" rel="noopener">Brasil tem 4,3 milhões de trabalhadores em jornada menor que a desejada</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
   <article class="card" data-t="Varejo" data-b="cencosud estreia farmácias em supermercados no brasil superhiper ">
     <small>SuperHiper · 30/10/2026, 11:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxQSEllUVMxYXNndDJhYWFpVHVZVnZ5ZnI5MDM1alNsWU9aY1RycWFUTHRqLXZfVEw3eE9BcW9hX0g3OTViWkNfWXJvZ09yWmVtVDd3M251TEx3dk1aUG1kOHJsRm55cTNmMzUtYjNPdG1RVTIwRlhCZm9HNzFRTmREdnNfYWNJU1ZEU2JyaA?oc=5" target="_blank" rel="noopener">Cencosud estreia farmácias em supermercados no Brasil</a></h2>
@@ -653,12 +665,6 @@
   <article class="card" data-t="Varejo" data-b="+b supermercados inaugura flagship com adega e playground em belém superhiper ">
     <small>SuperHiper · 30/10/2026, 10:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQN09NMVF1MUlKeXotT1hTdG5MUlRyUExwRHRNbl9USFdPaVVpVl9TYVo1T29SVC1CN053MG5nR19DdlAyd3FzdDdrbE5WVnp2MW5sZTFuc05wLXByU1VNQ0ZGUGVNYUlWc29TMGFOUUtjZTlCZ2JOcWtsakN6QjNuVQ?oc=5" target="_blank" rel="noopener">+B Supermercados inaugura flagship com adega e playground em Belém</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="natal nos supermercados: confira as categorias que podem impulsionar as vendas asserj ">
-    <small>ASSERJ · 30/10/2026, 09:55</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNQmwxWWhXZm0zNVNvZXZtSVlOTzJ4MnR2ZUdoZG01b1NiZVpzYnQtZGFGZWJQN0dPQ2RkTFdzR0VRZDBLd1VJUE1RRWx3SHh5TzVybnRBLW9kc2JSWXplRVF0dWhBRnB4SEFnNTR2d2NJVkc3eXlWemVfTlpXSkdaUklCc0R3YlhQeFlMcTdrZmU4cGp2SllhMGc1Zk9JMFdjbFdIcXExc1NVdXdaeEV5NXhn?oc=5" target="_blank" rel="noopener">Natal nos supermercados: confira as categorias que podem impulsionar as vendas</a></h2>
     
     <div class="tg"><span>Varejo</span></div>
   </article>
@@ -716,6 +722,12 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
+  <article class="card" data-t="Outros" data-b="petrobras e banco do brasil: o que muda com lula? tmc.com.br ">
+    <small>tmc.com.br · 30/10/2026, 08:44</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTFBXaEd2Qkl4a3hKWm92UlVqVFRUMXJqWWtyWGNONkI1MzFTT1VpYXZUMmJ4ZVktYi00MzVjckJUV1FxczlMU19ENVM3U3Q4NzRGSG9jdWZmdFFDTE1qeXNqM0JWaDFIcnN1Y05iX1pVVjU3aDVkVTNtT0JpNVc0UU0?oc=5" target="_blank" rel="noopener">Petrobras e Banco do Brasil: o que muda com Lula?</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
   <article class="card" data-t="Varejo" data-b="85% dos estacionamentos de grandes supermercados franceses seguem sem coberturas solares após prazo da aper em julho de 2026 - notícias e estatísticas indexbox ">
     <small>IndexBox · 30/10/2026, 08:32</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxPaVVWaHV6ek45V01PNnpYQmI0MjA5Y3NhS19GbS1VMVo0cDFfVFZHYWFWOXF4WktENnFSa2hqMWQ1STVxNG9YVUNJWF94bkZVcHl5TTFJZy1QZEMzYlAtRlJLZThSSXhMY3BaRGZxWDNOVEd1Y242NXBCb2I1UGJ1Wk4weFVjYU9PVDJ1TEd0Y2R4aDFGS3M2cDdmSWxTVW9qaWpKZG9JMy1udVhUa2V3cEhuT1pKWkZLWHFRdTBveGZvdVJKRGN2QUJGTTdnN2J0bHdN?oc=5" target="_blank" rel="noopener">85% dos estacionamentos de grandes supermercados franceses seguem sem coberturas solares após prazo da APER em julho de 2026 - Notícias e Estatísticas</a></h2>
@@ -755,18 +767,6 @@
   <article class="card" data-t="Economia" data-b="brasil tem potencial no vinho, mas economia é entrave, diz ceo da mistral uol ">
     <small>UOL · 30/10/2026, 05:30</small>
     <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPNWJZcHp2WnNUbllkNjNfUnhiSlRoSE5KVXFCX2FkSFZjVlhTb0Q3RkZKbTlyaFB3a19ZR3hjcGJlNGNRN2FERkVVVUtoWWV3MDc3djlDZHM2TWVIXzlQeG9Wd2Zick1QMlJ3UUMtRGFuelJHTHkxRFdZanhWRy1kV3Q5QWs2alRKbFZwdU1SZEZvWUNNVzVLQ3ByU0xGUlF1cWRNSFBNZ2pqcVktYm5aLUJOZmJBa0tmTEdwQg?oc=5" target="_blank" rel="noopener">Brasil tem potencial no vinho, mas economia é entrave, diz CEO da Mistral</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="balança comercial resiste a choques externos e caminha para 2º maior superávit da história estadão ">
-    <small>Estadão · 30/10/2026, 05:30</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQR1Nmc0ItS0piZ1VXUUVPSktTMXJDUDZYWmkyRVBFRUx5aXY1S25UejBJR0RENDZWTGhkMmVRc3lNTjZwejNjRFAzLUNqOF9DMlduZUpBNmdFeFZDUWpiMnVKWlB6VWw4MGRSSm5MenlLamJQRDZwa3pnQk84TlZPdmNkUHZ1NHNaMi1WVkNiSjRpd29rOEV1azJmaVRDQTVUa2tQZGZnd2xuNTY4VmdzZnREWnVjdDdTcHVwUEFCbzFvbDdl0gHKAUFVX3lxTE5yNS1QSFFVMFFrUFNrRFJJa0NvOUZFbnlHeVBTUWdEdXlZVHFCOWp3UGphb1c4YXVLNnFBOS16MmpTWWxqWkR5TmtqTnFhTW02UDNtRVlwcEVRb0VFbG5EbUR5WGtwOU1HZmhmZXFQZ2pwdVhjSmItdTFOclA1ckRjZDgyMXdEbnZ0MW9MMlhqLWRJRVJhUlZ0X1p1a0w1ZExIWkNiUnVVbFlQcUpPUnBKWXlpRk1Udm9icXl3Nk8yYkswOEl1cVFHSEE?oc=5" target="_blank" rel="noopener">Balança comercial resiste a choques externos e caminha para 2º maior superávit da história</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Economia" data-b="rio lança plataformas para impulsionar economia azul valor econômico ">
-    <small>Valor Econômico · 30/10/2026, 05:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUThHMFcxRUdVaDFSYmhOTGlQZ3h4dVphQXB4ZXE3M1BQaXVPaF9mQXh5SjVJb21LM2hueVZvNTlkYlNJMkotV0pvd05CVHdFQVhWb1lIVEEzYnJ3Z2pGcW5KY2l5Q3lwVDFaSzY4cWFhaHhjaDBqM3p6QmRWSjF0Z3pSbmxQb3lpR2M1czF4RXJ3TGtKa2dpSHpqRjNmMzBKcmhFYTJSU3U5TlNoRVBTQndfU2ZNRDRubFBR0gG7AUFVX3lxTE1ROEcwVzFFR1VoMVJiaE5MaVBneHh1WmFBcHhlcTczUFBpdU9oX2ZBeHlKNUlvbUszaG55Vm81OWRiU0kySi1XSm93TkJUd0VBWFZvWUhUQTNicndnakZxbkpjaXlDeXBUMVpLNjhxYWFoeGNoMGozenpCZFZKMXRnelJubFBveWlHYzVzMXhFcndMa0prZ2lIempGM2YzMEpyaEVhMlJTdTlOU2hFUFNCd19TZk1ENG5sUFE?oc=5" target="_blank" rel="noopener">Rio lança plataformas para impulsionar economia azul</a></h2>
     
     <div class="tg"><span>Economia</span></div>
   </article>
