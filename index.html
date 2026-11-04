@@ -40,39 +40,285 @@
 </style></head>
 <body>
 <header>
-  <div><h1>Notícias</h1><small id="upd">Atualizado em 04/11/2026, 14:00 · a cada 3 horas</small></div>
+  <div><h1>Notícias</h1><small id="upd">Atualizado em 04/11/2026, 17:00 · a cada 3 horas</small></div>
   <button id="bt" onclick="atualizar()" aria-label="Atualizar">↻</button>
 </header>
 <main>
   <div class="bar">
     <input id="q" type="search" placeholder="Buscar por assunto ou fonte…" oninput="filtra()" autocomplete="off">
-    <div class="chips" id="ch"><button class="on" data-t="" onclick="tema(this)">Todas (120)</button><button data-t="Diabetes" onclick="tema(this)">Diabetes (16)</button><button data-t="Varejo" onclick="tema(this)">Varejo (27)</button><button data-t="Laticínios" onclick="tema(this)">Laticínios (2)</button><button data-t="Power BI" onclick="tema(this)">Power BI (1)</button><button data-t="Economia" onclick="tema(this)">Economia (24)</button><button data-t="Outros" onclick="tema(this)">Outros (55)</button></div>
+    <div class="chips" id="ch"><button class="on" data-t="" onclick="tema(this)">Todas (120)</button><button data-t="Diabetes" onclick="tema(this)">Diabetes (11)</button><button data-t="Varejo" onclick="tema(this)">Varejo (23)</button><button data-t="Laticínios" onclick="tema(this)">Laticínios (3)</button><button data-t="Power BI" onclick="tema(this)">Power BI (1)</button><button data-t="Economia" onclick="tema(this)">Economia (24)</button><button data-t="Outros" onclick="tema(this)">Outros (63)</button></div>
     <div id="ct"></div>
   </div>
   
-  <article class="card" data-t="Laticínios|Varejo" data-b="odd limppano anuncia novo diretor comercial com planos de expansão no varejo nacional asserj ">
-    <small>ASSERJ · 04/11/2026, 13:46</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPMWhWLWxRMUpwZFpzNmZucnR2OC1yUUQzX2pPZVFBak1ZUGN2cU8tMTVORUR5NjJCZFlOSWN5c3cwX05wM3kzM1BhUVhEQ201ckJkbmctWWJzNU5HVWlBQVo0OUpvSUxoU2FreC1wN3dRLUJIVGFlVkZHdTBEVHFWRDRZZ3RHdzltcVdGVUxSTTktWE5qbXBvMzVmS09EWEtaSUtkQmptcjhLb0xoNnRRT3lvcmdnSnZkdExiUg?oc=5" target="_blank" rel="noopener">ODD Limppano anuncia novo diretor Comercial com planos de expansão no varejo nacional</a></h2>
+  <article class="card" data-t="Varejo" data-b="consumo em supermercados após a proibição das bets cresce até 10,6% em regiões do brasil supervarejo ">
+    <small>SuperVarejo · 04/11/2026, 16:45</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxNVDZDSXhCZURTaWhTQ19yWHViXzdwTEdfcXF4bWVXeHRoNWFIRjFGNnE3S0FHM0lMVWIzMVBYbFpuZXdIdmFNYklvdURsaEVPSzNaaG9WRVlzNDIydVhyQkt6ZUlaNjhXNElIeFVQU1EtdU0yRG9fSlNObWx1anJrQXpWUlUteUx0Y3hYN0g1TzJiMGtYdnZoc3ZjNWQ0MGw0WFFiVzhoSWo5V05JazVaekt0OWlDVkNpUExHQWt2RWdSSnNH?oc=5" target="_blank" rel="noopener">Consumo em supermercados após a proibição das bets cresce até 10,6% em regiões do Brasil</a></h2>
     
-    <div class="tg"><span>Laticínios</span><span>Varejo</span></div>
+    <div class="tg"><span>Varejo</span></div>
   </article>
-  <article class="card" data-t="Diabetes|Varejo" data-b="cadeia de frio: como preparar o supermercado para o segundo semestre sincovaga notícias ">
-    <small>Sincovaga Notícias · 04/11/2026, 13:45</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZUltTnpKSmVBcWhFWGJld3pxVV9XSWZRVnRpRkVwVHMzYjdVWWRDdFlOdlloX1hFM192RlluYzU0RWxub0w5R0dqMng1TjdFSlBIMDR1aXdrNVdoTXF3Yk5uQkV3eUctWnZ2cjlydjB5YnVNZDNSWlN3bmotOGNkUVo0SDVxRTZJdHFyMTJNUzl0SlY5OG9EaUExdktXTkFGWGgxbi16SFM?oc=5" target="_blank" rel="noopener">Cadeia de frio: como preparar o supermercado para o segundo semestre</a></h2>
+  <article class="card" data-t="Outros" data-b="uso de ia nas empresas cresce e agentes chegam à operação o globo ">
+    <small>O GLOBO · 04/11/2026, 16:36</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxNUHZQVi1DOWRaZmFvNnRrb2poSXRJMmhscHFYQXFxV3pwMjhDZmd2TEd0bjdFWjVUZDRablpHT0YxX2cwZUZhSzhNbmlNSDk4TFpCTE52dlFDTjA1eDB4UmxvTm5mcGJYTGZwZ0RzbXZZZl9KV2RVX2ZlVjNLZVRlcGZsTmd0VEJTb0pYdGRuNi1DYk1HcGFsa1dFT1hpQnBIQndLWmpFLVZqSFF4VHpLYjkxRE1fOEVNcTVSUFdLQ3VTUFNO0gHTAUFVX3lxTE1uQ1lKUmliel9aeHFwYV9aWFpXTHVvNktrVEpkMW5OT0RuWHBla21HaU5xMlktMTBNVVZac21aYWpyMk52RGFDMDZ6Rk5kM2JpTTF4WDBKWEY2X19xTU53RWx6YXFnc2NKWnBmN2pFdF92VzE3LWZXZ283Z2tPX1l2TEt6VE40MXl4X0dpOUg4bW50WTVNckJuVzNIVlBGYjExcDZsNmIyd3h3Y3BpNC1KLWZ6MWRpYjZZbXZsSWFIcmk2OG1NWElmMzl2RDh2cVV3d2s?oc=5" target="_blank" rel="noopener">Uso de IA nas empresas cresce e agentes chegam à operação</a></h2>
     
-    <div class="tg"><span>Diabetes</span><span>Varejo</span></div>
+    <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Economia" data-b="ibovespa sobe 1% e dólar cai após vitória democrata nos eua tv sim brasil ">
-    <small>TV Sim Brasil · 04/11/2026, 13:24</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPbXBXVzRDS2lLcXpEVkJwN2J4OUdmZUUteFhBNjFLazUzeElKLUdMMUVDazYxTV93bE1CNnNqUm51RVg4MXUyUzNpVE9FQldnUWtyRllZSnl1UWVNVktWZHhLOUJNRXRpaE53d3VqalpoOGpzMm5OZzc3aDZQNk1Dd3NHcEdYVVJmeXVhQ3ZoakJULUswdExuVFR1TDBwR2FCSFZxVTRyV1pjVnRHX0p3NWpR?oc=5" target="_blank" rel="noopener">Ibovespa sobe 1% e dólar cai após vitória democrata nos EUA</a></h2>
+  <article class="card" data-t="Outros" data-b="brasil cria 121,3 mil postos de trabalho em setembro, aponta caged agência brasil ">
+    <small>Agência Brasil · 04/11/2026, 16:33</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPdDl4VEVVa1JzTTFKdzN3QTJqYlZ5VlZnenpDaXdsWkVzYVVCdldMa3dCYURlQmw5b0hwR1NLQVlQNk1yVkNoS3Z5V3U2cmYwTW1jaTM3Y3VHVkd3MnBuWWVYb3VoTGpXNHhnUE1sa05IT0R1aXBYdmtMMlc0QnZLbFhDbXBsRUpYbXhKdXZGc1ZtTXhMNXpqOXR0WFlqSHJRVGFwVWlvdmtlVUpLX0xzbHNaRUZCZmpXYUFMWmdsSQ?oc=5" target="_blank" rel="noopener">Brasil cria 121,3 mil postos de trabalho em setembro, aponta Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil cria 121 mil empregos em setembro, menor saldo da série do novo caged r7 ">
+    <small>R7 · 04/11/2026, 16:32</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxOamFNUmR2aHFlS25xcE9OdWw4SDhXWW8zcHJGT0ROUUlieUJYUmN1MVJsamU5WElkaVlIWWptcVE0d3VMcl9rRWtlVjZYU1AtbkFMdjZUOHczS0VkbC11dlF5QVM2SXBvUG9RN0Z5OGh1X0x5NjdhbU45TzlvSXJTTHNFN20yaDk2ZmotQUZwVmZTMk43SFhLSHBLY1JFXzg1YS14WUlKUkNOZVZ2aElndXNDYUNQcndaV1E?oc=5" target="_blank" rel="noopener">Brasil cria 121 mil empregos em setembro, menor saldo da série do Novo Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="percepção da situação financeira do brasileiro piorou, mostra pesquisa cnn brasil ">
+    <small>CNN Brasil · 04/11/2026, 16:26</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxOUTdpOUtwNGhueFhnaE9FcXU4X0tFeG9MQ1pKRWw1dFRTYXkyUnFwVzBqOVJROUJ3REZISzZGeF9pMkpIOWNQby1EeXVvRVNxRGZuemwyQXBiSmRHN041RzZHSmFKOGNBQmROWjJNUEhkUWhPYzhEYVFrR2tmbDNEdmgwNDZ4aE1mZWRNOUR0NFdFd3h5RTlZaVNWamU1X05jWm0xYnBwZ0EtTm0tVUdjSzd0MExxUzl4ckpOR0psUmFVdWZWMFhv?oc=5" target="_blank" rel="noopener">Percepção da situação financeira do brasileiro piorou, mostra pesquisa</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="paranaenses perdiam r$ 3,6 bilhões por ano para bets; proibição pode devolver dinheiro à economia do estado e impulsionar comércio g1 ">
+    <small>G1 · 04/11/2026, 16:11</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdGN1aWVEcVV6ZkFaZERkczllX0VOT2R3TXdQam5qcDI3VS1Yb3pFa1FIMU4tYWExZ3drbnBlTHIzM3RTLVRfUDdtMHlTX2Zva1U4MFh2WjJmVFg4cVJsSWtYZXQ2N0JNN3Nib09jVkRUN1VhbFFFYklRNU5MOUx6YnNHY0pkcElvREZ3bVhzcS1ETlBFYWFIV0ZqY21QWDRxODh5a0ZrNlBQaVlPM2Y5UThULVo5Wno5WDl2UlhrZjDSAc8BQVVfeXFMUFJwSnJfNFp1XzRrUHBVUWlGejR3bW53UXMwRzI5VVdSZ2EzRHhXNWJqVTVqbTdSM2tkY1g3eE1LYmtrenNsWHhaV0ZUeVlrWnpDcG9nVTQxZHd5dGlNdkxsZkctRC1LUlhjNHhoQXBEZmRsUUkyYU94dnVZZlNabTFTbF9GeTBRQVowY0lrY21nVUZDOTZfbGd1TnNqei1ORzlPYmNQRVJvc01xNDY0ODd4NG9zQ2ZlRzg3bTJvS2djNWVBbWhYcmwzWDhRRUdJ?oc=5" target="_blank" rel="noopener">Paranaenses perdiam R$ 3,6 bilhões por ano para bets; proibição pode devolver dinheiro à economia do estado e impulsionar comércio</a></h2>
     
     <div class="tg"><span>Economia</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="brasil aguarda proposta dos eua para negociar redução de tarifas comerciais deolhonacidade.net ">
-    <small>deolhonacidade.net · 04/11/2026, 12:57</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVnhWNGJzcW9pcHdMTElUeDluVE1ScVFSZGU2b3NnYnBSMTItc0JQUlV0bmt5T2lmTTROQk5yRzdYQVoycHRnYlBNZmNZYWMwOEw5a3dhX1FqeDZpTURSZjE5UlBCbUxRSzczWkJVOE0zWDQ1dUdTVVJYa05lVlhrcnNHTWp1czVTZWRkaXd1MmtrRjA2TVZtX1dmRm9ESTkxMlRqWjAwZk00UQ?oc=5" target="_blank" rel="noopener">Brasil aguarda proposta dos EUA para negociar redução de tarifas comerciais</a></h2>
+  <article class="card" data-t="Outros" data-b="aquicultura em águas da união bate recorde com 179,6 mil toneladas agência brasil ">
+    <small>Agência Brasil · 04/11/2026, 16:04</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWllPdVlha2I2TWdKbVczellOamxSSGVoVmg4UC02LTlRVzJwejNwdFU3V3c0aW1xdGZVbmNUZ0pGcEp2emQ4TXNiSkY1Z29FQ0ZweUlJZUgtbTA3MzM2WXNWMkhDZ1dQRG55aGdIaVBlLXFKMGFodVpwN0NVN0NfWFl6SDhKUkFncXpxZ1BxR2hEOC05dkstUXZaWFdvczBiZDFFeGV6dUVZcDl1Y3lGeEtWejFIVFhSSmV3R1dGZko?oc=5" target="_blank" rel="noopener">Aquicultura em águas da União bate recorde com 179,6 mil toneladas</a></h2>
     
     <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="uol economia uol economia ">
+    <small>UOL Economia · 04/11/2026, 16:04</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxQQmhiYWFpbmhIaS1XZnFjZGk1S0NOaXZyY3ZRQzlleGU1dlVUMS1WUkMxUWV6UXZlWEpzVldrTkNBeHhpN2g1M2Z6cWdHSThPN2pUM1JWTFJJamhLV2RaUDJkYmprQ3pwUW1YWTBWdU1iUVRxNzlyZXEwcnAydDlCT015UkJLemJwcm5ybjlJdWx6VDdsb2JWRS1ldmJWbEZHUUZLaU1lWDE3WVJHX3NBWlRvWjJURzlJMllscDJpbmJJUlJvZEtfY255VnFBbW1tZHFjS3NjdDFYQ080aDBXU19rVXNFMzFJNUYyZE1LUnVHaVE?oc=5" target="_blank" rel="noopener">UOL Economia</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="caged: brasil tem pior setembro na geração de empregos desde o início da série histórica diario de pernambuco ">
+    <small>Diario de Pernambuco · 04/11/2026, 16:03</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVUk5bVdTaFoyV1VOaFZ0NDNxM05FU3lJRXhXZHZBdEgwamlKRlRuNkdjcTJ0Z0xIWmZhbzJGQXNXSVFWajlrSlo3NXBpU2djQW1NRWVIV2lKTDI4THpDNU9lQW9NLW9xS0Y5RTRvMzlUaVVvekFsWEZ3WS1aTGZ1Vk1fNktqN1BtNzZ6NDVXRkp4bmpWZEYyZmpJeFEzaU0ybGlNeFlYcVFFbkNuY3I5LXB4djhUMkcwNHdMUkFrUDQ2VG4xZFBpOE9KT3hxVzR4WTFUUUlVREtMVUJpZnJpUGM0aldJN1BuX1NjOQ?oc=5" target="_blank" rel="noopener">Caged: Brasil tem pior setembro na geração de empregos desde o início da série histórica</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil abre 121,3 mil vagas formais em setembro e estoque de empregos bate recorde de 48,3 milhões wscom ">
+    <small>WSCOM · 04/11/2026, 15:57</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUTFhYW1sQXA5VW9yS0dLMTBKUl9LN216ck4zZTNsVUQtc01EckZKS21JMWMxU0E3RUJoT1FreG1rWU9OMnhqRVZFY2dOb1VMMEZvcWIxdDdlRGtYZGppM1NJWWo2Q1pock9GWmJGWVExdWpEakJYUXdUQVRUV1lHYmsyZVFwYlhYRmdmRFVZaUd2MXV0V2c5SUdkQmdxU0ZUa29nQXZhMmZBX1JQV2lQa2VZczFMWktBUnZjTHA5eUZhVFVkenJPbFVHcXdHNWZvMW5VUQ?oc=5" target="_blank" rel="noopener">Brasil abre 121,3 mil vagas formais em setembro e estoque de empregos bate recorde de 48,3 milhões</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="caged: brasil cria 121,3 mil vagas em setembro, mas perde ritmo bpmoney ">
+    <small>BPMoney · 04/11/2026, 15:57</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNZWFmNHVlLUo2dnJRRm95Y0g0QVY1T296bkhxdVA1cWt1RXJzSHBBRjFJZXRpZEQ4Vy1jYXVNaEZ4MGtOS2JyRjFFUTZZOFpuQmk3OFJwRlZERVRVb2g2blB3T0t4YlRLdWc5NFZ3UnpDenVYSWlDemtBeFoyN0xyYzBzaEpfcWNOa2NVclVBSHBxeDRJMHVkcw?oc=5" target="_blank" rel="noopener">Caged: Brasil cria 121,3 mil vagas em setembro, mas perde ritmo</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="fluxo cambial brasileiro acumula saldo positivo de us$ 28,743 bilhões até outubro times brasil | cnbc ">
+    <small>Times Brasil | CNBC · 04/11/2026, 15:53</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxQWlgwV1l2Zmk1S1lQeTU1YjFHRE10dldhODZXUXF3dHVIeWtabFVrS0w2cmRHLUUyUjFmZ013cHAwV0x1ODA3Y1NrRzlWYkI4bWNGbVpVNjhfdEhUa2FlN054bjliUXQ2QkhPZXVlWGc4WEdhM2tHSjBpVG10OElSMWFyaDVhaHNPbnBMTHRFeVh1S0xPcW5paTFJcE55Y0I4UkFQSWRlVWFleWU0NG1OM2tyU1R1RGZiOVNDOUNwaklwQkgwNlQ5TGxjaWx2UEk?oc=5" target="_blank" rel="noopener">Fluxo cambial brasileiro acumula saldo positivo de US$ 28,743 bilhões até outubro</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil cria 121 mil empregos formais em setembro, aponta caged correio braziliense ">
+    <small>Correio Braziliense · 04/11/2026, 15:46</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPajk2S1ItSWVSUTNIUG5IZGxSTHB2bERha0pLemFPUmZuZjJoYTFSZ0lSXzlobk1reGxrakxJc1dVWG1xMUpiUldYSzF1U0J4azZrUzFsQ2hUMWFSMUx1aUdQT25LM1c0bFMyc201clp6VEtwTEN6ems1anl1SV9WZ21tLUdTNGNsSlJ4YlNpUk5ZWkQxV0VHYkhHWnpUWVhtUkk4M1NlaFY1Zk9sLWc3RmtiSWxickM0dzNHUGZsWlM4WEh5bzVEZtIBzgFBVV95cUxNVzUzcy1pZS1vemhLVHd4dFEtdVVKZVl1eE9LSXdlcHhnYlUzcVZ4bHFsN3VXM1BZRGRtbE5aTnpNYm5DU1ktZk9kRDZCSTNXX3FVWFN6UWVIUHVHT3NNTDhnd2RpNFdzY21NSGtQUllROG9xaDFPYS1IUDEtYTJNZEZleG9rMVJtSV96TUJKZnpYdElmUGRzMk44Y0tOakxKc0E5ZGJ5MDA1VjdNT25aa0lrR2UydXBNbnhLNjdDTVpZR2VIRWo2UWFIampldw?oc=5" target="_blank" rel="noopener">Brasil cria 121 mil empregos formais em setembro, aponta Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Diabetes" data-b="estudo: monitor de glicose melhora controle do diabetes tipo 2 sem insulina uol ">
+    <small>UOL · 04/11/2026, 15:44</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxNTV9ZeTc5b2YzWV8xUHBuUFVpdDdtX0JLWVpMamVDWVRJY0hsTnFYM2V3ZlBLcFpkMlF6amxpUkdNUkZ5ZnlITEtzX0lJcXdGOTlPZS1MWWVldV9wc2hTcU9yMkhpMHlIUHFma3JybDNPeVBpX0RiZG82WjBHLWJfRGpqOElFSUJFdFBKS1VtWHdsSHF3NEpxdG1mMmJNSV9EUmZabmFoOG15dDVVX3V0RlJzcXk1SUlHSDFYOUk0VXdfMjBWbmNDLWZYWQ?oc=5" target="_blank" rel="noopener">Estudo: monitor de glicose melhora controle do diabetes tipo 2 sem insulina</a></h2>
+    
+    <div class="tg"><span>Diabetes</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="pessimismo com brasil bate recorde e gestores abandonam bolsa exame ">
+    <small>Exame · 04/11/2026, 15:40</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxOT1Vzbzl3bm1NUlpxVU1nRjBCY0lGOXJJNXJ5UU9QTzJla0NTa29HTTNaZnJQZDRVb0U2Ym9pQmFnM0RNbjQwMGoybXpnSmxKeVo0cDF6Mnk0VGJWdHhXS19KUVloUEJmeG94a3ZCb2MzSnZzVlllOXFaTlJGQWR2bUFEb0FFdzhDV3lXcXN6WWs3TVhSYWhJVHJGOUw?oc=5" target="_blank" rel="noopener">Pessimismo com Brasil bate recorde e gestores abandonam Bolsa</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil registra pior setembro na criação de empregos formais desde o início da série histórica, diz caged jornal de brasília ">
+    <small>Jornal de Brasília · 04/11/2026, 15:35</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi6wFBVV95cUxQOTZOQzFKaGlsR2JRWFRuNkFBcnJHend2Z1RENzM1TE1IcHo0WWVjWlF0UWUxZ3NKRHVfVE9zOTN3UWxZa1FuU1IzOTkyYm9JZENvcnpaZG1yVFdzUUs2ZW9tdjhzSmxIRzV1cC0xcjBvcHJQbUktTDdBMGM2VWFUTHZiWHhfZTFmWmsxbkNGOFRQaU9QWDJESC1LeXQ4TGNrY2pNS3ZmcmM2c2RBYXd1SG9ydFpPbmFFLWZISWxGYVdUbUZxRDdWQWE2WHFqSDVHLWdObXd3Q29SUy1hOGhfWHVRbU5Lb1EyM1Vn?oc=5" target="_blank" rel="noopener">Brasil registra pior setembro na criação de empregos formais desde o início da série histórica, diz Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="marco da economia digital atrai apoio de especialistas na câmara dos deputados página 1 mt ">
+    <small>Página 1 MT · 04/11/2026, 15:31</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxPM2xJaUlaQVNidzYycGNwWUJ1a3hNdkVLZGN0cmdsZnZaMmRSbXljQWVmci1HTEFEYk41RnpQcHFDaWxzRzRobGJSQ2dwYjVIRnpXMGhkSVJQQTNFRVZRb29CRWNYVFZUQW8yZHBKZmtyTWpNenVDVzhCYnFwSGN5ZG1FZDdfR19WRlVDblducndjRkFRYUM3NlRmazVuQkpzNHoyeENERGxiMXhBWFFpVkh2OA?oc=5" target="_blank" rel="noopener">Marco da economia digital atrai apoio de especialistas na Câmara dos Deputados</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="livro percorre 250 anos de relações entre brasil e estados unidos veja ">
+    <small>VEJA · 04/11/2026, 15:30</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNanBacHBQSVIzVEYtYUJKc1pWSllKMXpmd2thZnZPNURudDcxUEFIbG9Ja29kaHd1SjE1Wm94ZC1FYkdvU2dicTRRQktMTm5tYVQyVnBKRnM0RUZPWFFQZ1ZHcXhPYjMzX0xyMFVEblFxcmFVcGwxZ1paM3lKanFwVlJhYkxrQ0prQThDdExjaDlhNUM4bW5rYTczaUJTWE9uVjBJ?oc=5" target="_blank" rel="noopener">Livro percorre 250 anos de relações entre Brasil e Estados Unidos</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil registra saldo de 121,3 mil empregos formais em setembro, aponta caged veja ">
+    <small>VEJA · 04/11/2026, 15:29</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPMUctMkZFbEEwdkc0d2E5TmdXQUJPYzlKLTRaaEJhUlNMYllKcWJLUUVWbGtUZUN0d21ZYWp4ZE5Ta1JHVi0waUp3NU4tNV9kbnJsYlFJZjd3cFQtb19mWWdjUlJoMmtiQVpfUjhLRXpIenFybUxLemJ6SVRJVFoyT1V2a0ZCOWhuN1B3RU9KRXRDU3JZYUVFNTNNR3QtbjRiZ1Bweno2YzFKdFVzX0lwaA?oc=5" target="_blank" rel="noopener">Brasil registra saldo de 121,3 mil empregos formais em setembro, aponta Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="economia perde força, emprego resiste: os dados que vão pesar na decisão do copom money times ">
+    <small>Money Times · 04/11/2026, 15:24</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVUdXcHlpT2RwTGI1RVc3SGJ4YUtITUhQZVlncHhCeTdpLUhlQXNJNVBNbWY0azRfdDNITzRkam1QNDdaNjVLaGNBRkh0NWktWjVZemtKblhWeXJDb3A3WVd5Mk92c2k4eThJRmNoN1RUQkVDTk81U3JlQnFYMXBrckxGX3lqTkZBTzBhaE9maGtqcWhIa0M5dTJic3BfelJsZVZtMXhnYzNhVEZpSWRyZkswWHRuNVBXVmFaSkNUTWF5TDFYMzR1T05SandnWVBXcUE?oc=5" target="_blank" rel="noopener">Economia perde força, emprego resiste: os dados que vão pesar na decisão do Copom</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil cria 121 mil empregos formais em setembro, aponta caged portal vv8 ">
+    <small>Portal VV8 · 04/11/2026, 15:18</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPeVhCamVMLWZFTEtIRTc1U0hQZS1vTThkUi1UaXFqUWVPdU1UcWUwMi1vRnJOdlY4U0FjR2FXSV9wYmVaVWhFdUNyYUNQZ1NPZktEaExSTEMtWGpZUDJCOW5qS25QdGs3SFBTUzRpZGM3Qk1pU2dZanR0bzEwb2lDdVBrOHFGdU1pSmxQVUtJRThTZHU3WERwc0tDUFNRVzVoWnc?oc=5" target="_blank" rel="noopener">Brasil cria 121 mil empregos formais em setembro, aponta Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="analista de dados ou de inteligência de mercado: qual carreira combina mais com seu perfil? exame ">
+    <small>Exame · 04/11/2026, 15:11</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdl9nd1FMdWE1UXhGQlkxZnNuQTVMZmR4T1ZGZG1CZ05UMVI1cEdsUWs3cTQzRUw0LTktclA2eXFPMUJOVGgwNGxvNFF3djhZWHhFRkdLaUdESFFVbTFaOG1HaFNjMjlkSTkwUjR2YlZfRW9XNF9RNldHMkg3cWNCdTBSTEZ0dGFocXpOd1FpY0xxM3JsRC1rQmk4VDhESXRCV19JaEJBOVBKQWszN3hxd3U0MWJQU1pP?oc=5" target="_blank" rel="noopener">Analista de dados ou de inteligência de mercado: qual carreira combina mais com seu perfil?</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="tesouro dos eua mantém leilões de cupom, mas altera comunicado cnn brasil ">
+    <small>CNN Brasil · 04/11/2026, 15:09</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPZHpCYUpZZWNmdEE5QkdYSGQweDB0N2dkbnhoSzJwUERMcUVkeU1ZVWZHaEFCdFlQajFfX05TWFlYMGJiMXlES3VtbVU4VTAySWVFRU9oUk5IM1dhSkF5Vm1Xcm13TmRndjZDSmpnR1hNMFEtNVEtakp5Q3hSa2xFN2hBalVUb1poZ2tyUldnbTFTZmhxSGg0cmtDa2o4cVN2eW53ZDhMSm0yVUR1bmwyZDYxSlhPM1hIUGFHcQ?oc=5" target="_blank" rel="noopener">Tesouro dos EUA mantém leilões de cupom, mas altera comunicado</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil registra pior setembro na criação de empregos formais desde o início da série histórica, diz caged folha de s.paulo ">
+    <small>Folha de S.Paulo · 04/11/2026, 15:01</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxPYmNrYWxETDkwalRXYnFPR1FJdEtzSlNLbEtIelZwQnB1aUFybzZGYTVIRHNnbXhqX3ZCc3NjZURNRmU1NVk0VHZjY09UeUZzVTRZNnhFT1FIdGRfeHRwdXpDRm5tOGZzVWd4NDd2YzRYdW41TDloRGZxU2VxVGtCaTZiV0N3RF9aN1hseDdFTXR6ektqd3NYbGMzbDZNQ3lQWUQtSW5xUlRkLXVUNDJXclpuV2NVNFltMWVZZThiSG9BWUUxTkFyc09BZnVwNUV6YnRSWFQybnVHdEhHRm9HaE8zb1V6YWtSSGRtTQ?oc=5" target="_blank" rel="noopener">Brasil registra pior setembro na criação de empregos formais desde o início da série histórica, diz Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="porto de santos tem 23 vagas de emprego nesta semana santa portal ">
+    <small>Santa Portal · 04/11/2026, 15:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxPUjhsUVlNLURFa1JOdnhmY2ktUkthWUhZVDZMUHlTbW9CbllueEhnRmlzVTVtdXhfNHpqRnNENkVWbDZ2eFk5NGhqQ1JPM3JoaFREcDBqdEtIZXFnUHQ2MmhGaXQ3cDY4NkhvUVJpNndoc3g3TjlBZXM0NlJzcVFpTEJxQVVZWjhldURxaVV2RXE4a2EzSnlSUGdUYkppUjhf?oc=5" target="_blank" rel="noopener">Porto de Santos tem 23 vagas de emprego nesta semana</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="caged registra 121,3 mil vagas formais em setembro, pior saldo da série do novo caged bpmoney ">
+    <small>BPMoney · 04/11/2026, 14:57</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ2czcG44Rld3czQ0QjYwVENkdWFwTHFGdDIwN1IxTEEyMjdKSlJacFNrWlp3a1RPQnMxZndrazc2cF9aMk1LQmVHUTVWX0w0cFktQzJLWk1lQXhrZmdkRGxIVUdQMzJjRjFWeVhaeC13TkFGSFNOREhYdmRYSlgxaEh6eVF4aC1Na3hjTDZGSTMzcEtodnhfSjNya2xiMGNz?oc=5" target="_blank" rel="noopener">Caged registra 121,3 mil vagas formais em setembro, pior saldo da série do Novo Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil cria 121,3 mil vagas formais em setembro, queda de 43,5% ante 2025 o globo ">
+    <small>O GLOBO · 04/11/2026, 14:56</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbzBYbU5OdE93TFFWaW1WS0tER0J3dkZIY3MxZHlzbXNKYkZVOGRnci1zSDVqWk1XVUhBOGJqXzE3a3lLclVlS01YTWpYdXVHMWxrbVNGRHF0ZE0yaVhBTG4tMWJzdXdqVVhHX19IUTN1eUdsSnVvRnlVaWhDYktST015VkpqTnAwR2JRemp1dkthenVjYnVWU1NnRmV3RmpxZWxnaXkzY0xiYm5zMXYxRUEzZDNVSGFMYXdqRGhCbU1XQkVjRUlLOTZFT2wwdEFW0gHfAUFVX3lxTFBpM3hYV3g4dmhZNmVzWUQyYnZTVDNkUUhqS2VCZVVjYmJVc0JzSDNERjRrN1M4TEFjTFFURUJvMGNYT1g4azRlTGtFZURVRjFZXzFVTmNDT3o4Y1J4enEzdXA0R3JLTkJxU2hORS1yZWliRUdLNWNFVXRLSnlDV2ZKM0w4NS1Ga3JpR0I3VFFNTkt1dWhabm45Nzd5QlZyRTVVWXdkLUVmdHlMb3NfcWNncGNaaXNUU3dVcDU0MGtkX2RrR0lfYXJnYWhuZlFyZTlhSUdxaFZmVzN3MTRIWm8?oc=5" target="_blank" rel="noopener">Brasil cria 121,3 mil vagas formais em setembro, queda de 43,5% ante 2025</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="ibovespa sobe com eleições nos eua e expectativa sobre juros no brasil bahia econômica ">
+    <small>Bahia Econômica · 04/11/2026, 14:51</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxPRTZOVFBOSHRLWWpka2ExTEYyQS1xSXd2blFzZDVfRTNuQ0JIaXVUUFZtNTFPcUh1XzVyNVJIMFhOVlRaZlA0YThnVWRpMDYza3dlMUdQQUJYVmxrdk95MVdka0ZEMW53eVF3MVh1WEQ5ZWdmNk9nZkxaaFVEZDNqWnJCNmxwM05BTU1nc0xQSFVBN1R2UEJ1NmZDOGdjM3B4RlFSamhpeFRjMUQ4Wkw2LUNvUWp6ZzhsTE56SEZDc0dDNGZDblE?oc=5" target="_blank" rel="noopener">IBOVESPA SOBE COM ELEIÇÕES NOS EUA E EXPECTATIVA SOBRE JUROS NO BRASIL</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="juros altos no brasil fazem 94% dos patrimônios nacionais ignorarem o exterior, alerta estudo www.bra1.com.br ">
+    <small>www.bra1.com.br · 04/11/2026, 14:46</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQczlUcEowT3ItNHppUDBxVnZYT1hINWFBb0xQYWVTX0JDdzczak5mbTZFb3BNUU1scXN1SGdPVEllRUVxVEtuR3Z3bkx6X2hrWEc3MURaemVsU1ZZcWIzcDdDaHpwYzZqV2k3cVRqRlI2TkJmRDBVdUUtekVHaVYxM0xXTWd3Y09kSVZ1M0hRX2FldEIwUE5sZU5vczdhcGhrc0U1dVZsX0lFcHktQ0cybmFweVRNTURsS0xHb013Q0lycVJFQUpjV0dvV1VEY0RjSEE?oc=5" target="_blank" rel="noopener">Juros altos no Brasil fazem 94% dos patrimônios nacionais ignorarem o exterior, alerta estudo</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil abre 121.305 vagas formais de trabalho em setembro, abaixo do esperado infomoney ">
+    <small>InfoMoney · 04/11/2026, 14:44</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQb2laZUJDckpoMW4zNmkzd3FLOWF2T1BVUndHMTByMVp3eExMeHhzZDVKTXVRZW9TRVM0T2FQZDJROHRGcDlCRWhMNjBaYzJiclJ1VlRxSm42SmljdHdHdi0xY2VpenJEa0dMZ3plbFdlaFlMRkluN0dYOEJWVXp3VWRXWnVyQjlHemhaR1lnbmtTRVVlYXZOdDJRNWgyQUZuRjVvMEk1OHotWFRmTnVqX196RTYyQdIBuwFBVV95cUxPelpxUFFmbTJvdTZiWnBCQnh0V0FjMVJIZWFQTnpQYTZfRWxtS2duU202dTd4MVVZdnNtUmV3eHFsbGY2VlBDcy1FRlNPMXJBSmVfY2VrTENmakd4bE5QaktQWTJodk5tTndHdWZ2RG1KMnVnOXpnVndlaGIxR0xGNlF6M2ktZUJldFQtVV9xUU1vczh0aEJWc256QUdLVlFWU01ocFRmVkRNQkNUSkpuSTFSZk94VU9NTUZj?oc=5" target="_blank" rel="noopener">Brasil abre 121.305 vagas formais de trabalho em setembro, abaixo do esperado</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="ana paula dahlke e economia sc são finalistas do startup awards, o oscar do ecossistema de inovação e startups no brasil economia sc ">
+    <small>Economia SC · 04/11/2026, 14:42</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxOeUtNZXMtd0tRb3ZLU2MxMkNFckFTaFQ0dGVfRVg0VnBleTVJbE14S01WR0hEQVJuUF9DVXJ2TE82OG9MWG5kOW9ndjdPTS1aWmxIejVyS2FMcUJ0NHE1eno0SU9oTHF4aTA5UnlWcWVfWkNFaUtOcFRVRDNzaTI5UnpXSURQYVdEVmhJcWFmTk1USmt1NkhhYWJRazZsMzU2WHJxaEYyS09qUmh1RC1rM2hWczhKdnQtQUFyS3dYdGlIRjQ3RUpTZlZ1b3NTamFoS3J4a3NYdWtHUERGUU5YZnJ2Q1RmS0I1T3c?oc=5" target="_blank" rel="noopener">Ana Paula Dahlke e Economia SC são finalistas do Startup Awards, o Oscar do ecossistema de inovação e startups no Brasil</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Varejo" data-b="a força de um clássico: como destacar o arroz e o feijão nas gôndolas do supermercado asserj ">
+    <small>ASSERJ · 04/11/2026, 14:41</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxNSnRzTW0tQXBIR2l2b09MSGt3MVpBQjU3MWRUZGRwMjNmTXpYR0lMTXVXRzdTZ0J0eHlXZDNNQWU3T3E1V0hwN29CY0xoaUlCcUliZ2Zxcm5NOTkyUUdkazlGanVkZDh3ZTVzSUtTOEJxNHRBZlAzM214cjVVejBQdmRqU1puVkFXeHMzNlgxM2MxbVE2SXRIVGJ1Tnc?oc=5" target="_blank" rel="noopener">A força de um clássico: como destacar o arroz e o feijão nas gôndolas do supermercado</a></h2>
+    
+    <div class="tg"><span>Varejo</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil abre 121 mil vagas formais em setembro, pior resultado desde 2020 uol economia ">
+    <small>UOL Economia · 04/11/2026, 14:38</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQM01GdkVYVktmOTI1NVl4Q2MyaE1QdjJKdW9lU19wSW1oNUxXdkdyUW1fTjg3VWdTNFMyaXVQNUlVMzVxZERJa0poakNPc1lQVFRRZlNDdkxPV1FMRVg1a1VsZnB2S0t2UnUwa3RMWWkyOHVKSlI5VXVnWW9Td2JJOVB2RFNzTUk?oc=5" target="_blank" rel="noopener">Brasil abre 121 mil vagas formais em setembro, pior resultado desde 2020</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil cria 121,3 mil empregos formais em setembro, aponta caged cnn brasil ">
+    <small>CNN Brasil · 04/11/2026, 14:35</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOUlZNSFVKdU44X0dpZEJKRHJhVFhsZldqVG1EQzJ4Z013S1lyQzFhWFkwQ3ZvRnh0Vm5sdzhSMVhaN0NpUzk1N3Y5djJtVFRHX0Rpd3VRdEZJYzhHaHphOU4xclRoNTRVX1lsNWJFUV9YN184Q2pmNnI4WXZCb0pqWjZZRW54c2o4UXRxTl9tM0J0dWppbEN5dWRUUk5MbGkyY1pCb3Vfajd3NHlLSG14U2NVZkdGZmxkM05MaTd3?oc=5" target="_blank" rel="noopener">Brasil cria 121,3 mil empregos formais em setembro, aponta Caged</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="cnc aciona stf para adiar fim da escala 6x1 sbt news ">
+    <small>SBT News · 04/11/2026, 14:35</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMikAFBVV95cUxPck9md2I4S2laVFp4dTBrc2NQTnFtTF9aUkVxOWozWnZuUnZZZEpFTlBLY3l3S3dLSnJQcGo0dUdIMEFMMk80X0d1S3hXRlhseTVSS3JDbXM2VzN5YllBSF9TeEM2eVRBaUIyYnVzc0lnb2xaZ1NwcEE1TUVKWGFlMmQyaml3WFR5a1NuT1dsWmk?oc=5" target="_blank" rel="noopener">CNC aciona STF para adiar fim da escala 6x1</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Laticínios" data-b="paraíba terá a 1ª fábrica de leite em pó de cabra da paraíba gerida por assentados do mst; projeto foca em merendas escolares e exportação wscom ">
+    <small>WSCOM · 04/11/2026, 14:34</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiiwJBVV95cUxPM3RfNVB1alZINkV5ZzJZbjgzRmZhMGpPZEpDbUlLbUtwVTFLZ0FTSF94Wlh2MWJid0lnUTMyTFlEaTZMc2MtYXl5RG15WHktX1FvOENiYk15TkQwSzlZa0kta3lhYWJJelo5NW12YWlmUnRua0ZnYWdGTTJDTkR2S01xUXNXcEVPUmVSdDB1VGxZS1FzMVlZWWZNR2cwcFZmUmNIRndZRTFxUGNXajdFZTdEbkN4R2E4Vl9KRVZDM2FBTzVtWm9fZExoY3VnYXhUSEREc0NYRmFyNFNfQURYRGxrLURKTGt4U3RzR0s2aEJJd1N4Mjctb0UybzdfcGVtWi03QV85a1l5QzQ?oc=5" target="_blank" rel="noopener">Paraíba terá a 1ª fábrica de leite em pó de cabra da Paraíba gerida por assentados do MST; projeto foca em merendas escolares e exportação</a></h2>
+    
+    <div class="tg"><span>Laticínios</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil cria 121.305 empregos formais em setembro de 2026 poder360 ">
+    <small>Poder360 · 04/11/2026, 14:31</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOSUR0TWZsNTM4VEtzXzRPbzF4b0ptb3c1TTdtTm45Z1JZQ3Nrb1dFbVhKT1NQUnNsZko0X3lqeklRWkRqZkZLS3pDVUhBN0pfbXFkWXBjSm5UeENVc0FCektYYnlKR25oYnNLNGo5RG8wZG1RT3dZQTUwb3Rkd0lYODFMbmdhdnVNYndvdTJsVGRlaUxtb0JfeVcyTmxfeDd0VXc?oc=5" target="_blank" rel="noopener">Brasil cria 121.305 empregos formais em setembro de 2026</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="canada goose reduz em 37% o tempo de fechamento contábil e economiza mais de 58 horas mensais com modernização financeira microsoft source ">
+    <small>Microsoft Source · 04/11/2026, 14:26</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMijgJBVV95cUxPa1U2c1U0WG84aGZXa0IwaUVVTkJpY2ZESmZKc3pTRU9PbS05a2xjUWVZbURfdWdZZWFNYWNzM1JMUG04RGtUTElIdk1oY3lwUWxJVVM0RWY2cTVKRE9PejJXMG9tTFhMMU1iMURKR3pfOENjazJtZ2w0Q3A2ck1KOFJ6OGc1eHFUU1FJMDVwS2VTRE42d3FtVmtnTkVMOC1KVDdNaWhoRUtWYlJsaGNpSWlfbzNJNjY4eGw2OHdmMUw5dmY2U2lvTWJoVEJMcDJVdktNTnNFWXJCdjQ4NlNheTFQRFN0ank0Uk9zRUV5TllnNklHTXZET0V1VnJKQnJacVNWODU1aEQ1WnJzQ1E?oc=5" target="_blank" rel="noopener">Canada Goose reduz em 37% o tempo de fechamento contábil e economiza mais de 58 horas mensais com modernização financeira</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Varejo" data-b="alta do ouro afeta preços do varejo no brasil rede brasil de televisão ">
+    <small>REDE BRASIL DE TELEVISÃO · 04/11/2026, 14:26</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNajFtaTZrN0VFV0xXTGZvZ2FwVlNnMVdSSGJhZEdSMlo2R09ZSEJRcEJ0azJ1T0lZeU5WbWN2akI3MTU5OGtYdllZdUdfaTFvR0liRXF5Q1QxaUVFNW1ORS1ybldlVE9Pc29oZWRZYnEweGZNQWliU21uMGMycFJmeDI4amVJdw?oc=5" target="_blank" rel="noopener">Alta do ouro afeta preços do varejo no Brasil</a></h2>
+    
+    <div class="tg"><span>Varejo</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="satisfação financeira dos brasileiros cai de 33% para 27% em um ano, revela ipsos investalk ">
+    <small>InvesTalk · 04/11/2026, 14:17</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYXF1cWtjTC12U1l1dTdPV0tuOHltWTREUkJNWmhDT2hPWl9BR19SZWE2SDI3WmRNajJGQnlITFFQdGw2T01aVW13X2xzcnZRcmRyR3B1dzU0Ym52eXo1U1VpQWFvbDY4eFZVSm5ETXVpVjgtRExYT3c1MTBVbVNyVUhkV1FNY2J6cVJpWTRZaDBFSEpTVTAxSGNJdGhkdVRUMEpJeDlTRG0zTTgxOTZjVEN1MVVIUi15YXM4RDFjbWtlQQ?oc=5" target="_blank" rel="noopener">Satisfação financeira dos brasileiros cai de 33% para 27% em um ano, revela Ipsos</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="markdown: data curta exige estratégia antes da rebaixa de última hora supervarejo ">
+    <small>SuperVarejo · 04/11/2026, 14:15</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWDhkSmVySzBtNXM0b1VkVlFNZnJubzU1cGQwTjBGZU1rUUFBZU02ckV4M2o0RGt6a0RmeDUybnA4ekFMRlZJSWZ3aE5oN0tjbU00blJCazZRV0U0dUlOR2Y2b01YenRpS05PQ2JDQndXcGhBTXRVY0V5TlFDSlVTSG4wWkhkdWVjekFpUThYWGt3V1JMUUpKWF9aOEhrTXNLTUhwUnZKblNPdw?oc=5" target="_blank" rel="noopener">Markdown: data curta exige estratégia antes da rebaixa de última hora</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="cnc pede ao stf adiamento da redução da jornada de trabalho tribuna do paraná ">
+    <small>Tribuna do Paraná · 04/11/2026, 14:07</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcHk2U2k4QktzbU5KT3lCV0swV3lOcmVTX2pOcEk5SEhSSnNYZGoxMWJLdVdHbnhjb1BFS29LVDdGX1V1TE1Fb2lQbElUWExMT3RmYm9wLVRBSldjaEJEN21nWEU2VzlSb0tCZHVfSWhabTJVQ0F5c2lKcTZudTZmcDZyTE94eDM0QXNPWjI5Q2hCSThIeVVpQW1nN3ZoTkZpWXczNnE1QWhnUmZsSVNldUhlYllmc0lZ0gG-AUFVX3lxTE14OHl6b1h2bElTa1FVeFZaeEE1R0RKNlVmU0IwNHFZQmR6TDVLZHo4MVlWVjlBcDdpWm1udDYtOG5WNVA3Sjg3ZW5RRnN2Tnp6dmZGaWJwZ3p3YUwzRzN1LU43aGQ2WXZ2RUFhRFZhZmhDTWV4a1Bfa3lka2FINmNKeDFoc19QZTQ3MlBrYmppNXUtYXVCUXZEWDlmcjdmLUZmNGhGZmJWTU85cUZhTDRDRGxrMVpoTE9EdDZxalE?oc=5" target="_blank" rel="noopener">CNC pede ao STF adiamento da redução da jornada de trabalho</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Power BI|Varejo" data-b="odd limppano anuncia novo diretor comercial com planos de expansão no varejo nacional asserj ">
+    <small>ASSERJ · 04/11/2026, 13:46</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPMWhWLWxRMUpwZFpzNmZucnR2OC1yUUQzX2pPZVFBak1ZUGN2cU8tMTVORUR5NjJCZFlOSWN5c3cwX05wM3kzM1BhUVhEQ201ckJkbmctWWJzNU5HVWlBQVo0OUpvSUxoU2FreC1wN3dRLUJIVGFlVkZHdTBEVHFWRDRZZ3RHdzltcVdGVUxSTTktWE5qbXBvMzVmS09EWEtaSUtkQmptcjhLb0xoNnRRT3lvcmdnSnZkdExiUg?oc=5" target="_blank" rel="noopener">ODD Limppano anuncia novo diretor Comercial com planos de expansão no varejo nacional</a></h2>
+    
+    <div class="tg"><span>Power BI</span><span>Varejo</span></div>
+  </article>
+  <article class="card" data-t="Varejo" data-b="cadeia de frio: como preparar o supermercado para o segundo semestre sincovaga notícias ">
+    <small>Sincovaga Notícias · 04/11/2026, 13:45</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZUltTnpKSmVBcWhFWGJld3pxVV9XSWZRVnRpRkVwVHMzYjdVWWRDdFlOdlloX1hFM192RlluYzU0RWxub0w5R0dqMng1TjdFSlBIMDR1aXdrNVdoTXF3Yk5uQkV3eUctWnZ2cjlydjB5YnVNZDNSWlN3bmotOGNkUVo0SDVxRTZJdHFyMTJNUzl0SlY5OG9EaUExdktXTkFGWGgxbi16SFM?oc=5" target="_blank" rel="noopener">Cadeia de frio: como preparar o supermercado para o segundo semestre</a></h2>
+    
+    <div class="tg"><span>Varejo</span></div>
+  </article>
+  <article class="card" data-t="Diabetes|Varejo" data-b="feirão de empregos do savegnago supermercados oferece 150 vagas em campinas sincovaga notícias ">
+    <small>Sincovaga Notícias · 04/11/2026, 13:14</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxNZWU4WHRIWGs3bmluSTA0S1RibDk4WDZOMGI1aHNCekRxc1EwdWt6VnpSNEN3a3hSWHdfVENSUVdibHI5OWhFRlF1bnNYZHhGZXQ0Z3p2bl9LQUsyLXRxU3R5NnFQSDJvQXRXbl9RdkpqZ3I1dU9KdlZISGlHNVBlYm5yTzl0VzloUGlIbk0zWnRBc0pMU280ZEItcktrVERrb3NiTUZEMmVCWDhkd09ndWVHUQ?oc=5" target="_blank" rel="noopener">Feirão de empregos do Savegnago Supermercados oferece 150 vagas em Campinas</a></h2>
+    
+    <div class="tg"><span>Diabetes</span><span>Varejo</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="rivalidade entre eua e china impulsiona investimentos em mineração no brasil folha de s.paulo ">
     <small>Folha de S.Paulo · 04/11/2026, 12:55</small>
@@ -86,20 +332,14 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Economia" data-b="economia dos eua dá sinais de fadiga com inflação persistente e queda na poupança www.plantaobrasil.net ">
-    <small>www.plantaobrasil.net · 04/11/2026, 12:49</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxPMFdZMHdFcHlOMURQWFRGeGJXOHpWLVBZVGtWU2w0NEx6TWhTXzVjY3pKSWdDYkx1SmstQU0zOUwzd1ljR1ZBTk1YTzlXSVdtYW9zM0ZCc1FvbkFkdnpDVmJORGpJS2pNOERfcExnNkYyVU9xT0VxVUJmQVpqQkJLSFA3SDJzNGZYeFpSYkh3a1M3Yzloa2dSSEdOT1hmQks5VDBZYzcwUFFsSEpUV3pSUGliek1QTW1rcWdIOE1MemNhSzA2dVE?oc=5" target="_blank" rel="noopener">Economia dos EUA dá sinais de fadiga com inflação persistente e queda na poupança</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
-  </article>
   <article class="card" data-t="Outros" data-b="rio tem mais de r$ 25 bilhões em projetos industriais e pode ajudar brasil a reduzir importação de fertilizantes diário do rio ">
     <small>Diário do Rio · 04/11/2026, 12:44</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi8wFBVV95cUxNS1FRUHBZUGFjV2pQUHQ3NXNGZmthYklVcFJ1MGRHaEc1dW1NWENZMVN1WDNsQ1lwVW0wRXpIdWEyNlU5cVJlemtvUGZ3bmUtTEZzaEpTNWZLV25BdDJzd2J0ODA4bHI4VkFBd2luanBTSndORnJVUjFhbmNGbmlqMm93LXFoSW12SFNqZVFFcVdnMmlLUnprQk94QTBqNUMzOW9GSDNrdTl3ZU04V1R2b3pXRjQxNV9NYWxicmlDTjNuX1VDeVJMWmdDb2JCVFZ1WW9rQ1JucDdPampSc01vb1VqcXFWVk1iRDFOYm1LMV9aelE?oc=5" target="_blank" rel="noopener">Rio tem mais de R$ 25 bilhões em projetos industriais e pode ajudar Brasil a reduzir importação de fertilizantes</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="refinaria de manaus abre cinco vagas de emprego em diferentes áreas; veja cargos segundoasegundo.com.br ">
-    <small>segundoasegundo.com.br · 04/11/2026, 12:16</small>
+  <article class="card" data-t="Outros" data-b="refinaria de manaus abre cinco vagas de emprego em diferentes áreas; veja cargos segundo a segundo ">
+    <small>Segundo a Segundo · 04/11/2026, 12:16</small>
     <h2><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE5QbUFaYUwydFcweDNmdVJiWExsYXV3Y1pGc3dkYzE4cGVLRHJPOUl4bXJkMTViemJNVVV0eEIyS2s5MjlJUmF0WmgwSWRrN0o3V280WW1Id1hZckhxY1Vwa29QNW8xeDh1ek54VjhQUDV2Z3Jx?oc=5" target="_blank" rel="noopener">Refinaria de Manaus abre cinco vagas de emprego em diferentes áreas; veja cargos</a></h2>
     
     <div class="tg"><span>Outros</span></div>
@@ -109,18 +349,6 @@
     <h2><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOVlRodkJMTXh3WDMtZjF1dWtKclJMVUZveE5zdExSQnVMbDRfejFmcmpSSkdWUTdBWXNXbnd6bjYyVUI5NWxEZThlRjNEcWVDaGV4WG1ncm9NMFVlemNXNGtQRG4zY19ZN05RN0k2M1lTV0JFaVdEVTVVMEtCSDlJb19HSDhiSnYxYXRHNXhuaWpmVnRrOUNqMDF0Q1RrQQ?oc=5" target="_blank" rel="noopener">Diabetes infantil pode surgir silenciosamente e exige atenção dos pais -</a></h2>
     <p>Diabetes infantil pode surgir silenciosamente e exige atenção dos pais  - Blog Dellas</p>
     <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="autonomia do banco central – problema ou solução? - a terra e redonda ">
-    <small>A Terra e Redonda · 04/11/2026, 11:50</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQeXdDdmVuT1VIX2J5aUdiSzVMQUlZTzRIYUoydElqcVRhUkczUXZfXy1LT0IzUWFyRHlPSlcwbW90YmRPcXVxU05qdmwwbnM1MS14YWJLeEVjM1k4WjhMVFNGdXBBZTZZRGxfZ1VsdGh3WWg5N3NDNlNaS0xOVFJvc2ZpYw?oc=5" target="_blank" rel="noopener">Autonomia do Banco Central – problema ou solução? -</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="jpmorgan vê risco em aumento da inadimplência no banco do brasil revista oeste ">
-    <small>Revista Oeste · 04/11/2026, 11:44</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQWGU1LXhVQ2hRRS1FTjRldUQwLVZ2Y2hMTlRzT3RTYjYtVVlRTkExQXVWN1dObzYxWWktYlo5V1Atb1JwM3R2SzJzWE91bllnS0IybXZ2Sjh4a0tEc1laR2FaeEJYR09vdEFvdDY0TUpmS0FvTkJ0NUp4WXRJRnp0SFZJQThBVjRpSzZGVmgybW5mNkpkUm54SjBuSktuR0Rr?oc=5" target="_blank" rel="noopener">JPMorgan vê risco em aumento da inadimplência no Banco do Brasil</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="vitória democrata eleva risco no brasil, mas pode conter trump tv sim brasil ">
     <small>TV Sim Brasil · 04/11/2026, 11:32</small>
@@ -134,11 +362,11 @@
     
     <div class="tg"><span>Economia</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="o globo aborda expansão da starlink no brasil jornal diário do povo ">
-    <small>Jornal Diário do Povo · 04/11/2026, 11:30</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPVzYxaDRPV0NJZmNrenlpcmRxOExVbGNERDcyRlkwRmxkeElUNXdZcXBBSlIxbUJBY2NfdkdCY0ptZ09aLVd5RGtvOVBsd2NmaUVpcDlDQXU1endaUHhHU0JHbUZDU1hfU3lyQ3dGYTRmTzNTTW5VcThNa3NEWWxCMmljc3hkZkcwUlRJT00wRQ?oc=5" target="_blank" rel="noopener">O Globo aborda expansão da Starlink no Brasil</a></h2>
+  <article class="card" data-t="Varejo" data-b="perda de r$ 800 mi: o que ocorreria se os ataques hackers aos supermercados fossem no brasil sa+ ecossistema de varejo ">
+    <small>SA+ Ecossistema de Varejo · 04/11/2026, 11:26</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQd1RnWFJKcFNZYXNBcTlta3ItTXU2dlBvUmx2SzRNUXcwVTFvTmF2QWl2QnJETEt2ZzA3VkxobDczRFZwZGJRSW9OV3RiQU5QZ3pONExQeFVUeVBDVEhFY1FZNi14V3Y1cFNGR25rSEFrbjhCd3JvRlVBdk8yTTJUdW1BLTVYVnZEenk3bWZyeHJyNU9FckhUa1JpNDBxV29MRm5mc2kyak1QYmdpTWluUmNLcFNHa05HWU90a0g5bzVodw?oc=5" target="_blank" rel="noopener">Perda de R$ 800 mi: o que ocorreria se os ataques hackers aos supermercados fossem no Brasil</a></h2>
     
-    <div class="tg"><span>Outros</span></div>
+    <div class="tg"><span>Varejo</span></div>
   </article>
   <article class="card" data-t="Varejo" data-b="efeito positivo: proibição das &quot;bets&quot; no brasil reaqueceu consumo nos supermercados, revela levantamento vitória da conquista notícias ">
     <small>Vitória da Conquista Notícias · 04/11/2026, 11:25</small>
@@ -149,12 +377,6 @@
   <article class="card" data-t="Outros" data-b="brasil tem 84,2 milhões de inadimplentes e marca de 51% dos adultos pela 1ª vez bpmoney ">
     <small>BPMoney · 04/11/2026, 11:18</small>
     <h2><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWtuN0EyQlRhbTVHQl95RGE0eEVGcXZoSWVjdmltTmlVSmhaZFpJcEhWTkF6X2xhQ3RwYjdsUUJLT2MxcDdHNE80M1hrQWdUczEzT2Y2Z0xkcFdueE8yTG5LTnJ5N0F2Zm1fWE5UTGN6eWZQeXNrTUlld3JvM25uR3R1TFFYNzA?oc=5" target="_blank" rel="noopener">Brasil tem 84,2 milhões de inadimplentes e marca de 51% dos adultos pela 1ª vez</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="brasil atinge recorde de 84,2 milhões de endividados; saiba como negociar sem quebrar o orçamento www.bra1.com.br ">
-    <small>www.bra1.com.br · 04/11/2026, 11:14</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM3RnaFBBUzdwRVlUTWxHaGluWEtOTmNLMEhnOWp5azl4d3dIOEtHblZXbFlDVWkweTdtQnh4Zk9kV2xudjlnb2tVTC1QM0g4ckZmYTRIaHlCZDJEakpEdkRtRnd0S19tUDRzWHJhTlFSU09Gc25WdFFmTGFTTlNhWGZfT2dJei1rLUc4REo3RTdhLVc2UjA2M2s1VWZ1YzZ4UWZHdUM3dWFvXzBvajlHT1pWT2ExQ2szOUhLSy1QRUg2LWxWRzJyMDdjVXBnaHg1RDFfSS0zcw?oc=5" target="_blank" rel="noopener">Brasil atinge recorde de 84,2 milhões de endividados; saiba como negociar sem quebrar o orçamento</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
@@ -190,9 +412,15 @@
   </article>
   <article class="card" data-t="Diabetes" data-b="pane silenciosa em idosos com diabetes esconde risco grave de coma; entenda uol notícias ">
     <small>UOL Notícias · 04/11/2026, 10:57</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeHhOdkZTTFdKN2E1anFHWTUxMnBIUWY0MkJiRmR2TWlGczhROUtjZVkxLW9DVWN2WnQ5VHpNdWxoUE5kMUxTd2lmT2FJWmVBWk95UFRKTC1TMEZQZ0RhOElid3dxOEJvVmtHQkxTeFEtMVdhQTNOUGRqa3BCRVdzZ1Z0VmUzNjJnQ1ktaFlmSHp0Yl9KNlRxQXQ1WVRIc0k2bDVoVkJFMEVSMTQzR3JnU3JfOUhzWHFHSmM2cXJNQVdxTEx0VTlkTERuZlBlVjNQUlJv?oc=5" target="_blank" rel="noopener">Pane silenciosa em idosos com diabetes esconde risco grave de coma; entenda</a></h2>
+    <h2><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxOb2l5VlBrQmRXQmJ3a0x3MTg3ZTZDWkoxejctZmpCdlBDejl4Y2I2bE1mYWljSllyTzlENzVuUGl1dFY4OGhmaWdXV2sxaFFrMHVVS2hRNEFnOUxQaXh0a2c3X1h3VEMwRTRnOGkzMnp0dGQ3RExIY254SjV0dThSUExFWU1vZWx1S0tBX0hpU05PR1JzQm1WUHU5QWV3TEZrbGVGankySmQyVWI5UkJxVl9PbmJuWFFndnVlbkZsZUVMYVRoVHZQdmYxRVRRTm42NUdxU2ctdw?oc=5" target="_blank" rel="noopener">Pane silenciosa em idosos com diabetes esconde risco grave de coma; entenda</a></h2>
     
     <div class="tg"><span>Diabetes</span></div>
+  </article>
+  <article class="card" data-t="Varejo" data-b="fim das bets é associado a aumento nas vendas de supermercados e maior consumo de alimentos portal do zacarias ">
+    <small>Portal do Zacarias · 04/11/2026, 10:51</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi0wFBVV95cUxPemd3RjZaY3d5amV6MHdKcHltQnR1SG1vRnlJMUZ3emRzSEZwMHFkaXF2T3Q0U2dLTG0zMzBVVmRyU2k2cEctczMxbkhubFlIQlQ2emJyam5EUHZrZHJESXVrVFY3QncxTjdGbVdXc1pEMUhTLVlydWFqQ0tTZWh4cUI3QWFERUl0eTN4bW9ERF9KYk1xWjBxM0g4TmhDeUpjUGJEeVhUSUFLajdwRWhURnRNRnpRZTNlbmlQNWZzd21TaTBHaVlrRzRhSTYySnhteHVB?oc=5" target="_blank" rel="noopener">Fim das bets é associado a aumento nas vendas de supermercados e maior consumo de alimentos</a></h2>
+    
+    <div class="tg"><span>Varejo</span></div>
   </article>
   <article class="card" data-t="Economia" data-b="gestores quase zeram otimismo, fogem do ‘kit brasil’ e apostam no dólar, aponta xp infomoney ">
     <small>InfoMoney · 04/11/2026, 10:49</small>
@@ -206,14 +434,14 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Varejo" data-b="como a ia pode ajudar supermercados a errar menos e desperdiçar menos giro news ">
+  <article class="card" data-t="Laticínios|Varejo" data-b="como a ia pode ajudar supermercados a errar menos e desperdiçar menos giro news ">
     <small>Giro News · 04/11/2026, 10:28</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOcEREUGFoZzNKbDFNQWVTZVg1RGFaX0cwVmItR0o1cGV0UEhwYWs2cS1FOXg2VGJlbjlQenhfdjh0OWFULWhnaWVfa2xlT1lQS3QyNVdGY1pIaTZPem9wSVkwTkVmWFdIcXhlc3JLRWJUWXB1cWFWZkZvaDdJX1gxcmo0UFo4VVNvWm1pTzFmY0pObkYyZHdGRi1hNnBOTWxubkE?oc=5" target="_blank" rel="noopener">Como a IA pode ajudar supermercados a errar menos e desperdiçar menos</a></h2>
     
-    <div class="tg"><span>Varejo</span></div>
+    <div class="tg"><span>Laticínios</span><span>Varejo</span></div>
   </article>
   <article class="card" data-t="Varejo" data-b="fim das bets impulsiona crescimentos nas vendas de supermercados, diz entidade prensa mercosur ">
-    <small>Prensa Mercosur · 04/11/2026, 10:15</small>
+    <small>Prensa Mercosur · 04/11/2026, 10:14</small>
     <h2><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxQTnBZdkVRdjkzbnVmRmctTVVzamYxS0hzQmdkbU13UDBseld2MzdzQ2tCalB1YXBfUXUxbzdvcWxRT0JaX1Q5bkFyclkwVVc1N1JfYWg3dW1mRjdVVy1taW81YW1LMi1sRmZXREx0aXdJeWlzN2xLeGd0aFJJaGZuOWFDSDNJNGllUTlVOEhIbGp5SkZfVW5CXzZBNjZRZnpCRThBLVNFalJXRnB1aHZBSWQ5ZFQ5dG8?oc=5" target="_blank" rel="noopener">Fim das bets impulsiona crescimentos nas vendas de supermercados, diz entidade</a></h2>
     
     <div class="tg"><span>Varejo</span></div>
@@ -244,7 +472,7 @@
   </article>
   <article class="card" data-t="Economia" data-b="paulo rabello faz alerta sobre gastos públicos e futuro da economia band.com.br ">
     <small>band.com.br · 04/11/2026, 09:42</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxPandlSTktQVJiX0R6UGl6ME1udnE3WTBycmxyLVZOa2RQZkZUUVFha0cxYnk4VmwzMEhQZmZMdktaMTNJUndVa1gtOGNtQ0xsa1F3VURsMGtQMkYteXNLUkNDcWtDM3pxUmplOFlSdlhLdnptUGIyRS1VZExvYnRORVBYNmtSWVRJdWcyS3ZSa2RNczNPTTVQRmZYN3dDWUYwWjVoMXM1RGJ4LXM?oc=5" target="_blank" rel="noopener">Paulo Rabello faz alerta sobre gastos públicos e futuro da economia</a></h2>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOY0t3RUlfRkN0RERZQi1mckpva1d2VTZPTjBLQWdWMnNocWY4NDA2aGo5RElZWU50NGFnSmItajVBcWg1UUxxZFI3QThXWElEajAyZl9TTDFOTjh1RDFGd0R3M0NaSmZGUDlrREJzbGpmWmpuR3hUMDlZdVJwZ2tfenJ4cmNiZTRyMktIQlROZlotS0xLNGVFd29GWkxleXdfM1FsUGtocGE0MFdwMVQ3dGltZnN0Yk5Gd2NUYQ?oc=5" target="_blank" rel="noopener">Paulo Rabello faz alerta sobre gastos públicos e futuro da economia</a></h2>
     
     <div class="tg"><span>Economia</span></div>
   </article>
@@ -257,12 +485,6 @@
   <article class="card" data-t="Economia" data-b="andreazza:juro alto é consequência do problema do brasil, uma gestão inflacionária da economia estadão ">
     <small>Estadão · 04/11/2026, 09:25</small>
     <h2><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxQbzQ1UTFkUUtLMWdiRHUxQ21DZzRqYjk5b0pJX3E0OXZBdDNZcGIzamk4SmVUaUdaWGhfdnc3ZGVoaXROMXNYLTNLWWlEVVJTandxcWVnZDY2SmpYcEZ1Y3NsSWduWEFMYVhXUlg1S2RMd1pMZHZPS2dGMklIb1RUUjkwYjdBcE9tVmttTHJFYVg2UXNqUmJPblpybnFOYWR3alpXU01TZTlFLTBCVlVVT2FteGp1VkFBem8tcmhNUlI0RWE4bWhLMkNoQUE?oc=5" target="_blank" rel="noopener">Andreazza:Juro alto é consequência do problema do Brasil, uma gestão inflacionária da economia</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
-  </article>
-  <article class="card" data-t="Economia" data-b="economia e democracia foram os temas mais importantes para americanos nas eleições, indica pesquisa bbc ">
-    <small>BBC · 04/11/2026, 09:25</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UQXpkSk8yYVBnS0ExbW0zRHNldFUya0lQU1ZJZmxsc1BWMGd0X1g3bWozUE9CdjBuQkh4T202ZXNtNnZYTHBvN1FXVnM5NlBVYTBBSE9mSC15Y014RDBOOWZLRdIBaEFVX3lxTE84OHhmTTVYZEs5dU1lUTNudGlfMWxveEo2bV9QUWI4MFVVVWdkUUpEaXJ5bUo0aHZrdVNERDlRbG96WjlGUFd4YzM0dXVNdU00dDhoTnJkaUNRTmNpN2dzcVlwZEhaS2ph?oc=5" target="_blank" rel="noopener">Economia e democracia foram os temas mais importantes para americanos nas eleições, indica pesquisa</a></h2>
     
     <div class="tg"><span>Economia</span></div>
   </article>
@@ -296,11 +518,11 @@
     
     <div class="tg"><span>Economia</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="seminário pix: da ideia à revolução dos pagamentos no brasil fundação getulio vargas ">
-    <small>Fundação Getulio Vargas · 04/11/2026, 09:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxNVlVGUFFDV2RiNU4yYjlkUVdCWHdFX2lkbGh5NXo4ODlkMU5wd0VXY01NNDlCSHNEZzNKa2NETHE1Vkd1cmFfTkxuRU9pX3JrQnZoa1JsczRfWTFLaTdSMXcwMjh0cWhoUDd1NGszV3FsaXdlbmMzUTJYV2d0dzVLbEh1alhwZ21aZGlYSFJDYw?oc=5" target="_blank" rel="noopener">Seminário Pix: da ideia à revolução dos pagamentos no Brasil</a></h2>
+  <article class="card" data-t="Economia|Varejo" data-b="com expansão, paraná supermercados chega a 16 unidades grupo amanhã ">
+    <small>Grupo AMANHÃ · 04/11/2026, 09:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxPT2pkcmticU9jSEh1b0l0OWhWVlZ6TUtoQ1B1c1NJaXNWdFRCRGpQaVVteGVRc2tONzVDTDMtdXA3eXFNejJmRnZ4Y1llMjBueUJITHBwVFpsU1gzQVFKcm8wNlJ5eG13OExaS3dKRXdESWk3WTdzVDgxX09XSU5CVEM3aXh3OFk?oc=5" target="_blank" rel="noopener">Com expansão, Paraná Supermercados chega a 16 unidades</a></h2>
     
-    <div class="tg"><span>Outros</span></div>
+    <div class="tg"><span>Economia</span><span>Varejo</span></div>
   </article>
   <article class="card" data-t="Varejo" data-b="sisqual® wfm amplia atuação no varejo alimentar e aposta em gestão inteligente da força de trabalho para… gazeta da semana ">
     <small>Gazeta da Semana · 04/11/2026, 08:50</small>
@@ -308,17 +530,11 @@
     
     <div class="tg"><span>Varejo</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="comércio do brasil com países europeus cresce 18% e se aproxima de us$ 7 bilhões às vésperas de novo acordo sala da notícia ">
-    <small>Sala da Notícia · 04/11/2026, 08:50</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi6wFBVV95cUxOX3RVdHIwNDJyWWtnRklKaXUwLWZGcnVDMGNVWXFINUhNN2ZFaHJvcGtabVp4b1RORDJmc1lGcWJUTzRGY2pGc2laR1VkSlBybFhLMl9PNnVueURSaEhQU2ZLUU9PdERaNFd3dUtkV2pxbVQyTW4yeGt1TTBabEVWeW0zekRwQjR0UnhoV01jSWhXUDhCVVVmSC1PUmZocWVPVlNfZ1A5RHdEMFhmejFyS0k2VmlsaXVTQ2NPbVZmTmVubDA5bEFjS2JOX0dfaFoxSmtzUUpOMzVUZnVpM25EZVdRWHNzZl9DNVE4?oc=5" target="_blank" rel="noopener">Comércio do Brasil com países europeus cresce 18% e se aproxima de US$ 7 bilhões às vésperas de novo acordo</a></h2>
+  <article class="card" data-t="Varejo" data-b="varejo deve faturar r$ 296,8 bilhões em novembro, 2,5% a menos que em 2025, mesmo com a black friday diariodenoticias.com.br ">
+    <small>diariodenoticias.com.br · 04/11/2026, 08:44</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOb0gtNmxmV1NiaUJIRjNUa1hOVjF3ZTg2SEQ3dFQ2S2JERk9wcEtBZzh1YVdfVElBS2V1aEM2TWpVZ0hDUzExOWtsN2V6OWlyYXdSdzVlWTNabzZVaHVQMzA3QzhWUnhERzVCSU92d2Q4eDdZWG1tLXJwdWZYUGZWZGt0X2VJdUdjenh5dlRCQkRsLVVDSkFfVVpLUWtZeUx5RHBYRXZ3?oc=5" target="_blank" rel="noopener">Varejo deve faturar R$ 296,8 bilhões em novembro, 2,5% a menos que em 2025, mesmo com a Black Friday</a></h2>
     
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="brasil não terá horário de verão em 2026, decide governo bahia econômica ">
-    <small>Bahia Econômica · 04/11/2026, 08:24</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPWGVyMk9XYWFOZVFrMkZZdWdkNWRqcmFiQ0lIcGx5clpwd3Y0c29vbS1qRGtJTm90dGo2Qk0zcVNidmpwZ0xmanlvRzJxZWs2eF9GTUFZTlhRNG1xZHpEODVRZ3VScGxtWUpyeXhpWHE5X2ZvV1pVdFllSk52UVVsM0FlNnhvTTQ4VDlqcXNXUUhDU3NnMVljNTdZcGE1cWVwRzJ0OHRtNGF2aGItZTJfZG1R?oc=5" target="_blank" rel="noopener">BRASIL NÃO TERÁ HORÁRIO DE VERÃO EM 2026, DECIDE GOVERNO</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
+    <div class="tg"><span>Varejo</span></div>
   </article>
   <article class="card" data-t="Economia" data-b="radar econômico - preço do hambúrguer: termômetro de uma economia mundial sob tensão rfi ">
     <small>RFI · 04/11/2026, 08:24</small>
@@ -332,23 +548,11 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="brasil registra 435 recuperações judiciais e 327 pedidos de falência no 1º semestre economia sc ">
-    <small>Economia SC · 04/11/2026, 08:07</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQTVFScGt0ckZiRzhfcGphUXBwSlAxRlQ0a3ZtYTFHX1ZaUDhZNnprSkkyM2pabFpiOGdhWEFOSHRESkJUYWJScDdHNEtldGV6bm5TYXFVdjFFRVVhckpzWE8ydksySGdpOVVDaEg3U3pqc0NtYVVEbHRiQkk2ZlpHNXlUYzQyeThWekdvNFVUbnJLanY3UkxzczBLS1N3VHA4QkJiVWdfY2lUa00xODA3amdkR2tOQ1oyb1E?oc=5" target="_blank" rel="noopener">Brasil registra 435 recuperações judiciais e 327 pedidos de falência no 1º semestre</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
   <article class="card" data-t="Economia" data-b="midterms nos eua: vitória democrata ameaça planos de trump e pode afetar dólar e juros no brasil g1 ">
     <small>G1 · 04/11/2026, 08:02</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNXFDZEpFVnlKWVdBY25UQnNPRFhqWlVqdFN6MkVvWlFCbmNtQURDaXBCMVJ5WXE2eXAtV05raVJSVEUxX1M3UGVhSkc3THBUUm9VTHlIZDRPRUJrWU5yZmc5LXdYdlhwb1N6ODA0S0diQ2o1WmhRR2N0bUw1b1NDQlBFWFNvN0c4cFlYUzdrX1FzRlJUeGVZejFkanFzMTBFaHgyRmJRTHVHMzVCR08tbFNlOFk4WEozakt2clQ3bE9MT2QzNUt5OHA2SURoZ3o2QVhha3FqYTR3U3ZlRWJNT2xFSnPSAfMBQVVfeXFMTlgwUXp0V0JKUVh0YVZmaWZZY1dCZFFFVlNDekVoMTZNQTF3ZW13WWRPZ2d1MnVjTGc2U2xDMFEyRktrS2lIcjlXa2JsYjAwVVZlQ1dBdzlLUEVMYkg4MkpWZnNBY3JneEdWc2ZRazVZUzRNRENLdG5LSlgyNXRqUEJjY0xnN096RGFjWS15WWEyMkJjQzEyZWdsWi1wRWJ4bGFLNE52MlhiTDZrLTgzN3FNeU1FSlpDTjdPSjVycmVMOFFHdUtkVGcwQnBuelNhZmpxak1HRHFaaV9MTjBmdVNubmlTa29SdGxORGJRUFRURkZN?oc=5" target="_blank" rel="noopener">Midterms nos EUA: vitória democrata ameaça planos de Trump e pode afetar dólar e juros no Brasil</a></h2>
     
     <div class="tg"><span>Economia</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="flona do araripe é a floresta nacional mais visitada do brasil e consolida turismo sustentável o povo ">
-    <small>O POVO · 04/11/2026, 08:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxPa2VSc1haS1dSSTd5U2FLUk9rN2Nvek5oZ0ZHWkZhT1llei0zNGZBdkVOekR5Tm5xWmxfTlZhWjhySVUzb1FpNk0wa3FGM1AyLWg5QVpwRldwSWwxeU9saS1IQkxsUV9TRjdCTUdGcC1XYzFsNTFuNmtNcVZlTXlmYnoyX0stbU9XU2VQRF9EM1VBY2tPeV9zbVpycWxTajBZM0NHY1dpVFcwSm9wQUwtT2k1b0ktOGRJUmNma2FGMFpPU0tuUFdMVHktdkgxUkVpX3JvRS1ocVAtTE5MUVdpUG9vdmNYTUJF?oc=5" target="_blank" rel="noopener">Flona do Araripe é a Floresta Nacional mais visitada do Brasil e consolida turismo sustentável</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
   </article>
   <article class="card" data-t="Varejo" data-b="supermercados registram alta nas vendas após fim das bets guararema news ">
     <small>Guararema News · 04/11/2026, 07:30</small>
@@ -368,17 +572,17 @@
     
     <div class="tg"><span>Economia</span></div>
   </article>
-  <article class="card" data-t="Power BI|Varejo" data-b="fim das bets faz vendas em supermercados crescerem, diz abras; confira os produtos com maior alta extra online ">
+  <article class="card" data-t="Diabetes|Varejo" data-b="fim das bets faz vendas em supermercados crescerem, diz abras; confira os produtos com maior alta extra online ">
     <small>Extra online · 04/11/2026, 07:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQMWZGeXZwRWlfWHZRZktZYVRHSFZtTVItRHQwcFdKREQwN1VRWklWSFNXTHZYdVhPbE1KQ0VROWRObnJqN25za2ZBSWNVYzl0M3dVQkFIUGg0alNvclhkSlVUWDRHTE45Z05TTzUwMGd6N2U1OEVVSTFqQjFYVmNzeEZLUjg5Z2hIVjhSUFZMblBibDZ3emhHMlNvQkVscWQtTXB5UWlTcS1nWDl2ZnktVF9aSkxqanNYZnA1bEdKMNIBzgFBVV95cUxQTzZpUER0WUJSSFQ0MkpsMlFHWjdScFAtRVhjS0hWcnFiM1kwelRXSTl1NWFIUVhNUjlpR0hZaDM3clIwZjRwcU9sUGhGTzJsUWc4UERXMHlvdmtuNXk5MkdvZGxjdlJvTTBEMVNZOUJIM2l4aDBzNndtaThKZnlUQkxXaXRKLU5MeDZvYUVSLTZHRnRvV0FHOHNBN3VER1FwRGZkWjNfN1RDVFFod2NicXNtWGdTQklpOGoyaVpLaTRaaTg4OWpiVk9UcHFDZw?oc=5" target="_blank" rel="noopener">Fim das bets faz vendas em supermercados crescerem, diz Abras; confira os produtos com maior alta</a></h2>
     
-    <div class="tg"><span>Power BI</span><span>Varejo</span></div>
+    <div class="tg"><span>Diabetes</span><span>Varejo</span></div>
   </article>
-  <article class="card" data-t="Diabetes|Varejo" data-b="supermercados entram no jogo e ampliam debate sobre eficiência panorama farmacêutico ">
+  <article class="card" data-t="Varejo" data-b="supermercados entram no jogo e ampliam debate sobre eficiência panorama farmacêutico ">
     <small>Panorama Farmacêutico · 04/11/2026, 06:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxOMGVPSFk0a1FVcTY0Y251M013WWN6S1d4T2d6RHJZUlhqZFJKUHdGMGduV2ZtZm5valZVOWNUQ3AtWVFaNUMzY19WUjI0ZGZhYXAtRW50ajdlaGM2REpmcEl5eTU0ODZ3Qlc5QmRJbzAwbDBpb0w5MjBoYmtTMzQyUGlCSThkRGd3NUtyVm1mZGFzcHVyaFFTcC1KVFpvZDc0cDh2RndKN3dVTkI3VVhhSFhOZ1dTb3pwWU5PZjB3aXdiQ0Jj?oc=5" target="_blank" rel="noopener">Supermercados entram no jogo e ampliam debate sobre eficiência</a></h2>
     
-    <div class="tg"><span>Diabetes</span><span>Varejo</span></div>
+    <div class="tg"><span>Varejo</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="banco paraguaio sofre intervenção; clientes podem perder dinheiro? notícias ao minuto brasil ">
     <small>Notícias ao Minuto Brasil · 04/11/2026, 05:09</small>
@@ -386,21 +590,9 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Economia" data-b="projeto cria sistema nacional de economia criativa de base local podemos ">
-    <small>Podemos · 04/11/2026, 05:01</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPc2V5YWk4QktOdkNiMnZjclZucWxHY2lKYUdOZzNfdnpZdG8xWEdJWGJreklrUkJwV3lNeU8yS19QemtKdjBwRjdCcmhVRi1JNlQyajR0b3l2MUt5M3I2NUxKTk1jSWtOdlRvbHR1ZVhLUGF3S3ZBeWRBZGVsekUyT3VPV2hpUW5EUUNGMVdSZGdPNERJNEFVQ3BKaw?oc=5" target="_blank" rel="noopener">Projeto cria Sistema Nacional de Economia Criativa de Base Local</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
-  </article>
   <article class="card" data-t="Economia" data-b="economia produtiva é principal desafio, diz professor valor econômico ">
     <small>Valor Econômico · 04/11/2026, 05:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxQZXo1X0V6YlkxVzJTQU5PUFFmZHNCNnNBWU45Mkt3bkktMUN1cDVza0lqbzRBRW01OVVuQ2JIVEMyem1hVXV0eGJRbTNNeXJuUloxVlVEMVZCZGoxTGtVaTRjNzd5UDliLVJJR0lweF9BSUs3SUsySEpNMXBrMHJ4cUN3dm1INTdvN1llQXFQdVJIZnFOZEhhajdISUkxX3NneEJqcmdIRFljVm5p0gG7AUFVX3lxTE5YamtIc2ZmSzY2MDFkMGpoT3VfZGtsM19PSmZsYzRQVHU4UDVQZGluZzN6YzgyTUxzb20xMVBPN2l6UXhyTm1ZLW1mUmFFODc0ZHZIS2p0MHVPLUtLZHBtanJaOXZEbm1wUUhtVDNUelhNXzhWNDBtLVl1eThIVUxWVDBzTjF0NEtQdnRJMWlQV1NxZXByNnhSbEpwR3I0RllDZ2R0WnY5YXgxR3R3NmF6UDBBbE5CMGp5ck0?oc=5" target="_blank" rel="noopener">Economia produtiva é principal desafio, diz professor</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
-  </article>
-  <article class="card" data-t="Economia" data-b="expectativa de falta de ajuste fiscal rebaixa projeções para o pib brasileiro valor econômico ">
-    <small>Valor Econômico · 04/11/2026, 05:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOQktPd3BUd1dfNmU1dzNJczNja3lreEZwdmRlVnpCZ21qeTBVN1RJRHdDYm9id2VTYTNnMkVLT2FyN21FWVZEYnNVc082QVdNeXBNNmlndUxtQXRFSVJQRTRDUEkwZ0tYMnpJS3IwUXlCSndBWi1zdmVScjBPel8yeUpHeW1vcGtpaVJMWlFvQlMxNFpxTDkyVnJkRlBoSmZXODZZUTkwdnpMX3F6SExvX18za25wLWIxVlZPeml4U1Jjc19QbEd5MkdBbnk2QdIB3AFBVV95cUxPeHl4M0RJejF4S0hQU2hKQWhnOWstNDlOZGswSjRvVlJnMXJnQWZ6UjRINVVIQ091emhZMWdZMzRJUWxQLW96QVR0c3l1R05FRVV4RmFsSVZJLVFSLTNUd3NWR3YxSUxJYW9FM21ET19iby10bTZkWHFNY3pibUREUHhHWFppaWhEVHRoNVhadDI4bFZ2ZUtVaDZBdFB3MzlsTWYwTlFyX3RwWEVUd2FjT3RodHpEaVBWOGM0OG1kMFhwU0I3Z3JsbzZVclNQemswcnhmZDBZTEtBSnlf?oc=5" target="_blank" rel="noopener">Expectativa de falta de ajuste fiscal rebaixa projeções para o PIB brasileiro</a></h2>
     
     <div class="tg"><span>Economia</span></div>
   </article>
@@ -410,17 +602,23 @@
     
     <div class="tg"><span>Economia</span></div>
   </article>
+  <article class="card" data-t="Outros" data-b="senado adia votação de projeto que permite renegociação de dívidas de estados e municípios no fim de mandato brasil 61 ">
+    <small>Brasil 61 · 04/11/2026, 04:25</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRmhCc3ZaYWJRSEdkajd2Y1c1VXBrVWZWenFwa3Fpc3lJaWp0NEVwTVpDeEpyMDNsakpYWWxmZV9Gc1FUM2d6YmhJWkNzOHU5MjlERTJkVnd2XzdGcU5QeW5fZnNlQ3o1d09yNlFIRzVCQjI4aWVpWW9kMU5OVklOeldzV29iVE1pUlpQa0paMGtkWHNkZzdGLV9RWlRmR2stVWFNOFozcllhUnMzSlg4Zkk4aEt5UHhGZmV5RjVIdFkwdkZWS3JVdTlLc3A0YVJYYTY4SGZQVHFhRE3SAeABQVVfeXFMTUp1dWlhNXFtM3Yzcm9wNU43NG41Vk9TdG54dHhHcExQMjdrczhJSGlqbXhjenp5VnNOM2x3aUdST1ZWTXZqTDJXMHBGWUZpd2FOcEExNlFSei1NYlJtY3F3bVUxRXpTSjE2cmJxYmRFbWhwLWgxTHhzUWFRdUtaaHhPT0JCVTB4NmVYbFdtY1pBbE1BeEo4dll4Z0txcVpoOHpJN2lTaHJONXJGUkw3RkxjOGFtQ25BV2pxYzItakhPazdoUDQ3MmhGa1oySDA4dVVMQW5iSVBhRWQ3bkR3Wno?oc=5" target="_blank" rel="noopener">Senado adia votação de projeto que permite renegociação de dívidas de estados e municípios no fim de mandato</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="bc decide juros em meio à queda de braço entre governo e o mercado cnn brasil ">
+    <small>CNN Brasil · 04/11/2026, 04:14</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPOElabnJJT0JhZm0tQVlHR05qX3RUUjVCeDBiUVFvMVROXzlZVWVyVlBENUtQVkxkN2NCLVVpdE5LZThWVEY4LVJvMHRzYnhfcDNzMWI4UXJiWi1vOVhYTm9yemphNjg5YlNiZkF6dG5OTmctY1lzLTE0cVVZX2VvODJUa1JpVTl1cFdWMXlIZTA2SjhQNU5VMl9LdjRpb2loaG1iZFk1c25PeWNqTWg5cG9xUlFaRmxQdmY3MktmRm45bzg?oc=5" target="_blank" rel="noopener">BC decide juros em meio à queda de braço entre governo e o mercado</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
   <article class="card" data-t="Outros" data-b="marcos lisboa: ‘lula tem que liderar agenda: quer deixar legado ou vai ficar refém de campanha?’ o globo ">
     <small>O GLOBO · 04/11/2026, 04:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi5AFBVV95cUxQRjIzQ1RuOUNZXy1aMWlFQ3ZZTFFFTDY1aTZ0OWZRSDNWak1vNGh5NTZFVUFtZE1STjI1dE16Zm9fclZZOGpnd01tdXFodW9PNmJwbE1NTG5KZWs1OVZ5emdpekdIdTFmRWhKN1FPeXh5VjZPRFhibjhIbS1QU21lQ1laSjZHRm5xX0FPQjh0cXJmOWpoN2xJY2kwS29YVWQ2TnJhN2VsbVhxUm1LYU5lMlJ0YmZtcVIybWFpRzZiY3lTT1VjVk5FSS1lLV84SXZQdVBONEo3d3hiZ2s0RXZZcmJqY3nSAfMBQVVfeXFMUC1OeEN0a2gxOUhvZkNueFJuLW9vaTQzNkpoR2JQOW1BN1d2YXZSRGVVQ0FvTG41QjN2aEpkTEp1cEZQRUFxOGo1SHdsNnhsVHNTdkZ2YlU5VHRzTkdvNEhERy1SNEhaYTEwZVNzWG5XQk8wOTAzVmJhakM4M2dWR0NoYlNWNk00cXNNdTFDZVJHU0xwT2J5RHRWOUNMalNlZkhXTWZQbkxHSGJNcGgxWXM2cWdqNzFoRHlFeTJEZEpLdGpmbHlTU2d3UmhoMkFLVFNNR0tOa0RWV0VEVnhlYnpkekVTckVRd3FQOFdvY09IeDRj?oc=5" target="_blank" rel="noopener">Marcos Lisboa: ‘Lula tem que liderar agenda: quer deixar legado ou vai ficar refém de campanha?’</a></h2>
     
     <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Economia" data-b="teto para juros é sedutor, mas muito perigoso o globo ">
-    <small>O GLOBO · 04/11/2026, 04:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNRXZsa3FWeUZkV0FHQ0tzVTN5VDN3dG85RG1EakliR1JuWFYtM2dMV3FHV29QLWxNN2xRZmxHYjJCWDJYaXlDWENXYkVmNVlKUVJLemJiRTlsQlA4X2Q0bV9hTTlZVi11c2ptcjNxZzMwazVRUm5keS16RUxKUFV1Sjd3UFd1R3ZMcWxtYkRpeW1La0s4QldWbEdzR3R4RkttTkQxY3dPZGNKejg3cEsyVtIBvwFBVV95cUxOanBFQ1pmTjJheE1aRjZuQWRwU1E1Sk04Q2laLTlYcG9TOEt2enQ3bmt1UG1IdW1NOU5FUVJUWFQ2akdXZVZiRTNVZF9SWjRiY1lFSDRxT19uelAybkVGRjZ0U3YxcFJOMVFYdTM0OUQyUDlLcFE5QU5aY3V4U2hELXA0OF9YNzlsUk1nb18xeWVSREwtN3UwYnQzdDlWZGtUdjctMThHR2NQckZ2Rm16QnJVYkZXWXNtOXBKVTRKOA?oc=5" target="_blank" rel="noopener">Teto para juros é sedutor, mas muito perigoso</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="crise de crédito no brasil: o risco da dívida pública no governo lula 4 gazeta do povo ">
     <small>Gazeta do Povo · 04/11/2026, 01:14</small>
@@ -446,12 +644,6 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Economia" data-b="com mercado dividido após reeleição de lula, bc decide nesta quarta entre novo corte ou manutenção da taxa de juros g1 ">
-    <small>G1 · 04/11/2026, 00:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi_gFBVV95cUxQQTBOaFZqVTRqM0VCR0wtNHdZdzZWZFR2aXJITl9kZFR5ZUhDWUZIWGdoRlY4MDRXclpvX2wzNnRNTWYybl9GX25LUUVKU1pKRGRWcnlhRmVXR1VtYUxIcm1TWUFReUdIcDhRNlA5MEFScWFpUnBlQW1MUmZFbHNKSnNkM3daeHlDekpSMVlhdlZqNGpFaFFUSjFVVGZvOGh3WmJ6SmRMRFV2elBmcktFSmNCZFhyUHRtWUZ5UWZyZGo0clBuU0NtTkdLT3ZzeGhKR2V5blVLY1lWaTdnLUNrRWZnTzNqbTdjVXlpeGRVb2wyUnJmTE5Wa0VYMGFIQdIBjAJBVV95cUxQWHV5TF9NdjB4VHhmRzVGbmZ3aGtfZXp1SFUtaHBmMzdlc0tTWGl5Z25ybERoaFptSGlnZmgyTXhwd3dWZDY4U3FaTHIyVldNc3BHUmthbFVZOGw5dEhhVWZXQlM5d29WRm5IQXVfVFVlUGJSbTQzVG1BaTVfQl9Ia3BYaGpiaHNGOVctWUtLMlNfNjB3QnEtZ0w0c2gtUk14YUk4TENRR2F6a1hIckF4Ri1UV2VFU3dncWdtb2t5V19KYTZLSFFwUThGdjdjR2ZqY1Rhd0MwcGFQMWQwdjVKc0NQWnJhRlYtcm5EWmR1Q29SVDJLM29fdk1oeXZ2VzkzaXhzRjE1SmdoUEpS?oc=5" target="_blank" rel="noopener">Com mercado dividido após reeleição de Lula, BC decide nesta quarta entre novo corte ou manutenção da taxa de juros</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
-  </article>
   <article class="card" data-t="Outros" data-b="byd dobra vendas em outubro com alta de 137,6% no brasil poder360 ">
     <small>Poder360 · 03/11/2026, 23:55</small>
     <h2><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNVGpBalNIb0c1UmxsZHNMNExnZDVXWDNiLWJvc3BTN0U3NXQ2UWtYYXZVRjFDaW92UTVSREtpb1R0QlhyVndMVHJkQU8zeDJIeThEYXN6cGtoR1ZKbEwtcmY5dGd6Yzlrc0lLVHF2bHp5YXRLNW9sV1JDYWVXTlNMaDNIWWRwN2dEbkFsSnhtTVM5dHp3cUV6YlVUWC1ZRmc?oc=5" target="_blank" rel="noopener">BYD dobra vendas em outubro com alta de 137,6% no Brasil</a></h2>
@@ -476,15 +668,9 @@
     
     <div class="tg"><span>Varejo</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="brasil propõe reduzir fósseis, mas mantém planos de petróleo vero notícias ">
-    <small>Vero Notícias · 03/11/2026, 22:15</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQOW1PZFE5dE5BenRta3BVclhWZG5HMU9XY283aElDUFlWYkRVSVlTeWViVFFOQjNRbGJWRXNZN2tTdXVYNjVEY191Y0pjdTdhXzFXUldsa1MxcEJibC1SeWNmcjhZSFBwazFmc1dlWlBldG4ybmVSQ245ZEJfbE5iemo0Zl82VzBmMGpfRHVTZWlNN0VnajNObEJn?oc=5" target="_blank" rel="noopener">Brasil propõe reduzir fósseis, mas mantém planos de petróleo</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="amd tem receita de us$ 13,4 bi no 3° trimestre; ação sobe 8% cnn brasil ">
-    <small>CNN Brasil · 03/11/2026, 21:58</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNdjBDenM1RW5MWU1BdTBWcWhuZThTaENXVUxrVVVMYjJ6akIxeVdqSUplX2pPMW1nY04tMFlsZGotZXJYUF84MWRUTmFFelhTRmMwVnVjWkNuUS1NMWw1Sy1fakpXOTVnR0hRSHl6V2loWWpzeTZWTDE0dFE0bGdIVGdMU25fWVBFZ3VzNXUxMk9CU2N4VWV4SGJadjZ3NUdsYVhiTkNXbFE5RzRmMEE?oc=5" target="_blank" rel="noopener">AMD tem receita de US$ 13,4 bi no 3° trimestre; ação sobe 8%</a></h2>
+  <article class="card" data-t="Outros" data-b="economista citado por lara resende diz que ideia do brasileiro não foi testada estadão ">
+    <small>Estadão · 03/11/2026, 21:56</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxQVmhicDNhVDhDMDhjRkhnLTRGbHZLMTRSeWMyXzZoeEYwdm93dlJyQ1VQVDRpWUZKWGRfR09raWt5TkY2QlkxUnl0V09GYk04bzlwR3VpdlZVamFZVlFIZ0hzdVR4ZFJtYVA5bmxBRmp6c0Y0QmhYdV90SU0wa0thUi05R2JRU3ZyZmx0bF9DQ2g1aVhhQ3V1blNyQkJneEdPU04wcGJkZ3lWRlhzMDJOZ252Yk9Jd9IBuwFBVV95cUxNNk9DNU5IR1ZBLVFJOHdXVVMzNkU5UV9BUm9FUUVKckwzUVk5b2ZFQ2UzVEh0cWh6Mkxmcm9HYzVNS1pOY1lLYURmZEhLZjJobHhIY1JQcE0yR2trb2J1bGJ3MF81T0dzUG5ReE5vTEdjZXBpd3BadllYbjN1SFNIczV4a2xkVHo5ZTVmcS1NdDFvdWJvU2llTnNmTndIWldIWV92NmY3VFJkZ0xvbWVCdmlPV1ZGSUVDZmQ4?oc=5" target="_blank" rel="noopener">Economista citado por Lara Resende diz que ideia do brasileiro não foi testada</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
@@ -493,12 +679,6 @@
     <h2><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE45UW5FSWxneDFvbDgwOERTNEpTTk1vSV94VExNeWszRVZkMGZjcm5FSDdNWGF1bFdwdlhsUmZnUDlKbzFIZFlJek1BR1ZlNm1ReVNPbzdB?oc=5" target="_blank" rel="noopener">Como funciona a nova geração de lojas autônomas do Grupo Muffato? Em entrevista à SA+, Everton Muffato, diretor do Grupo Muffato, explica o projeto MGO, modelo de lojas autônomas da rede que utiliza inteligência artificial generativa e embarcada para tr</a></h2>
     
     <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="itaú lucra r$ 12.617 bilhões no trimestre, e r$ 37.405 bilhões em 2026; mas al cresce mais do que o brasil jornal do brasil ">
-    <small>Jornal do Brasil · 03/11/2026, 21:19</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWHA3X0Vrd2JRY01QTlZYNS1hME1UOWdUY0lNSEVHZU42NzZBOHhXQml0Z1NvSVlXclpLM2o1bHMzbjJ0N2hZMkVmUWl1NjlTTlZ2bnkxSnZsOUQwRW50QWdYWUxNUS1pZDAyME1jSXNoTC1MOVVqUDRfallNNFpFNmRwYlpDb3JJUVc3X1FYMHI5c0NjWUEyZzh3MUZ2YjZnS0xOOGdOSTR6NHZIUmVZVGtwcjRLbUJ2UGV3eElBdmRsY2lkbmdTU3lDNlVVc3RwTUNBOTJuSHRzbUhjZkZmbGZQT3lldlhHWkJFQdIB8gFBVV95cUxOY3lpUnRJdmhmY092TEwxRC1sMEpMY0pRTEpBU2JJczRMM1BCTFZINVI3Ni0tVjJFNTVubmJwSWJ1V0tJTXRjTWRaQm5ZYWlzamJ6YUNsVUJkUS01T1lGaVgzdFBMZzNJNlVUNGc5bkxhSG5aOXl0aDVZeXF5eTNnTERjY2NjT0d0ZVM0QXk4c0gxeWU0OTZzOVB4S0FiMWVnLThUNFJ2amhGUUluWnNTWVlZaXliTDh3N0djcE9YdHZXSnd3c29pLUZoTHVOeWRQTWEtZGw1MmhsWmdta1BScWxrZ1RqalVZSjlQb1A3dDFMQQ?oc=5" target="_blank" rel="noopener">Itaú lucra R$ 12.617 bilhões no trimestre, e R$ 37.405 bilhões em 2026; mas AL cresce mais do que o Brasil</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
   </article>
   <article class="card" data-t="Diabetes" data-b="como o exercício físico melhora a resistência à insulina? boa forma ">
     <small>BOA FORMA · 03/11/2026, 20:31</small>
@@ -515,12 +695,6 @@
   <article class="card" data-t="Outros" data-b="seleção reúne vagas remotas em tecnologia e design spacemoney ">
     <small>SpaceMoney · 03/11/2026, 19:44</small>
     <h2><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5WZnBBZFd5Znl0a0MtakFMR0x4QlVCYXlad2s3YW8yYUU2cGsxZmtDbFVSNmF6Um5vc2hzNEpiTGsxR3Y1WWx6OFVpc0x0SW1xakNPRG0wS0ZxbnJ2UTM5TXFxMjFic2ROVFhEQ2tjRXFiTnVDRFU5MGpLbUdpTkU?oc=5" target="_blank" rel="noopener">Seleção reúne vagas remotas em tecnologia e design</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="urgência, pacto federativo e questão fiscal: os argumentos contra a mp que proibiu as bets no brasil estadão ">
-    <small>Estadão · 03/11/2026, 19:18</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTzdZVEdBUDNfdk1jMXFlOTlRSS1iZUdhQ3NPNE5ONGI0ZjhtSUNVTVJ3VDY5ekFZSF9XR3phZDZ4Z2RUbHBTTXJtMXppZjBSamwwU0dtYUtQZUlGT2x5aWpqOGVhVDEyUnNzaFlsNVFhamNNVnA0M3lnc0pFNGJCUWJ2RU9NbG5pV1U0LXgtVDZhZXNwU1FDNlFpUzdPOEtqUnJ1M2hjb3plTDMxaWRrXy1NZHpnREQ0OGpFeUptVVVGTUt3NjFsQ0hhY2xUZlRS0gHWAUFVX3lxTFBVTGtiUEpoTjE0dnBpdmxackk3eHpnUlIzTUE2SDltQXllRXREZDg4SHNaelFIWUFhVDVQRm82S0d4c2JZUVc5WmpNOFA2Y3pERC1OVzQ3ZW1scjk3YW1kX1FGT0N5VzFGanIwM09KN2dMT180bGJWb0k3dm1jcFI4YWRyaGc5eFAtS2NqWVRsaTF0N3pLd1ZHQXZKRVk0U3FHbnVVUWgyaC1uYzJhSFVFZVFNay03Q01rZ1JRamNid2NhSFgwMG9yY0MyUVBScThTTHFyYlE?oc=5" target="_blank" rel="noopener">Urgência, pacto federativo e questão fiscal: os argumentos contra a MP que proibiu as bets no Brasil</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
@@ -590,183 +764,9 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Economia" data-b="plataforma conecta negócios que transformam a sociedade e a economia no brasil bra1.com.br ">
-    <small>bra1.com.br · 03/11/2026, 17:28</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPcUo3Um9HYzlYMTRZcFh1bzlCd3MxUHpMUG41QzFybVc3T05vaDlFN1NMamp4ZmR4Sm04bDZ2UU5MdUZITTMtQTcyN1RpVU55YVRnSnhfSkk1bFRHNHpyUTAzWU1oOTMtMVVSdWJaQ2xkNElUZy1LRGxmNXdoNG9fVDJYaWRCU2ZiRXMwMnRoNzFGQmx5Ymd0ZDY3WHFYeVBnTHdnMlRrX21NekEtbFdOZ0J5VFBfdFZiNk10Y2pn?oc=5" target="_blank" rel="noopener">Plataforma conecta negócios que transformam a sociedade e a economia no Brasil</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
-  </article>
   <article class="card" data-t="Varejo" data-b="final de ano: varejo paulista deve criar 20,5 mil vagas, diz fecomerciosp cnn brasil ">
     <small>CNN Brasil · 03/11/2026, 17:21</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi4AFBVV95cUxQX2l5eFNDTGZHYWRpVWl2a2FjZ1NWUEl5QnJIZ2tVQzJWeTBwRG94Qkx6bmVnSGtEU01lNHpUOFZlYndiX0o3dV9oUFhkOTE1dElNOG5CZ0NGdUhuVzB6bC1yN0FWSXF1NUN6VWdnclg4Ym5DcFNlaUlqNjZfRkdHSm5nU3FSRnl4UWQ3cW9oV18xSVQxQkh0REo4MXF1VmNEa19WZUlKTXV1NzBrbHZib2N6dm5zYWlPMWQ0U1ZPeWVEREVrUlFDRllZS0diaEdoUGQ5LWdYR1JMUWFfcEtPYw?oc=5" target="_blank" rel="noopener">Final de ano: Varejo paulista deve criar 20,5 mil vagas, diz FecomercioSP</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Economia" data-b="juros futuros sobem com temores sobre rumos da economia no governo lula 4 cnn brasil ">
-    <small>CNN Brasil · 03/11/2026, 17:06</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxNWVVrT2FDX1lXU25YMHpEQ0ppV243SDhUbkE1bGhSUEMxdXUxczZwSjhVX2JpWE1vSVpLbGdLRjBCUmJBZXdKaTAwM0VFRzJuU285MWtyRTVzRnY4a01iTVBEWmtJZ2o0Nm5JdElFTldoVnBPNWRSYTh1a1NUNHJ2aFlTQk8tRUh3SGRvRHVwdEp5WmpUUWpFZ0ZJWXZWNU1OSngzNVM5QW92aDZwVlpPdjV3eVhMNy1yd0JpdHVCaWY5M3Fy?oc=5" target="_blank" rel="noopener">Juros futuros sobem com temores sobre rumos da economia no governo Lula 4</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="novembro roxo alerta para cuidados com prematuros após alta agência brasil ">
-    <small>Agência Brasil · 03/11/2026, 16:56</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNRTlVeHJ1bWNFbUFpWTlROFhaM2hjel9Nb1NwR25sVFVZS1ROMHNnZFVMTnFLMUF3ajlNcXhGZkFNT1BmcmV4cW1CV2l0XzE2SkRsdFJlVUlfcGk3alZDN0g2NWFJSEJ1ZTl0UXlReFg4Mkp0YWhqYjhvVnhreHM0NEpSTkdJaUNCVlAtOEdDQ21ZcS12SEhiUUR1QzRlX1hmSGFBYkIyNmNfejhib1VyZ3l0Tkw?oc=5" target="_blank" rel="noopener">Novembro Roxo alerta para cuidados com prematuros após alta</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="inteligência artificial em supermercados: vendas x custos supervarejo ">
-    <small>SuperVarejo · 03/11/2026, 16:55</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxNQmxLVXFRd1NYNEplRm5SeGFaSm9MOXRLQXd1bzBUYmNyczh3NzVyMzBDUG5mNXZVeVlVRXpiUFRpZlNZWEtuaTRpc2huZHk4MWhoa203QWtNRWtuMW10dll0bEtiWGZweG1kc1B6eEdCRGk0SmMxR0pRRmFWbm02WTRycmhQanRkUE5PZGRNYmk0bzRpUzRYdlFPSk1BSFU?oc=5" target="_blank" rel="noopener">Inteligência Artificial em supermercados: vendas X custos</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="cetam abre inscrições para mais de 50 mil vagas gratuitas; prazo termina nesta quarta am post ">
-    <small>AM POST · 03/11/2026, 16:52</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxOMFVFbXM3UVpfMkhsQmE3ekludFlYRHdCR1JiQVZWS21QaDhabkVLQi13elVsLXAwbFlpcXdKbTRPbVBTNWMzcUJFMkI2NEZpLUgtSmE3V25xckQzbzBEdHhKTnhGOXBQN3JlS2IyS1hhR21UeHFXMFZEel9uVnJOd01jN2dzRi02UnliV1EzUFFLTXZRQTRNc1RNbnBQcW10eDZfRzllem5XOTJBMF9hVUJPcnpNcWc?oc=5" target="_blank" rel="noopener">Cetam abre inscrições para mais de 50 mil vagas gratuitas; prazo termina nesta quarta</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="mais de 80% das lojas de 'atacarejo' registram melhora nas vendas após proibição das bets o globo ">
-    <small>O GLOBO · 03/11/2026, 16:32</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcUdWSk93ZUdRS2NINnFNZXhzTE9aRDZtNGRTZGlBLWpWdGxPRkRKNEV1d3VILTlJdnA2NkUxaWZNcDR2OEJfcmFKTEpIRWlWYkFtU21ac1NBMVNwQ2FMNDVxWlJrUWswRVUyeFQxQzZndnRXazNWbFNxbDVHbDdkREthemlqS1JaT1M4akZtTkZDN195OEl1SHpybXNoU3Z4aVQ1SFFKTVZBbkZpMWEyTTcxSzQwUGJlV2NVMTRhT0pjZWRYQ0tWN3J2ZnRjZ094SC1qcFY3SDdlT0RhQTRIM0lCV1ZzeGoxb0xId9IB-wFBVV95cUxONmVGak5mNVFlc3lfbnJZVFhjRWUxaXJRTlFuWUNZNEpHb050Z3Y4U1JRQzJCbXk1OWprZlpuOHpCd0JRUW92TnlxYVlUdnl5Um93Nk9kNC1ZcnJiZ3doUmdJa3FKLWwwdkJjTndkdjFaMWpSOEkxRVlFVTlQa3owM2Z3UkVGTHNCSTZOQllleHc5Y3ZkMXlYN2Y2UUdMWnp5S0UyYjd6RXEtTzEyR2M0SGhjT3dkTUIteFhhMEZuVkkxaW1EUjN2Q1lEMF9DTS1lNEllckdNNXdYS1M2WVh4MTJKZGI3TVphRUdPaDd1OWpLamtkcWJWeU5LYw?oc=5" target="_blank" rel="noopener">Mais de 80% das lojas de 'atacarejo' registram melhora nas vendas após proibição das bets</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Diabetes" data-b="cientistas criam implante que usa eletricidade para controlar diabetes exame ">
-    <small>Exame · 03/11/2026, 16:26</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOZi1ua1F3OF8wMVA2YmE3cktvbW1CX3FTOVpFdndyYXdleE5uN0Fwb3duUGRxTVBjeThPcUdyUWM0VnNpMGg1SEM2UUxoUWh5X0ZheUhURHlVTzdwQk5pOWtld1JjSWZFSVUxcEs0cnVUYWlPek94OGRJNU5HZjEtbm4yS2JBTThkejJaY3ktSks0MVVMV3NjZWU2Vk9aQQ?oc=5" target="_blank" rel="noopener">Cientistas criam implante que usa eletricidade para controlar diabetes</a></h2>
-    
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="supermarket manilha reinaugura loja em itaboraí (rj) supervarejo ">
-    <small>SuperVarejo · 03/11/2026, 16:11</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxOMFRmV1prcG4wcVdKYUp0MUs5NXRHMUpxNk04Y3IwTEVMTTZITDNLbGdyR2plU0hDMGJUU2RJMlNOdko3dTJxbVBRdmNNYWtlNmlmckd0QzFGdDAxRTFiaWR6LVhhYWhybkEwYkJZVlphdnM2bFZyeDQ4NVdKbEM3RTJ1YklsRi1nVlRiTzhGdDJoUQ?oc=5" target="_blank" rel="noopener">Supermarket Manilha reinaugura loja em Itaboraí (RJ)</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Diabetes" data-b="7 novembro: parque barigui recebe 14a caminhada do diabetes paranashop ">
-    <small>Paranashop · 03/11/2026, 16:08</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxNUHdrY2xjaDQ5MEFZeXJsMkdDVVRlbDhyenVsbjQxcU9MWFRtZkZtNTJqSmU0QnV5cDUtLWw0YTBYSlFnTFVUMmJ6OXllcjlwTUNHRTVrZkE4c0VjN0Z3OXFHY3R3YVZMUzFGSndYYUY0WGJxcFMySjZaN2ZYaHhvQXlZNXd1Ymo1aU1yd09WWWlRM29oMENEdQ?oc=5" target="_blank" rel="noopener">7 novembro: Parque Barigui recebe 14a Caminhada do Diabetes</a></h2>
-    
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Diabetes" data-b="município tem 9 mil diabéticos cadastrados na rede pública; histórico mostra desabastecimento de insulina poços já ">
-    <small>Poços Já · 03/11/2026, 16:07</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxPd0tUSzhRNjRMSm1Cc3NRMS0xZ0NFajB2ckM0cUdNVXZ4Y1MyMHRoRzRwVFhRUy1INjVLMTRLV0k1RElGMHEwdm42LU4wSVA4R2JmMWM5X2R3eW4ycVBjSUZFc1lSUldURGstNTB0OXBkV2puYkxaT0haOHJWXzFNMUQ1UUZtZEZUakRCWmlsLVloV2dXaHlRX0Jab1MwV3hfRDZXTEFfUWcydkhscUJTeE5jWVF4dVJ3Ym85eUcxR1g3UmxRTENvSU9ZdEdVeDVPOWFBNDh2a1VIckw3Y2U2eG4tbGRxaWpt?oc=5" target="_blank" rel="noopener">Município tem 9 mil diabéticos cadastrados na rede pública; histórico mostra desabastecimento de insulina</a></h2>
-    
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="apas experience osasco reúne supermercadistas, indústria e autoridades em santana de parnaíba correio paulista ">
-    <small>Correio Paulista · 03/11/2026, 16:01</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxON3JSTkhLZFh3NDZkOWtiWGhtam1UZXJxamN0ZmJhS2FZc2JOazV5MWs2NENEbHVhajZtSjZSM04ydm5rd3l3SG5fRVhSZV9menBIY2FDOVZpNXhoLTVoSnlGcDNoZVRqaHBsXzhqQm1ELUU2TXZRTHd5MFhHbWQxRzdjTVZCa1lHN3ZZQWFSTktfTUxpQm9nMTNPa3hNcm9CWkx2bno1cWdLeURyd3Bqb3ZkMnlrNkRwWVlqODBR?oc=5" target="_blank" rel="noopener">APAS Experience Osasco reúne supermercadistas, indústria e autoridades em Santana de Parnaíba</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="fim de ano deve criar 20,5 mil postos de trabalho no varejo paulista; resultado é o pior em seis anos fecomerciosp ">
-    <small>FecomercioSP · 03/11/2026, 16:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUmVhVERCcU9JMHhVblFIYTlMV3Q2elNleW92enZMOS14TzlTcXFoWlJiLTBNN2x3LWd3RGZTWjY0NEtGYVI2V0lWYUJCa0hyTkxUWko3ZTk1enRFMzJLU0dXMExJcmdoSnpuTlhRdXkzOVZKWTh3UGVhQldWLWVfQVpLc1BkYmNXR0NwQ0NnSlZQUTNKTXFHZzlwcDkwWnZOOXN6c3E3VWZqbjFOLW8zVDBVcjFKcGFydWlYWldWRlN3ZnZQbzJqRVpRTG40QmdN?oc=5" target="_blank" rel="noopener">Fim de ano deve criar 20,5 mil postos de trabalho no varejo paulista; resultado é o pior em seis anos</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Diabetes" data-b="ação no utinga alerta para prevenção do diabetes no pará dol ">
-    <small>DOL · 03/11/2026, 15:58</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPWGxqN3l2VDVyLVdQT0VfczExb09HZlRxdEJRUENtT2tWVjVfVG1fLTZtWGw0TWUwN3NDWUdUdDRwSkEzN2VEZ0pSaGJGU3psMHBuWmdUYmljc3lteXFtLU9HSHJKOUExM3lYT3ozTjI4ZFZsa3FnSExwcHpfOGp4bWcwWGFHTnplanJzOEMwWTNCOWdOWldYWUR5Zlk?oc=5" target="_blank" rel="noopener">Ação no Utinga alerta para prevenção do diabetes no Pará</a></h2>
-    
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="mega da virada: caixa anuncia que prêmio deve superar r$ 1 bilhão agência brasil ">
-    <small>Agência Brasil · 03/11/2026, 15:58</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPTzJYMXhzMmVySTBCMEJjRnZ0VzBoWXpySVU0SFowMklPSFZsaVB1U05oLU5YT1o5SndiUklwemlOODRYelVQOEh0bVJTUzFyenhxaWtsVXpFQktnaUhFLUNvUXJleGgzM09VNWR3MVdqSDlpcFNSVnhXU3FrT0dMR1k0UEtlMWxQUHFNbjdyaVctSnBucXF4ekhFWFJFRGJpdFB6My1TZ3NxX3dOQ0pQaXA0ZDJBbE9RNkdMWmNB?oc=5" target="_blank" rel="noopener">Mega da Virada: Caixa anuncia que prêmio deve superar R$ 1 bilhão</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="stok center anuncia data de reinauguração da 50º unidade em santo ângelo (rs) supervarejo ">
-    <small>SuperVarejo · 03/11/2026, 15:51</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOaHRNN3lxWWtNLXJqWXQ0SFUwUlRLVGZGaExXWlY2Vy1taUZndGJnV0JfanYyRzMxdDJnLUpSOXJvc3Z4T1VnVUhIb0FJd09pN0lWdzUtaUZnTFVsT0cweFMwUW1sZVUyVERTb1VBbkZwbFU4RExONllJcE5mcy1qRm5XMXhsblB3QzVodjNHWWduX3VPTXAwZVVrN1hJWjNWVTVXQTlqN1BPTTFXaWF1SXB3?oc=5" target="_blank" rel="noopener">Stok Center anuncia data de reinauguração da 50º unidade em Santo Ângelo (RS)</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="03/11: confira as vagas de emprego disponíveis no distrito federal dfaguasclaras.com.br ">
-    <small>dfaguasclaras.com.br · 03/11/2026, 15:47</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxNRkt3c080djJHS2hoTEg4eWpTcG85UmZob1lKSjdfSFlvQ2dWSzh5LWVCamFMeHBDNHpUS011UHlva3RsRWlrYXF1NDFZeEM0YzFJeVBTbnFWeUFRQUlSbHkyNFU5YndLOTlrSTgtZmZHcXZWVHo0MUpZeEplaDRHd2R5cUg3OXdsQXFnaGkzZUpvV1oteF95b0htM2RsMWVB?oc=5" target="_blank" rel="noopener">03/11: Confira as vagas de emprego disponíveis no Distrito Federal</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="terminam em 04/11 as inscrições para as mais de 50 mil vagas nos cursos online gratuitos do cetam hora brasil ">
-    <small>Hora Brasil · 03/11/2026, 15:30</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVnpMZjlEMXlWQzhsb2pONTdGZDVaZGY1dms5a0hGclhsMnE5ZDVMTnZYSUlacERCUE5fbGRHLWNIZlJkVFRLNW11em1XY05WcklHX0MteFdnSHZrMC1EcTNCa1FyZVppTWptdHllNTVnUzNnaW5yQXNtNjVfY19wN0RYUy1ITzdjeDB4bzMwNzZvNHF6QlhiV3R5cjFveTZwcVNsZFhLazJaTFlNQ29MSVVRamtmRFdZMmJ3S3B1RzdndkNYS2RhQTZFWkl3RzZlWDdhVGNB?oc=5" target="_blank" rel="noopener">Terminam em 04/11 as inscrições para as mais de 50 mil vagas nos cursos online gratuitos do CETAM</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Diabetes" data-b=" - sociedade brasileira de diabetes notícias sociedade brasileira de diabetes">
-    <small>Notícias · 03/11/2026, 15:16</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOcHRQYWdKc2UtYVgtdE5MVE8tdVBKck5vYWJfelVzVXpRaWJfSmhPME1ZVlZzWXRKVmw5aC1NRnVXRkdYX3R4RXMzRFhVVXVJX0pETGV2RTJOQjV0aGJtaExNM3F3ZHJZUlRTM1lkOGpycG8zdDNaemJwX2l0ZnlVOUxIMS1KTHYydFNQbl9xUkhYV3N0X3VrOFVYQnhwdw?oc=5" target="_blank" rel="noopener"> - Sociedade Brasileira de Diabetes</a></h2>
-    <p>Sociedade Brasileira de Diabetes</p>
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="syngenta digital lança centro de inteligência agronômica para conectar dados de fazendas e apoiar decisões dos agricultores | ti inside online ti inside online ">
-    <small>TI INSIDE Online · 03/11/2026, 15:15</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSEEyLWNJcWduR0N6aXItNkJLUVluNGg1dE5KT1NqcDhRTFdBellxeWVPblZHMkI3MFhoVkl5dU50MkxoZVJWcHJoUnQ1SGtEYjMzaWJ1YlVlRmhjOU9sVWhFbTF0OHphWUp1dVlpUVlHbUg4WGhITkRLSDZVeDhTbGIzb3BIV3RiT1dia0x4akNkeWEzSDAzQzdxQWtQT1pvd3lpaEQ5RnVKRXJXMmRUby15WGtmR21PWGw1aHV2WXBoRHQyT1NHR2VwZ281NjVLenlpTi1XVlo3dFRqQTIwa2UwUGFlM0dzMFM5TU9KbWRSaWJK?oc=5" target="_blank" rel="noopener">Syngenta Digital lança Centro de Inteligência Agronômica para conectar dados de fazendas e apoiar decisões dos agricultores | TI INSIDE Online</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Diabetes|Varejo" data-b="houve um tempo em que se acreditava que manter centenas de fornecedores cadastrados por categoria aumentava o poder de barganha e garantia menores preços unitários. a rotina diária do varejo alimentar, contudo, provou o oposto. 📍 confira a matéria instagram ">
-    <small>Instagram · 03/11/2026, 15:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE02bkxCa3RKanhQVTBRdUN2NkJ3QU9HQUpQdzY1UDNobmFzMmhmYnlVWk5hdG94SlVpSTBzOGJNUmxyelBmNzBWYUlIcFlOVmU0dGc?oc=5" target="_blank" rel="noopener">Houve um tempo em que se acreditava que manter centenas de fornecedores cadastrados por categoria aumentava o poder de barganha e garantia menores preços unitários. A rotina diária do varejo alimentar, contudo, provou o oposto. 📍 Confira a matéria</a></h2>
-    
-    <div class="tg"><span>Diabetes</span><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="açougue ganha protagonismo e se transforma em experiência de compra nos supermercados supervarejo ">
-    <small>SuperVarejo · 03/11/2026, 15:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRGx2YUVGN0U2Ykx2cmlOQUt5WU51MW5aYWxTNWRwVDRfOXhkUlZxalBfN0VPQ3NvVDFiVS0xc1VIWWpickhSa0lIQnZGSWt6SVp1anc0SFBUQThTbFhzQ19BQktpNEZhUjBLYkNDb1RmTWRVNXF3M0VwTVhwNG1VekFNMHVjSUM4Q0RKLWxlNmh5MDBTZElXc25LVHpSNW5aSG1WN2dQN0YxYnZGVXRVZXVyc0RTT3gtZGdwRzVNNHptT28?oc=5" target="_blank" rel="noopener">Açougue ganha protagonismo e se transforma em experiência de compra nos supermercados</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="aumento de r$ 1 no salário mínimo custará r$ 405 mi em 2027, diz tesouro cnn brasil ">
-    <small>CNN Brasil · 03/11/2026, 14:58</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxPdDdzVmU4a2VVcW5RYTVvSzVLZVBVMXVyZDg1SWJNTDNJQmVwc3RDbGVud05zUFYyOWhWc2Z5Z3U1dGpEVDVPRWZrbjNYTkxhUWpfLWpBT0xITDFpa0Fib0NERzVGWXU1TDM4ZnNpSElKemFOUUptSjVnajZlZWs0ajZvQXpMRDRqR0t3SkFuRlpaUEdPLXlRc0kzenMtenQyQzBFR0dlcUhUaFFFU083d1F1alJEanpxRGNZUVRDLUJlYlZPR3g0?oc=5" target="_blank" rel="noopener">Aumento de R$ 1 no salário mínimo custará R$ 405 mi em 2027, diz Tesouro</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="supermercados bh converte mais quatro lojas do epa em belo horizonte sa+ ecossistema de varejo ">
-    <small>SA+ Ecossistema de Varejo · 03/11/2026, 14:36</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWkydHRPWXlOalk1eGxOT1pMZ251NEpUTVA2RzVCTlIzRGdSeHktWVd4T2RUT3V3WW02czZMOTJneE5WaU9teEFPV2JsV1JMelNyWTFMRXVCdGFCenh2Q1JfVHFYVHE0SmpJSF8yZU9Qazg3QWJEY2RVa0pSeDUwNVJidnpoeXNUX183Z2Z1a3NENld6N2I3N3Q4X19oZ3ZQMHRKbg?oc=5" target="_blank" rel="noopener">Supermercados BH converte mais quatro lojas do Epa em Belo Horizonte</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="jp morgan alerta para alta da inadimplência no banco do brasil poder360 ">
-    <small>Poder360 · 03/11/2026, 14:28</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYTdnakJBMXZhRVZCZWJHWjQzbE4zOURoMlpBQ3dYODU5X3EzTGtybWx6MU90aE11R2FUTVVVXzB1dlp6NkFFeFJLWUxGbkZJN2gtTGZsZE1Kd2htVGJzckJPWmZUVFRzWnhRY3A3Mk9JRmFqOHNBT01acS1nUnhqYklZZC14NGk3VWpNclR3N2NXTmNEXzVBNWxoUk0xb2tfdGtvM0VQd3FUUQ?oc=5" target="_blank" rel="noopener">JP Morgan alerta para alta da inadimplência no Banco do Brasil</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="enquanto constrói centro logístico, grupo de sc abrirá seis atacarejos e um supermercado no rs em 2027 gzh ">
-    <small>GZH · 03/11/2026, 14:10</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMirwJBVV95cUxQdjd5VER6QzlocTBhYnJCYWtYWThZUlJXaTFnX09yNzNWSWFtaExDRFBmSThnRWVqSUJrQmNLdVFlZmdWZDN5VU9DS1pJQ0lrSnJpcTV4dEROWE1DMlMtWXE0RFVfS1phdEZvSU9Ob1F3NVRFNmY4b1ZmMFZOZV91cUMyUV9JTWpaN3R4OFBKYVVIZ21OckFJQ0lKVklyYUpZUlJsZ2dkMVZVdmNaSnJrRG1WMlhFUGthUlctTDRUWUgzY0xmekdKMklSR1JxT1MzanpvUUE0eVBJMk1XTUplMVZQWU9sVVFnT3J1MkdXa1BkMHdYLWZ3RWdZYmJDUU51cldBcHI3T3FHdTZLb21MTzNzOTU3SXdLWHdNNzd6OG9KZVQ2eTFOQm92SE5wUk0?oc=5" target="_blank" rel="noopener">Enquanto constrói centro logístico, grupo de SC abrirá seis atacarejos e um supermercado no RS em 2027</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="encontro regional de supermercadistas chega em volta redonda asserj ">
-    <small>ASSERJ · 03/11/2026, 14:01</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxNaGNGUmlMVXk3dzdadVYzLXJyQ2U1U0V2Y29IclhsT214U3NxZm0zeWlYMkdaMDFNVXRFbHJ6U2hBaHhzNHdiRXIzRG5TNWFTUjNET29QVi02LTJNYWxfYU9sM2ZpM2hUaHIxancyY0ROdjVXY0R6X1ZJdE5Yb2N1SkxNcVg1d3dEeURLbV9Oc2JfWVM1VmZBdTY0SQ?oc=5" target="_blank" rel="noopener">Encontro Regional de Supermercadistas chega em Volta Redonda</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="robôs humanoides começam a chegar aos supermercados e prometem transformar a reposição de produtos sincovaga notícias ">
-    <small>Sincovaga Notícias · 03/11/2026, 13:52</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSHFoUUROV05RU0w3TTFqcUlMOFNqZU5zM05GUjk2R1VSRndKLXlHbkloYTlUMkNkSjEwY0d0b0FUVE92R3drTWRDSEhROXpBQ0JST2prQy1YWVNHeXJTM293ZE1veEpaSkZES0plVVN2dkhsUlhXTjlCaGwwWS1sbGNYdHRsWnZtQmx5VjhkcEdFRmotbGo4LUliNnVPa2N0TGR2R3MycFlYMnBmRWxFbTczRHV1UEJ5V0ZtZU9CazZpcVBKSVZDcHhKbEQyTFROZ0E?oc=5" target="_blank" rel="noopener">Robôs humanoides começam a chegar aos supermercados e prometem transformar a reposição de produtos</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="brasil importará combustíveis até pelo menos 2036, diz mme sbt news ">
-    <small>SBT News · 03/11/2026, 13:46</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxNUVZfRHFQVVBJV19qNlVJUEhzelMtb2l3YlR6SzdBWDlLcm5SYkZ3bUt3NTU2WVlGTmFBcWFTZC12MUlKUVdUUE4wT0l4M0FnVzBJcU13Wkw3a0lSS2JPQ09BQWtjc3RBSlhFT1c4Z2NGY0hlTmk5TXBfV1hhXzhrX3VJQUstOEJncFRaS092YWRjb0NfY0J4OG0wbExGWDFIMU04?oc=5" target="_blank" rel="noopener">Brasil importará combustíveis até pelo menos 2036, diz MME</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Varejo" data-b="rede de supermercados anuncia nova unidade no brasil com mais de 150 empregos e estacionamento para 73 carros; veja em qual cidade sincovaga notícias ">
-    <small>Sincovaga Notícias · 03/11/2026, 13:39</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi-wFBVV95cUxNVHV0Y3lWNjR0Y0hQNWxSTThzeGR0SWpKTHIzMGE5cHV0bWlELW1jTmNIdjRiZXpGMTIyd1d3RU9Yamo1VUM2d3U3NUlnaXQtZ1Z4WmQ4aUtWelF0WS1xbEpidXJnc0RjZHRLbWJZekVNYnMxZVdKWVNqQS11LUNxelBsc3ZXYWVOQzRuUE1fVF9FTThSa0lHTkN1VWNUd1lrZnVEYVNtUlFuWUxkLWZaNndYa29ETlRyUE1WQVRRUVFfZmRuelhDMU0zTkRQTkU0MEZXSEJRR0RuOVZpUm15VWI3UGpfcjNfcEpUZTNjVVRWUG5rSk1oczBJQQ?oc=5" target="_blank" rel="noopener">Rede de supermercados anuncia nova unidade no Brasil com mais de 150 empregos e estacionamento para 73 carros; veja em qual cidade</a></h2>
     
     <div class="tg"><span>Varejo</span></div>
   </article>
