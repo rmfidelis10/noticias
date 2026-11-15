@@ -40,16 +40,52 @@
 </style></head>
 <body>
 <header>
-  <div><h1>Notícias</h1><small id="upd">Atualizado em 15/11/2026, 05:00 · a cada 3 horas</small></div>
+  <div><h1>Notícias</h1><small id="upd">Atualizado em 15/11/2026, 08:00 · a cada 3 horas</small></div>
   <button id="bt" onclick="atualizar()" aria-label="Atualizar">↻</button>
 </header>
 <main>
   <div class="bar">
     <input id="q" type="search" placeholder="Buscar por assunto ou fonte…" oninput="filtra()" autocomplete="off">
-    <div class="chips" id="ch"><button class="on" data-t="" onclick="tema(this)">Todas (120)</button><button data-t="Diabetes" onclick="tema(this)">Diabetes (51)</button><button data-t="Varejo" onclick="tema(this)">Varejo (9)</button><button data-t="Power BI" onclick="tema(this)">Power BI (2)</button><button data-t="Economia" onclick="tema(this)">Economia (19)</button><button data-t="Outros" onclick="tema(this)">Outros (40)</button></div>
+    <div class="chips" id="ch"><button class="on" data-t="" onclick="tema(this)">Todas (120)</button><button data-t="Diabetes" onclick="tema(this)">Diabetes (50)</button><button data-t="Varejo" onclick="tema(this)">Varejo (8)</button><button data-t="Laticínios" onclick="tema(this)">Laticínios (1)</button><button data-t="Power BI" onclick="tema(this)">Power BI (1)</button><button data-t="Economia" onclick="tema(this)">Economia (23)</button><button data-t="Outros" onclick="tema(this)">Outros (39)</button></div>
     <div id="ct"></div>
   </div>
   
+  <article class="card" data-t="Economia" data-b="monica de bolle aponta o caminho para a queda dos juros no brasil brasil 247 ">
+    <small>Brasil 247 · 15/11/2026, 06:35</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxOdkxBWmlFTDBESDB5c21oYjFxUktyUDJ4bklUQ29DMzNXNGhnWG80OTBadnNoRFhodDBTQmJuSk44MjdQTHItN1pGVHlNVC1Gb3B1NUMzaHhmMTVUMnIzajctQTVRRHg1R3R2LXFrYlpKaGlMOHlTQ2liQmg2RnE2dWdWenp2a3lPbEZYdENPMHdaanRQZExaQ3ZxeHloZXNMTHlF?oc=5" target="_blank" rel="noopener">Monica de Bolle aponta o caminho para a queda dos juros no Brasil</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Laticínios|Varejo" data-b="grupo mateus: gigante do varejo reorganiza operação e encerra 28 lojas de eletrônicos capital política ">
+    <small>Capital Política · 15/11/2026, 06:22</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxPZVVxZDEtZVJtNFVUMjh3bEstWWx5djgwWi1nSHBteE11ODlndWZ3V3VGVnByaHlQR3BBRGpHcDhUOUd3YjFON0ljMV9rUWJjRUc4bDgxeTl6UzlrRWJ1SlA3U3JYRnhXVno0UWVlSS1CVGUzd0pPbzZ2YWdDQVIxV0hRaDZYVGNJREFpdWFSejR1bEZucjFSUnVOSE9PVTJ2ajM3aHl2UnFLeFJLYU1maFo2bkpGckk?oc=5" target="_blank" rel="noopener">Grupo Mateus: gigante do varejo reorganiza operação e encerra 28 lojas de eletrônicos</a></h2>
+    
+    <div class="tg"><span>Laticínios</span><span>Varejo</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="brasil tem superavit de r$ 18 bi nos 9 minerais críticos prioritários poder360 ">
+    <small>Poder360 · 15/11/2026, 06:04</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxNNFJvMFlrejhmVDJ5Y3BnYUNSZklzdVdMdDlWV1FPM3R5M2FMcVNZM3RROWM5R3QwZlB1RHdlUUVYZjFORU5qRGoyOTlkQWk3UzEtVDJLTzUzNWQtelVNYlBDWEFPMXJQUjN6N3pWVlZYLXM2NG56OHlrWVJUV3o2a2lpMXNTcXZiY3Ryc3R6UkJJaVFkbHJ3eEk5WDdjZGRTTk5NT194TTVjTzkyZHRhSzZR?oc=5" target="_blank" rel="noopener">Brasil tem superavit de R$ 18 bi nos 9 minerais críticos prioritários</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Diabetes" data-b="santarém - uls lezíria promove rastreio da diabetes tipo 1 dirigido a crianças a 17 de novembro rádio hertz ">
+    <small>Rádio Hertz · 15/11/2026, 06:01</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNLTRyZ05GRTVpaUpWLTlvb1l2ZVlMMEdRNU9KaDlKalJMT2I4TzdGMmxHcEVkbm52dWt6RXYxeVQ0VVRBZ2dzVmpveU1ITEQxT2dreEtVcTRVcjhRNkpTSGVpM293SXlEa3BqMXl4YmVzcTFLRUJjUjZnTmhPQ2F1SzdfZXhBY2ZLa0NxUGs1cEw0Rll6U1JwZ09LUVphd2V4ZGJHSFdyenNJVko2TVpBY3F2QmpOWEE?oc=5" target="_blank" rel="noopener">SANTARÉM - ULS Lezíria promove rastreio da Diabetes Tipo 1 dirigido a crianças a 17 de novembro</a></h2>
+    
+    <div class="tg"><span>Diabetes</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="fim do ‘ciclo de ouro’ do minério de ferro afeta mineradoras com menor competitividade no brasil estadão ">
+    <small>Estadão · 15/11/2026, 05:30</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVXRnZk94cDZiVVJxa0s1bGFhdlVsa2xtdTg4dUdzaDEzX1dScEN6TFJGWS01d01UQk5TQ3ZkTXlrMnhzZHRIeVJlaDFoX1VvaUtQVTVFTUxIdzZzLUdTcENJOU95bmYxaXExS2JVQjdTWFdsV3NMZDc1Qm5OMkdJZWVFTmlZOGhBbDgxSlNuTm4yUXJHOWRQNlJ0TTRrZy03RzJENTFLRWFLQkNaU2JZdktzUFc3SE02VV9mMGg3aWtLMGJwYjlmN29scFdDWGhsVmN3M19JZ9IB3AFBVV95cUxOdTlQbDhFcENKZ0JjWGc0Rmg4VUFlcXBNOGk2dU9Tc29aMVlPTkR4UzNIb1k2ZG9wNWdVQUVpcmtKOHJ0VnRXUlZtZzE4dnhwd3pGSnR2VlFVQi15WlBkd25rbERTUmE4aTBOWTl0aVdPc0FOV0tkZ2tsOGhnbHJRNWJJOXlkbDJ4dFI1emxtb3hiZXhsRjNYd1ZYbHBQdGpyNmNhTlkxSjdHZ1lBcERFWlFrTE1RZTJIVTAybWRIX0ZTeFluZWdGSGYwbWdfVENyUlpIenFyRmZ1djhy?oc=5" target="_blank" rel="noopener">Fim do ‘ciclo de ouro’ do minério de ferro afeta mineradoras com menor competitividade no Brasil</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="dívida pública do brasil: economistas pedem revisão do mínimo acia araçatuba ">
+    <small>Acia Araçatuba · 15/11/2026, 04:32</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa0pMaUxpUDJhaE80TVRhWVJPT3pEbUtudUtQX3E3M3doRXRXV0hOWC1wajhaZ2xLV2FWQ0d2RmtYNlZRcnJIZ3lUbXFjcTNXSkM1Z19QRVZJQkZfZFhTdUZtV1JSOWZ2V2w5T2liS0JLOWtNb0Z1Y2NLZnFCdGYxYlo1S2pXT1dFd04w?oc=5" target="_blank" rel="noopener">Dívida pública do Brasil: economistas pedem revisão do mínimo</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
   <article class="card" data-t="Outros" data-b="incentivo a data centers no brasil contrasta com rejeição nos eua o globo ">
     <small>O GLOBO · 15/11/2026, 04:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxOYzBxRl9kVEpqTEltdHAyVnBzaXN1N05FaTYxYlphM0JqTFJrUUdfLUNGZzk1SG02ZDFPM2g3T2xKSmxGcjF4QkJzSlZHVVlMVWN3ZnczSWpKa1dqSWc5TWR2NGM5d0IxZE9hNzNtOUFKNTFSZklabkpQcEhibE5qLUt4NXNRbEo5OGh1T192MkVGNXJkeXBhRlNYNzZxQlk1REp1dkRiQWJLckF1TXJNdmRTUHRPQ0MyNmlCZFlWNEhtUTVFQzd1SXJFa3hZTlRw0gHfAUFVX3lxTFBPNWFxX2pGTkNpdHI2ZkFUZVk2Y09UVmdNdnNqSGQzWTcwM3d3NmNycGdnX05sWGpHNXdkTC00TGI0anBXWGRQV1pEYzh1S2hZNVJVNG5ZWkEyYWNCUHhVU2tEYUJWWnRxTG5QRDZNczE5WmlfdTdvS0RWNWo3b013QkJ3UGVZNHZ2S1J0RDJ3NmduYk9DZkRVWjQ4T3IzZTY0WmQtWUVOQ2pBYllWLVZMTDRnUmJrYTdHdGFpcUhNaWdNZDZnejBkbFpaejJBUm82eUF2THlPSzdMN0s5aGM?oc=5" target="_blank" rel="noopener">Incentivo a data centers no Brasil contrasta com rejeição nos EUA</a></h2>
@@ -122,15 +158,15 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="porto de santos tem 27 vagas de emprego em msc, dp world, btp e outros terminais, para nível médio e superior naval porto estaleiro ">
-    <small>Naval Porto Estaleiro · 14/11/2026, 18:44</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxOTjNFbXpDQk82NzJpTUJ3c3JEUl83MHRpMkYxVUdNMkN0YkxlU2I1VllRdGxGQzlYcXBLTnRaOXBPUzNQVXFxWDFPUk1DaEc3bE41TkhKeXdvUnMtWThueVZhRG4yWndacDFSbzFCREp6TnFnZm5oRS1lN0puVm9QV0xzSDRnNXpYbjNHVnpuMkJCQ0E0R0E?oc=5" target="_blank" rel="noopener">Porto de Santos tem 27 vagas de emprego em MSC, DP World, BTP e outros terminais, para nível médio e superior</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
   <article class="card" data-t="Diabetes" data-b="canetas emagrecedoras podem levar à remissão do diabetes tipo 2 em alguns pacientes tv sim brasil ">
     <small>TV Sim Brasil · 14/11/2026, 18:24</small>
     <h2><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQLWlVWWxpUVBCT093YTdhTk02MU05VXJ5UDlISHFjazh6MlM4QXVaaWh5NEQyMUx5SnVmdURwSTQxMjNvMkxZdV9ZSEItcHhjRUxsQ3F3c0JwRFJsYUM2X3NZWWhoeFdTT1N4WG0zei1NRDl6WW5WTWdoenNEUXdNV1pHX05rTU9UVkhMU2JMS1djd1ZqNmhqTmJ5MjhXdXZhcEwzLXZnOA?oc=5" target="_blank" rel="noopener">Canetas emagrecedoras podem levar à remissão do diabetes tipo 2 em alguns pacientes</a></h2>
+    
+    <div class="tg"><span>Diabetes</span></div>
+  </article>
+  <article class="card" data-t="Diabetes" data-b="médico alerta para sinais silenciosos do diabetes que podem passar despercebidos por anos em tempo ">
+    <small>EM TEMPO · 14/11/2026, 18:03</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSGQtM1M4LTlHaG1XVmx4WFBoalotMnM0ODJsdXg2NmxBVDB5bHBmSk9iOTktcTJTdW9GQURWZ3FLS1BrM29KUDhRYUx1bFl2UVdxRk9Dek9EVjlzXzVIOTNBMTVlLTBDcnJkVDN5U24zNU1PdV84NGtXckEzM1MxbHh2Q0ppaHVYYktHcnppT0duTDFsMTM0Z2tuNFNjckcyeFlOZk9BQk1PUHdPSkFMUTU1bUZBNjV6N3VIQUxhYjRiQndIcVU5Qw?oc=5" target="_blank" rel="noopener">Médico alerta para sinais silenciosos do diabetes que podem passar despercebidos por anos</a></h2>
     
     <div class="tg"><span>Diabetes</span></div>
   </article>
@@ -200,12 +236,6 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Varejo" data-b="pernambuco lidera crescimento do varejo no brasil, com desempenho quase seis vezes superior à média nacional acessa caruaru ">
-    <small>Acessa Caruaru · 14/11/2026, 16:08</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcHI1TlpNZVNIUktDM0g0ZlY3MEJpLTZRVW5BeHp2M2VGTFEzQ3B6WGJRdVIteFdEb29YejYzR3V4VXRlak1DOHlPc2RaV0FwSFAwSXZvRnh6M0loajFBU2FCTUN0ZjlLakJ6dk8wek04dWRvSlFRdFV6MW9JQ0hsNlY5LUZIUDBFbGtkU0FUY0xQbFJKeXhvWVRzdHlwXzR1M0lNSU5DYjctdkswNnAwdGFQUUQ5WFJISnhWckZ5V2RqX05YamRmVGpvWEhJMGFuenMyY3l3?oc=5" target="_blank" rel="noopener">Pernambuco lidera crescimento do varejo no Brasil, com desempenho quase seis vezes superior à média nacional</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
   <article class="card" data-t="Outros" data-b="opinião - vinicius torres freire: o brasil não conhece o brasil e quer fazer plano de desenvolvimento econômico folha de s.paulo ">
     <small>Folha de S.Paulo · 14/11/2026, 16:05</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSGFMMjA3VjhoNlF4T25fR3dvWU1UVjZEVEEyRFhtQTY4NU83eC1yS2dYTC1iS3pMWnVhOHlrQTdFR1I4UFhGOGdyWkVxeXdScXlrVDhuUFVRSHhoM0hLcWpxU0FjOFA3aEhLZUtuTUNOaHdaeHNYRGctbU1FVHA2SWpsUVRTRmluSWhINGlzdG4zMlhMa093TG0xeUk1LU5mUGZRSzIwU2c3MGVuY2lkYnBPS1lHb2FBUTk5ZmdYOUZxQ0w2NFJzODF0NXhWWTlONWxlZURSMVBJZVZQ?oc=5" target="_blank" rel="noopener">Opinião - Vinicius Torres Freire: O Brasil não conhece o Brasil e quer fazer plano de desenvolvimento econômico</a></h2>
@@ -254,6 +284,12 @@
     
     <div class="tg"><span>Diabetes</span></div>
   </article>
+  <article class="card" data-t="Economia" data-b="cuba flexibiliza economia, mas não abre mão do socialismo sbt news ">
+    <small>SBT News · 14/11/2026, 15:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxOMlNjVTc0RFpHOTZCUHJGWUJhTWNXR2xlNkZfeEhpektNd1lxUjJFaUxZdzZobnB1dTM2ZDFQd2JTRklFV0tlZ2pXU1ZHSUJwdFhma0NnVGRMVHYtN1gxTm9DWElhdzZCaG9CMlF3NXhKeTJOVUhUeTdPVVJad21nWDk0dmpFdVNNanJITzZaWEF1ZHBRRDBIVmE5U2VQVVNKYnJ2NnJncWZUd2NNdFgw?oc=5" target="_blank" rel="noopener">Cuba flexibiliza economia, mas não abre mão do socialismo</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
   <article class="card" data-t="Outros" data-b="ia pode fazer do brasil um celeiro de aplicações tecnológicas diario de pernambuco ">
     <small>Diario de Pernambuco · 14/11/2026, 13:56</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxQR3pDblVTS0gyRVBhSDhYUnpOV29sRjlFV212SVVydFpsbjllaWJsVnl0Y3YwcmNXcjhrQmVNWjJoc05QQTFISFVTMDY3OU9FX3ZxTzhtSHRua1Z5Z3pqbjd0WkN0YjEzWWk5YWN4UGxiRF84OTVGUGUzWmJ2eUZ5d0xoVU5oNV9PTjBHWHRZRHVJVTBkS2FDb0V4dmhBTGdCZ01xNWdwSl9HQlNMcVUxSUpzaHY1ZmM5RzM2Zm8zRHFkeUd4UWFJV1l3?oc=5" target="_blank" rel="noopener">IA pode fazer do Brasil um celeiro de aplicações tecnológicas</a></h2>
@@ -284,12 +320,6 @@
     
     <div class="tg"><span>Economia</span></div>
   </article>
-  <article class="card" data-t="Varejo" data-b="indústria, varejo e serviços caem no 3º trimestre, mostra ibge valor econômico ">
-    <small>Valor Econômico · 14/11/2026, 13:03</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxOYTduQkR4N2pfYmplY2xnZkRmSXJOZVpUaGNRVmJQc0pFYlE4RUFyWWlkcUp4X19iNk15c3YwemRKcGVJVHk4Q3FyWlRUSUkxWWNxZjZTUE9JMHNUY1ZwckduTW1WaFBMSDNOeFdhejh6aFE0TGxLa1lVbXY1Tml4Q3RZTzlZaTJwdUIwMlJqUUpzZTRiRFFkR0sxZnY4b0xaeFA3V0pfcVB3cGNFa0ZUN3ZFMjVYWHfSAcYBQVVfeXFMUEpfMjByamQ2Rm5zN19vcFJnZDVYZ3VaT1dpcXNyNnY1WmQ2eHRmRGRiWmcwV3pzblNhY3pYMmtNLTNRRG9iYlphZlExVkJib3F2THpLSHh5Y0NRbEdPOUFCNHExWWVNQTVFSEE2V2tQNkhXSmttLWR0LUw5Qy1Mc3BySXF4NkdYZzk2UXExM0FTSnJ0WW1VR1ZjZF9YNUZTVGRlSHVQUGR2YjQ5ZzFROXBkWTJMOTV6MlVDVW0yWUpYWXhYMktB?oc=5" target="_blank" rel="noopener">Indústria, varejo e serviços caem no 3º trimestre, mostra IBGE</a></h2>
-    
-    <div class="tg"><span>Varejo</span></div>
-  </article>
   <article class="card" data-t="Diabetes" data-b="muito além do diagnóstico: moradores do interior de sp contam os desafios de viver com diabetes g1 ">
     <small>G1 · 14/11/2026, 12:45</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi8gFBVV95cUxOaVNmTi05V01oREs3aGs5SkxkTXlncEdiZFJ2ZkRCU1ltaWNBeno5d0xoYmxhakVxMnRleG9JdWtJZ3dZTEp5Tl92VEdoSEZZNnQtQW5EeDFpYTdtV0RpVHk4Z0tGWkdsMC1ET1NwX1FQdDNHekJFUEFreFlEb2hBMFBDQVJCcXhXTU4xeFhtUWUxWWJDT2g1RXZpUHhGazd2M1hsSXVNT2stNEhvOHBDMDBsbS1udmtQN0xYeVo3UUpMcFFZNXhpWXZFSUNRSFhzY3hWcFduZ2Zhd0lOVlFfRGtZdV84bUYtMjRxN0VQbU9Bd9IBgAJBVV95cUxOdTF6R1pWcHlnLVl5QUUySjFDbnJMMjdySGdBRDZkUS1UYVVkYUZyNUtIZlM5V1JXOWVZYU9JWTJLQjlmZVJ0TElPS3dzemczQjVCTmo3OWZOdnNFZkkzMU5tOXhhalI4Tk8xZTR3VGZFWHRaQ2pCVUxLQ1ZyQnM5aGh2WVFTbjY0YnBUR0xDZ1VaTTBxVHBJbUlNUXVJOFVTa3NPR0ZoOW5icXVFc0JXZ3JCOFg0dnJZajV2VnNtSGVJVXh4cXM1eWRYTFl3bmNRSEdiY2xSU1QtaEd1cFBLMGhMRi1tZ1JieDZKQW1OMGR5djJXTlRGZHk1TENXcXZa?oc=5" target="_blank" rel="noopener">Muito além do diagnóstico: moradores do interior de SP contam os desafios de viver com diabetes</a></h2>
@@ -313,6 +343,12 @@
     <h2><a href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTkhvX1ZJMnVwWld1b213cHZ6VHFpcG9lS20ySXRmRkllVkF1VS14MnFyNm8xMjIwY3V4REhxY3ZRbllqMEF5cUI4ZEswbHBDN0V0NF94d2ZUSVBBUnY1bl91MmZiWVB1cTJCOTVseTFtLUp1YWg1aklIUE9XS0VVN01wMVkycFg3aGlWaTZ0X1cxWXZndnZDVHpON0MwR09fckFrbnJMU2t1bnhOZ0FMbnpLMXh5bUVoYm80?oc=5" target="_blank" rel="noopener">Desaceleração e pressão inflacionária desafiam economia no quarto governo Lula</a></h2>
     
     <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="banco central aprova aquisição e nubank terá licença bancária no brasil vero notícias ">
+    <small>Vero Notícias · 14/11/2026, 12:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcnRIVXZLdU5QUHpsLU53LU1zU1BNTWFGRVV5TkxaTUpqb0RScnF3dzNpLUV2b2xjVXNaaGJnbkFTLXlQUEV5NE5hejA3Q2ltRlBkaTA5SFhwbExSQS16bFBiTjA5bTROaWdHUU5maTRoMTZaMXZvV0pEM1BUMWM1UERSdnhmNUw5cDUtREEzNDVyWkZPdV9ZSWJEeDI1NTVkc1R5U1pRN1BHdw?oc=5" target="_blank" rel="noopener">Banco Central aprova aquisição e Nubank terá licença bancária no Brasil</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
   </article>
   <article class="card" data-t="Diabetes" data-b="dia mundial do diabetes: como canetas emagrecedoras têm ‘revolucionado' o tratamento bbc ">
     <small>BBC · 14/11/2026, 11:52</small>
@@ -426,12 +462,6 @@
     <small>Agência Brasília · 14/11/2026, 09:54</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi4gFBVV95cUxPQUN4aFZDNW5DYTVxSENrOVdCUkRyVDJNdGFFZmZ4bVFJUUJYMGpIZW9yS1RaeVB6Q0xndUpKOTBsNGx2UVRpcFZqMUVkU1FlS252dkZ6RXpxeVFaVEh3SzNhZkJTaWRRSThzVU0xcFZ1eDR2allPX081WFNjNHpmd0xoelp6Vl9Sd0FMZmd2QU03SHFXejhfLXlBaEhfWEZTZ1JDZGZFNFFLMEpzdXkxdHlWZGh3aGUwd203SzVVVGFTblJXd0tEYXczOHNYMDhGZWVYOHduUlFXQ2tJanBTSmFR?oc=5" target="_blank" rel="noopener">Diabetes: UBSs dispõem de insulina de ação prolongada para crianças, adolescentes e idosos</a></h2>
     
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Diabetes" data-b=" - sociedade brasileira de diabetes notícias sociedade brasileira de diabetes">
-    <small>Notícias · 14/11/2026, 09:21</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxOcHRQYWdKc2UtYVgtdE5MVE8tdVBKck5vYWJfelVzVXpRaWJfSmhPME1ZVlZzWXRKVmw5aC1NRnVXRkdYX3R4RXMzRFhVVXVJX0pETGV2RTJOQjV0aGJtaExNM3F3ZHJZUlRTM1lkOGpycG8zdDNaemJwX2l0ZnlVOUxIMS1KTHYydFNQbl9xUkhYV3N0X3VrOFVYQnhwdw?oc=5" target="_blank" rel="noopener"> - Sociedade Brasileira de Diabetes</a></h2>
-    <p>Sociedade Brasileira de Diabetes</p>
     <div class="tg"><span>Diabetes</span></div>
   </article>
   <article class="card" data-t="Diabetes" data-b="diabetes tipo 2 corresponde a 90% dos casos da doença e está ligado ao estilo de vida a hora do sul ">
@@ -698,6 +728,12 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
+  <article class="card" data-t="Economia" data-b="vídeos: economia no brasil e no mundo g1 ">
+    <small>G1 · 13/11/2026, 20:47</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxOWlRxcElQby12THMtQzJfcEV6dXdaeC1YaHIzY1RJbWMwVmowb1dLRk5PODRRTEpZWk1aM2ktRXkzeThORjQwY3p2SnhnWFJBLVNVU2V4c2tyakNINXpHU0lYYWVDcG0tQ0FrMG83V2pvb2FRa3ItYUg4T3NZOXN0bmFRcDY?oc=5" target="_blank" rel="noopener">VÍDEOS: Economia no Brasil e no mundo</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
   <article class="card" data-t="Varejo" data-b="boa supermercados tem mais de 100 vagas disponíveis jornal da região ">
     <small>JORNAL DA REGIÃO · 13/11/2026, 20:33</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLVVFeHNvSGwxR2paOGp6XzdIQjBrXzlrV192TkRUakJ4aHIxV2ExV3hjRzNxc3VCcEQ0MG5vYU1rWWlsRVZOS3o1RWpFNmFHZDM5LXYwQlRsMWZRMnREMUE1RHVnNDRDWnhpaGtGbG1NZXdGNllyaTNURXpuZlNYQkN5WWJWeE9J?oc=5" target="_blank" rel="noopener">Boa Supermercados tem mais de 100 vagas disponíveis</a></h2>
@@ -710,11 +746,11 @@
     
     <div class="tg"><span>Diabetes</span></div>
   </article>
-  <article class="card" data-t="Power BI|Varejo" data-b="dia nacional dos supermercados: marcas próprias ampliam espaço e fortalecem parceria entre indústria e varejo gazeta da semana ">
+  <article class="card" data-t="Economia|Varejo" data-b="dia nacional dos supermercados: marcas próprias ampliam espaço e fortalecem parceria entre indústria e varejo gazeta da semana ">
     <small>Gazeta da Semana · 13/11/2026, 20:10</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi6AFBVV95cUxPa1RYa2Uza3FNYkdvTVRVODJkSFVBUm8tN3pvNGlBSzQtNjRGb3g3Y3NXbnpWN2pkOWdkYmhva3E2dDI1SlFnUURxSTlRdnI4YkJvazVtRFJmRktCTDNvdElyaXhwSGlteWk0aHpIR3NVWmVOQnRsazc3YVowTFdzZ1c4R3htRktFU19KUElLa3BaOGlVRHBmRjIxXy1xd294UGd4M2lTcGF2VFlJam56NFhSdHZGUTNGdUZwZWRFY251RUh2NEJJM0hEN3k0T3cyUGNNd191NkJaUHVPQ0NYV2h5NHU1ZnND?oc=5" target="_blank" rel="noopener">Dia Nacional dos Supermercados: marcas próprias ampliam espaço e fortalecem parceria entre indústria e varejo</a></h2>
     
-    <div class="tg"><span>Power BI</span><span>Varejo</span></div>
+    <div class="tg"><span>Economia</span><span>Varejo</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="receita cancelará dívidas de meis vencidas até esta sexta-feira agência brasil ">
     <small>Agência Brasil · 13/11/2026, 20:08</small>
@@ -731,42 +767,6 @@
   <article class="card" data-t="Outros" data-b="governo não renova subsídio de r$ 1,40 ao diesel importado agência brasil ">
     <small>Agência Brasil · 13/11/2026, 19:54</small>
     <h2><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPbmtQb3NITWExSm1XQzBnS1N5bkJrX2JzaEN4WFVZTHJIRThuZXdkSE9LSDlqZFBjUDYtNFBvVzFVSkJuTWI2OXhmOV9sNWt3aDFxRUxKd0lMQm9VbXFpcUoyR1ZaV2lJVWZHY2lyckhmZUFQNkJmT2dvTjBLSGs3Qktob2xLN0haakRkR3pRaU5YYnVXZkxHdnZhSnFzaUxUWnVCaVJnSkhrOXVxOVk5ZVAzdm4?oc=5" target="_blank" rel="noopener">Governo não renova subsídio de R$ 1,40 ao diesel importado</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="tesouro prevê normalizar sistemas fora do ar até segunda-feira agência brasil ">
-    <small>Agência Brasil · 13/11/2026, 19:27</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPejBUemlyN01uSjdLLXpTZUNudm9xaDEwUVFzYlZfa1ptYk5jMVNzRGQxOXBPbXl0Qi1DenZ4NGxkeVVYM1R6cXJ0UTZSSXhUSG1MSW5ZRUJHdlFCa0pUOFlPdjlONTgyNmxUcEdhUkthSUp3dkl0SzJXdm5HY2R5b2c2SkFjSjNZU3FlS2Jya1V2QmtIdDZpRFRoYXp5Rm1kYzVqZU5BSlR1WXJMSjhRbldBeHZOQ3NkUlVIbQ?oc=5" target="_blank" rel="noopener">Tesouro prevê normalizar sistemas fora do ar até segunda-feira</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Diabetes" data-b="moradora denuncia falta de insulina em postos de saúde e cobra solução em teresina portal lupa1 ">
-    <small>Portal Lupa1 · 13/11/2026, 19:20</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxORjEyMHdldkgzVjJGcWVOX0tudGFJNVU1SXpaX25aQXRxSk1LT3NNaUR5X3otc2tKTlJ2dEtsaV9WUENDNktrbHJ2ZEV2UjkxQkxfbmc0MFdkYlNkd252dWYxTmVFMEZOTWZ6WmVhTmxvTk40TV9ZXzFDM3pNVVJuYWdaOExBNGpYajBtY2o1UDg5TUVvZzBQeExVOV9TU3YyUWszaldsX0ZnRjNwSXZMUnpmTi0zM1lLdWhNYmcwYXVVZjIwOFZFWtIBzgFBVV95cUxNTzBneEJxMmxSYmZtOERJNXZObmtsdldYNlRFaWlFQTgxZFRPZ1poQWtuUHVORGNEU3BPMEhLaDJWdFBUQVpOYjgxSE91dkhkR3hJLWowdmJ2bDFhTWoxVTBvMWZUZjJkSjhKbVJzV1NLd1F3WUU2Z3g5UmVCLTZiQTVHRk1qc2lKYXY5d0NRcEhpc18zTC03cE5jVklFSkk3eE1zUWlNQWlRWVNsM0lRd2pxU3NZOGNpWGZzOXBKTjFhcm42Y3hfYU9RVjJ0UQ?oc=5" target="_blank" rel="noopener">Moradora denuncia falta de insulina em postos de saúde e cobra solução em Teresina</a></h2>
-    
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Diabetes" data-b="médico do hospital dr. ib gatto falcão alerta para prevenção, diagnóstico precoce e riscos das complicações do diabetes correio dos municípios ">
-    <small>Correio dos Municípios · 13/11/2026, 18:57</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMijAJBVV95cUxOM0x0ZDRUa2pNYXFlYkxWWnZsdjFBSjhBNGZaenpzdzJMVlYyNWd3a3hVRmxhYTBRU2JjZ0ZmU1FxZ19oRWJWMmpZSXlGMEhKenppelhTdm1tRHpHWE11MlQwVEtHRHdnMzVSenBsR2FkSHc0UjBLYXIzMzBnVVBLZmlpdEpuNkZHRDFNVmhLUzMzZzNrMXpSTlR2Z1dnZlNodHR6M1l5dDZXQmxOb0VRQ0FVb0hFWlZMNnJZSWxJVFpFMmFuWUJzZlVNbGh2dGVqRWRfcjVWcXhPeXBnMjh1OERsbWlWZjZ0c2JRbFg0aHk3cmF5VEQwdEJlQVBsTFlRT3E1eXFIRmpIZHQ3?oc=5" target="_blank" rel="noopener">Médico do Hospital Dr. Ib Gatto Falcão alerta para prevenção, diagnóstico precoce e riscos das complicações do diabetes</a></h2>
-    
-    <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="pane da microsoft deixa empresas e profissionais com trabalho acumulado jornal da região ">
-    <small>JORNAL DA REGIÃO · 13/11/2026, 18:46</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQSV9PX2VLR25YM0xvcjMyTlNCMUtMbzQ3NFpWY0piSnU2TnBtdGVNNnFXSEZwcDRLeHFTTnFIRmRCMWxzaGUyVlNaOFFVYWRyek9rbWFZQUJ1blV5RFBsNnE2Y0E1U05pTzZ3YUt3bW5DM0MzRnBjRlZHTnh4UXhrNkMteDBpcDlUZ3gtQzhiNko4UUg2bzRQNU5rUHBiRnFTNDhV?oc=5" target="_blank" rel="noopener">Pane da Microsoft deixa empresas e profissionais com trabalho acumulado</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="confiança industrial despenca e atinge pior nível desde maio de 2020 times brasil | cnbc ">
-    <small>Times Brasil | CNBC · 13/11/2026, 18:41</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxPNWZ0Njd6NXFtR3JFMHR2SEwtTHVid25LWWtpR1hkaFd2OFZGNUprYjgyZkN4ay15NWJmZDBCdWRjOHNfTS16NG9lWWhId2FhdlJFY3l1YjhOUUcteUVGVjhpOTlibTVUcDBfUVhMVFZaVld0ZmkzTGJZbHpTZmNlY0tGYUM3VmZWbFNEa1JJbEszUjNiUFpfSktzdWxtcmxiY2VlR2lTaFE1cnNCTDFfOFRR?oc=5" target="_blank" rel="noopener">Confiança industrial despenca e atinge pior nível desde maio de 2020</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="casas bahia e gpa fazem acordo para encerrar disputas geradas por associação de 2009 uol economia ">
-    <small>UOL Economia · 13/11/2026, 18:39</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxNT000QVV1WkJyNmpxRWJqZDhYZWdEOTVycW9MWFpJa1VvbDBmN1RkVFptMGg2YzVRaktlbUpZUGJrYnZLaW1nbnJtaGZxOG53SGFtN0lzU2E1WURfREM1d3NITWJqUko0a3JZSjRPRHhuWUhRQnlKU2lBcWd6U3kxUE1oQTNwbG9BZ18tQjFLVFdkVUdBdDZiYVBjV01yRE1CR0RyYjFET3FDeGE0Vjh1dUVfdHVGSVJtMWhWLWctTUxfQmMwbXJnVnR2YUsxYzdiMHFEejFtbFJ2SkhF?oc=5" target="_blank" rel="noopener">Casas Bahia e GPA fazem acordo para encerrar disputas geradas por associação de 2009</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
