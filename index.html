@@ -40,25 +40,49 @@
 </style></head>
 <body>
 <header>
-  <div><h1>Notícias</h1><small id="upd">Atualizado em 28/11/2026, 02:00 · a cada 3 horas</small></div>
+  <div><h1>Notícias</h1><small id="upd">Atualizado em 28/11/2026, 05:00 · a cada 3 horas</small></div>
   <button id="bt" onclick="atualizar()" aria-label="Atualizar">↻</button>
 </header>
 <main>
   <div class="bar">
     <input id="q" type="search" placeholder="Buscar por assunto ou fonte…" oninput="filtra()" autocomplete="off">
-    <div class="chips" id="ch"><button class="on" data-t="" onclick="tema(this)">Todas (120)</button><button data-t="Diabetes" onclick="tema(this)">Diabetes (20)</button><button data-t="Varejo" onclick="tema(this)">Varejo (20)</button><button data-t="Laticínios" onclick="tema(this)">Laticínios (1)</button><button data-t="Power BI" onclick="tema(this)">Power BI (1)</button><button data-t="Economia" onclick="tema(this)">Economia (17)</button><button data-t="Outros" onclick="tema(this)">Outros (65)</button></div>
+    <div class="chips" id="ch"><button class="on" data-t="" onclick="tema(this)">Todas (120)</button><button data-t="Diabetes" onclick="tema(this)">Diabetes (20)</button><button data-t="Varejo" onclick="tema(this)">Varejo (20)</button><button data-t="Laticínios" onclick="tema(this)">Laticínios (1)</button><button data-t="Power BI" onclick="tema(this)">Power BI (1)</button><button data-t="Economia" onclick="tema(this)">Economia (19)</button><button data-t="Outros" onclick="tema(this)">Outros (63)</button></div>
     <div id="ct"></div>
   </div>
   
+  <article class="card" data-t="Economia" data-b="fed sinaliza alta de juros em dezembro e pressiona o real tv sim brasil ">
+    <small>TV Sim Brasil · 28/11/2026, 04:17</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxQeEplUmoybWFCalpxXzk5cllnXzYzY2otZ1g3eFBIdjAxMW4wN0ZKVl9LUWk1UDZDQnNMWFJTUU05OVlkSTUtTU56VTBpdlZVOF9WUmNka2tXZFpxOEdIOERzY1VaNEd0dTN1SFpHbEJWR0pIT3ltcm9GRDBhdWJmUU5MYkJJVklHcEh0dm1LODRkY2lBQkZYVXV3S3p3cnV0UFlwWi15QnhDSFFVLXc?oc=5" target="_blank" rel="noopener">Fed sinaliza alta de juros em dezembro e pressiona o real</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="continuação do &quot;efeito trabuco&quot; no mercado depende de autonomia e ajustes cnn brasil ">
+    <small>CNN Brasil · 28/11/2026, 04:00</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTmEyMXhkd0JKY2lTaFRDUXhBSThfOUg5U3JFMk9YYmZiTTd0dDhqNXFza0prM0pnd3p1Sjd1bkpLcHlwejZhTVpxS053MHhHeUFFYU9uMWZoWm9NMEtpMTFsaDNMdDBDTVFhUGZwc3dlWnhrOFh2UWo2a2RQLVhjdnJMNjFKeUV4TDdBS1RzT29ieHJfN0Z0eUV5cVRUby11Y3hOS3FlVGRjQnNXS1QtZnFDZDVDZF81NkVhV05QRUxnUQ?oc=5" target="_blank" rel="noopener">Continuação do &quot;efeito Trabuco&quot; no mercado depende de autonomia e ajustes</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Diabetes" data-b="prédio histórico do governo de alagoas recebe iluminação especial para alertar sobre riscos do diabetes à visão 082noticias.com ">
+    <small>082noticias.com · 28/11/2026, 03:49</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxQM0xWbHdWSmMzM2pRTlJZWnN4VE9iT1JtS2pRV0dVQlRfc2prdTVRRjF3UERrZmdQZm1FSXhiWTlYV01LNkxGOElJcmtTQTJudjVSelFZMFh0UWtnb2NmOHBkcFlidWdEZzl2dTZrcl9qbGNvdVk5WjJoUzc3c1hsZDh3NWNhQll6WFpHalkxZGtuLWE2T0haT2JiOWstNTQ2YjlaS3RnZTZqWkc2UmVOSndoREtQSll6Y29kU1ZoZ1g1U1dYV2dhSnNoU1hDREhGY25zV1hQamFaY242ZUE?oc=5" target="_blank" rel="noopener">Prédio histórico do Governo de Alagoas recebe iluminação especial para alertar sobre riscos do diabetes à visão</a></h2>
+    
+    <div class="tg"><span>Diabetes</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="governo vê tarifa dos eua sobre aviões como ataque à lei das big techs tv sim brasil ">
+    <small>TV Sim Brasil · 28/11/2026, 03:03</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNTFNIWTBTQWszWDZkRE5uOVdac2ZaYkxRNVUxM0hhUEJDVVZHdWRNRWxJcmk4ejUtMHdyVmpFUENLUFNOZ0dGV1VTOE81aTF2c3NJUFI0QnZRRURMXzZIVzJCSGM3d21ZWG5SZlAxSDFWRklqYXhoa0VqRVl5Mkp4TE5EQlo3RXZiT284TlJFbFBodWZrOFctMU9PZE9VaU4xcnUwSzhpQQ?oc=5" target="_blank" rel="noopener">Governo vê tarifa dos EUA sobre aviões como ataque à lei das big techs</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
   <article class="card" data-t="Outros" data-b="por que o bitcoin caiu no brasil mesmo subindo lá fora tv sim brasil ">
     <small>TV Sim Brasil · 28/11/2026, 01:41</small>
     <h2><a href="https://news.google.com/rss/articles/CBMirAFBVV95cUxPWllGYkVNYTFadXVXN2k0bWhpeDZreTNfdzdMQi1uMktjLTVZdU9YZnFoMFM3azktMU96ODRkNFoxS2lBWXp5UmliZGtFQnVXWFN3alE5VmZRYUtpWXEwd2wwYkN4XzZicjNPYnM0QU1teWE4YU1KR1hScUlxaENBR25PVWVOR3Q2aVFLXzRfdlNsRjJTMDgtbUxXSUlURUtkLXk4ZlFWQ3pQWEJw?oc=5" target="_blank" rel="noopener">Por que o bitcoin caiu no Brasil mesmo subindo lá fora</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="entenda por que o mercado financeiro desconfia da política econômica de lula gazeta do povo ">
-    <small>Gazeta do Povo · 28/11/2026, 00:39</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOMXRjY2lmSGFjcEM1WUdkeGFaTERxTm5Wc1NzUlNMMjBQX0pWeVB0NC1iUnNWSVloZjRkcTZpaEdVaWoxNlhrbHRXT1ZsSTQtNUoxVHpkRUZPTGNJTE4wV2hKTDdNREZuM0pSU3pzTHhxQ0tEM0FEN2MtYUxoZkpULVlmYnpfQUVIS3liY2llWTR0cjdiajZfZi0wT0dLckkyQVdvMXR4cw?oc=5" target="_blank" rel="noopener">Entenda por que o mercado financeiro desconfia da política econômica de Lula</a></h2>
+  <article class="card" data-t="Outros" data-b="é preciso uma vacina para o negacionismo na área econômica o globo ">
+    <small>O GLOBO · 28/11/2026, 00:04</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOdVhDbHBvX1hZWGZudG5MdlZtaEJHbFZpckh4dEhYMi1hUDBJeTg0aEZFcGI4ZEN3OHdwSHlYYkRFUzRRX2ExS0x0Y0ItWkNpZ1ZqNVAyUUlydGlKdG8zM1d4YndYczYyWmtYUUd4S250YjVURHFVOHoyUUEzSjF0M3dkeEhqZHVtVmxsNFNHR3lUYVg1NHYwLWxPQ3BVWEJIRTZXbmMxMUNIZnZyZEtTaVhHLVV2c1NMR1dsONIBywFBVV95cUxPYU1LeEd6dUNzQ29LRFl4X2tqZlhETWRwdHJJVlN3akpLM3FlNjhDT29hdjYyM2pBWDV3cE5oNjZTT3Y2U1ZfS3htOW1UdC1XYUE1RkpmZ3FzeWNtLWQ4OXpRMjRVeHFXdl80YjdUTXZVd0U0RlJDNzBOUlc5SGVZV0VjOWZDNmZRMFhBdHpPY2I3eFd4Wk12dUUwVnBjZEQzYXlKcGtZeWxYZHJQRXFXY2FIUUs5dEpxaVhYbXQ3LWZmSlAyUmhBeHdiRQ?oc=5" target="_blank" rel="noopener">É preciso uma vacina para o negacionismo na área econômica</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
@@ -67,12 +91,6 @@
     <h2><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxPRXh2dzhHMDZpSnFqUVlacWk5emYwOW9oNjBPU2puVndoSG1rXzhKYnkzMHFRM2hlT1I2VWdpTklSU00tclF6UGgyeWZNVDdVbUlYRHpGTmdzTndtVDBRV2xSSFJIdzlwN0JYaDRDY0tEWGZjY19Dakl0dnVrSGFtMndVSlJldEJNWDBLWkJ0TzA5X2JwWlNLdVJ3a0VQb2s?oc=5" target="_blank" rel="noopener">99Compras aproxima-se do varejo no APAS Conecta</a></h2>
     
     <div class="tg"><span>Varejo</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="cdbs são a nova poupança? opção acessível atrai investidores cnn brasil ">
-    <small>CNN Brasil · 27/11/2026, 21:41</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQR0FnN1UwSkN3dy1naFhYNnVUZi1PblpBNEdUUGRmZ2MyV0hzVzBOTTlWRWd1SUVHWDdiNU0zTmhHYnYzNXRlQnctZ3l4N3poRFpQbDNidVZVbVJuSEZfZnNGcVAxY2JOMmtqRTdXQ2w0NFRPUW1kaWhQNUNUcTg3eUZLRG1qMzVaZEo2U0VBeVJGaEtLTXVGV2hrZU9TaWE1T1pTcFRydW9DbWpYbFlPZkRn?oc=5" target="_blank" rel="noopener">CDBs são a nova poupança? Opção acessível atrai investidores</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="agência de comunicação - santa catarina é o estado mais competitivo do brasil estadão blue studio ">
     <small>Estadão Blue Studio · 27/11/2026, 21:36</small>
@@ -98,12 +116,6 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="ibovespa fecha em queda de 0,13%, aos 176,5 mil pontos, mas acumula alta de 6,13% na semana brasil 61 ">
-    <small>Brasil 61 · 27/11/2026, 20:30</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxNUG85QjI2bWVGeElGZDNTM2JEUEJ3cUZEdGpId3I5RXRoamNNSndXSzBmX3V4Zm9OY0ZnQjBFclVCc0hhbHBLVVFZNTY0SmZsQVZBVlh4Tld5X2RTZmdBaVowdl9yTkJ6OXhKU0xtTWNNeU43Q1J5YjU5Y21QbV9UcmszcmJvenFkR0dsS1NyZDd1QzNPeE45dHNsMjF4aGtGNkt1NzRyRlNXRVZLVnpuX2pEOGhsS3dFUF9UeFZVUdIBxAFBVV95cUxNQTRhVFpwR0N2M0tSUXdQbFhzRGIwQWQ3Vm5nbXJUMUg1ZlJKeVM3M2p3eUhWWmFDSldpUENPQzhNcTBrek5FZ3NlSTg0WDFZNHVzc3V2RGk3LUdkZW8yeVBJQk1HSENpUlROc1NvbEwwRGhXck9BTEVFZG5oTkZLYkdIZi1kY3UzcE1Ecm8tc3hRbHVnWDZGaXlyY1c4cUgyRWxzMEY2Z0xCNFJ3ME9XT3VVdG1TNTF6OTQxc0hwWlBtSlBs?oc=5" target="_blank" rel="noopener">Ibovespa fecha em queda de 0,13%, aos 176,5 mil pontos, mas acumula alta de 6,13% na semana</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
   <article class="card" data-t="Outros" data-b="brasil quer ampliar alcance do mercosul para caribe e américa central cartacapital ">
     <small>CartaCapital · 27/11/2026, 20:28</small>
     <h2><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNaGUzNWQ5U3Q3WnQ5UW9JVGtBcm9vWTZkS1AzeFEzMlA2bERrQlIycjhBYkR1U1BoeGZqaEZ4dEJ1M2twbXE5X2pYdVhlSVBNTjF2X0kyOEdmWFlCZ1oyOHgwN2p5ZG9IMHVqZHhXNzQzaHVPQ2Y4QWRNQVFGY1ZiZFBKQm5rTGpQNklZUEtLZ1U3cW9IeWtfTUo5NUI3Q0FGVll5bFdtUnpmM2pKaG5YUQ?oc=5" target="_blank" rel="noopener">Brasil quer ampliar alcance do Mercosul para Caribe e América Central</a></h2>
@@ -113,12 +125,6 @@
   <article class="card" data-t="Outros" data-b="meirelles alerta que dívida pública pode levar brasil a repetir crise de 2015 e 2016 veja ">
     <small>VEJA · 27/11/2026, 20:21</small>
     <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVBaakpqeS13ZHBGQTQydHF0U003NGFBLW1qSWZMYzZMLTFCSHRTc1NGV1Z0LWFGVFV2Z1BwaW9QUnBTQnFhQjJxcEtrZ1I1NnhhOVQ3VEpGa2h1MVFlSWlIZGJxbnQ5WldKbWtDZ1NGZDZTZmFKdWg2WFU1N18tdHhVMURnZzMteFJBTWhFM2FPc1RhOGVfamxhcC1NUTkwcEJMdzlpcGMySUFKQlY2aDBNNFR4MkxzUUhmSw?oc=5" target="_blank" rel="noopener">Meirelles alerta que dívida pública pode levar Brasil a repetir crise de 2015 e 2016</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="conta de luz: aneel mantém bandeira tarifária verde para dezembro estadão ">
-    <small>Estadão · 27/11/2026, 20:19</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiowFBVV95cUxQSi12XzJhSWFUdzZlZWFZRlFjd1NIT3hPOTZkYm50VkJnVnFXMFdzc3JWYTRjMlBxSEJLUjBIYzhyeElpb1NGRWpMNTRSWUkwZmdYcmtyejBVMmc5Wk9nTk5zbVpPSGd4VE5oZzNDdE5RdXdMamtkcUJNUHNtR0UyS0xOT1M0d0hOMU9mNUxYeDZOdXltM0pDZ2xYWmlORGtMVFo00gGoAUFVX3lxTE9pdjEtTDNfcm5CUEtfNGV3QVVjYzlwa09KeTlqTWtibFRHdlVtcDlRR1AyZU1lVUVfRG9oRlgtbG1udnphSXhiQTdseU5meExheDVmWHlhWkZGbEtRNGlyV3kzYTF1d1NkMWNadjQyY3RXQzRWYmFCeUZ0UmZDVmdySVo4ZjIyc3pKTE9LN3pvZjBJNU5FZHpKRnZqWjlIRzFQbnBFMlhhNA?oc=5" target="_blank" rel="noopener">Conta de luz: Aneel mantém bandeira tarifária verde para dezembro</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
@@ -143,12 +149,6 @@
   <article class="card" data-t="Outros" data-b="distribuidoras de energia oferecem descontos para renegociar dívidas agência brasil ">
     <small>Agência Brasil · 27/11/2026, 19:40</small>
     <h2><a href="https://news.google.com/rss/articles/CBMixAFBVV95cUxQVmIwd0JTTEJiSTVPR3ZTeTdZbW9tZW5ReGZSQUtQREJtaDNVa3lBWTFYWmZkbEpOUzkzeERTYk1sNTkyMDZPOVVqdmpKYks0d0todzhnZ1dUTmlVTi1SMi0wOGE0cnNCeW1hSVBsSkczZFUwTnZLSUxNWTlsb29fclJtLTF0Z2xGYTRkLXF1RjBHLVcwcWsxMmZLanZPOWZuMHlzc1FzUlEzeTJaUDM2V0tYbzBvS0tCaWJjQ291OXdxVXd1?oc=5" target="_blank" rel="noopener">Distribuidoras de energia oferecem descontos para renegociar dívidas</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="secretário do tesouro espera participação de trabuco em medidas fiscais cnn brasil ">
-    <small>CNN Brasil · 27/11/2026, 19:34</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxNREg2SHE5X1pRVk43UGp0LXFraDR3VjNmX3NOdXFucDk5YnotaXBSdHh2OUxoVk5oa3FXeFRvZEwwdk9Rd0hheUZGb1RyLVZUdlIyS1g3MmdOVHpGOThoQkhaVmQxTkFOYjRMMm1FRFZ4bk1SbW15bktFOGQ0a0s5dG1xalBpSlkwZkMwSUU3TlBZM0xrMC1wQ0tNTjdqZGtCdU55ekxMLUhhSzVKSEhqOHVmWmRCMVRONTI5UGRZNXl5RG9NN0tVb0x3?oc=5" target="_blank" rel="noopener">Secretário do Tesouro espera participação de Trabuco em medidas fiscais</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
@@ -284,11 +284,11 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Diabetes" data-b="após descoberta de simone mendes, médica explica resistência à insulina paipee - ">
-    <small>PAIPEE - · 27/11/2026, 16:11</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOTXY2cmxXbHhlc2xLZVJ1WEdTb2IyS3dqRTRfV2lXUFFmRTBsVnVXbG5iMWEzdUY2UmVWSzl2akczMllkVmc5YW14WlJRajhvOEwwUnpjcTlhVzRvX2FTWFpUSUNoN0NTc24zekd6ajVWTW9OaW9ZcEM0QmhvVUU4b1dzeFRWOHZhTmlzOEZhai0xTjRjeXZmazlYNnNMRk9CWTMwNkkyaw?oc=5" target="_blank" rel="noopener">Após descoberta de Simone Mendes, médica explica resistência à insulina</a></h2>
+  <article class="card" data-t="Outros" data-b="desemprego no brasil cai a 5,1% e iguala mínima histórica noticia preta ">
+    <small>Noticia Preta · 27/11/2026, 16:12</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPZHlyY1Q1TjBaMHNfZE5HWjhrdm9RU3lpSl9Ga1hfNmxnUUttOV85RUkxeHhNLUdNaE5XWFdwUEZybXhsU1NwY1lPemJjQjRKcDl3MUp4MjJ2M1ZtOExLTFFuMGY0SkNVNzRIY3ZGd0VKLXpPYnZfbkNoX3doQTgwQ3pKM0FLcXo3M0RlTw?oc=5" target="_blank" rel="noopener">Desemprego no Brasil cai a 5,1% e iguala mínima histórica</a></h2>
     
-    <div class="tg"><span>Diabetes</span></div>
+    <div class="tg"><span>Outros</span></div>
   </article>
   <article class="card" data-t="Diabetes" data-b="enfermagem: recomendações para uso seguro de insulina sociedade brasileira de diabetes ">
     <small>Sociedade Brasileira de Diabetes · 27/11/2026, 16:08</small>
@@ -374,23 +374,23 @@
     
     <div class="tg"><span>Diabetes</span></div>
   </article>
+  <article class="card" data-t="Outros" data-b="quem é luiz carlos trabuco, o novo ministro da fazenda de lula dw.com ">
+    <small>DW.com · 27/11/2026, 14:57</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQQUdmUGM3dllFd1JHMFlPSnc5cVRJeGtSclpiY2pNWWNQaUZGSk1aMUlCT2tTTW1Jel9OSFRRZk50Tmhla3YyYU5DQnA4cHJzWU15Zl9qNEpOZWp2UGx5VnJTWFlUdjEzcDE2SGliMEFpV1V6ZEtBbUNoMlZOdkNXY0szWW1CYmlkOWZCTkxPSFhyc3dBZmEzWGxoZTJjRWNZSEhGUNIBpAFBVV95cUxQQUdmUGM3dllFd1JHMFlPSnc5cVRJeGtSclpiY2pNWWNQaUZGSk1aMUlCT2tTTW1Jel9OSFRRZk50Tmhla3YyYU5DQnA4cHJzWU15Zl9qNEpOZWp2UGx5VnJTWFlUdjEzcDE2SGliMEFpV1V6ZEtBbUNoMlZOdkNXY0szWW1CYmlkOWZCTkxPSFhyc3dBZmEzWGxoZTJjRWNZSEhGUA?oc=5" target="_blank" rel="noopener">Quem é Luiz Carlos Trabuco, o novo ministro da Fazenda de Lula</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="desemprego no brasil cai para 5,1% e iguala menor taxa da série histórica do ibge repórter ceará ">
+    <small>Repórter Ceará · 27/11/2026, 14:54</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxONFlXWjVTN3pLRW9xNk1KcU5ibjNFbFpPQjVNLV9yMDNUSWhMUXRFMkFZRDlaNVM4cFNQLVZPLUJudGE2bUtaVUlzRlRDQ01Bajg3S0xLWGh4U21QaGtodlJGM3NaaFQwM2RoU1lYTmR6N0RZMWJ4TlBERTNybmR1cnR6VkRsMUVGWG9tVmRRMTFwemJOVFIySmRvbjNaS1NfMVFONEY0SUZuYUZERjQxZUlLQnJLczRFMTZuMdIBvAFBVV95cUxONFlXWjVTN3pLRW9xNk1KcU5ibjNFbFpPQjVNLV9yMDNUSWhMUXRFMkFZRDlaNVM4cFNQLVZPLUJudGE2bUtaVUlzRlRDQ01Bajg3S0xLWGh4U21QaGtodlJGM3NaaFQwM2RoU1lYTmR6N0RZMWJ4TlBERTNybmR1cnR6VkRsMUVGWG9tVmRRMTFwemJOVFIySmRvbjNaS1NfMVFONEY0SUZuYUZERjQxZUlLQnJLczRFMTZuMQ?oc=5" target="_blank" rel="noopener">Desemprego no Brasil cai para 5,1% e iguala menor taxa da série histórica do IBGE</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
   <article class="card" data-t="Diabetes" data-b="diabetes: o que acontece no organismo e como a prevenção pode mudar histórias? jornal da fronteira ">
     <small>Jornal da Fronteira · 27/11/2026, 14:51</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE14TGFxSDFOd1d6YWxzMm9HU1MyekV3ZFJfR0VFaHppdFJYc2k5UV9nVkNoM1h0bEZ2WmtmbjAzQURaNzRzeVpobGRNY1JLd0FlMWMzV2I2Unc2U0IxSXNad1Rhd3pSQkNa?oc=5" target="_blank" rel="noopener">Diabetes: o que acontece no organismo e como a prevenção pode mudar histórias?</a></h2>
     
     <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="lista de alimentos com iva zero do chega já deu entrada no parlamento e é (quase) igual à de costa. veja as diferenças cnn portugal ">
-    <small>CNN Portugal · 27/11/2026, 14:47</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMiqAJBVV95cUxPeWxpVmhsbHJPWUZnbjJLRDQ1aS1xLUpSR012RmtvSnVLZ2FxT1ZpUG9HcXVzbFRXSGRJOXBwRTdLNEV3Y0dIRm10aUhiX1Utd3pwdnh5aDE3dTVndi1RdC1fUlRIZjlfbVp2Z1N0ZzBpOXZKWEJadjQtckxfcW43SlNiSnFxbFF2Z1V6aFM5dnZ1TFlORG5LdHZydGc2ZHJlQ0FfLTRVT0FUSW1KSGRiRUN1Qk1jX2xfNFNzS1pMOE1tcDEzQlVzZ3dYLUE1dzFobjBjVXhNSUpOLVNKQ0Jqei1UUUdIQV96N3F1MDZENkJ0bE0xamFrQ25URGlBTHBfbUFXMnpvaUFtejVuOW5GcVBHa1lMOUI0ZW9QcXo3d1ctaVlxTUpSVA?oc=5" target="_blank" rel="noopener">Lista de alimentos com IVA zero do Chega já deu entrada no Parlamento e é (quase) igual à de Costa. Veja as diferenças</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="quem é luiz carlos trabuco, o novo ministro da fazenda de lula dw.com ">
-    <small>DW.com · 27/11/2026, 14:43</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNaFVYaDlIXzVPMkxFQTFYenNWNVViUFlXdnROLXdNbEt2N2dYR2JnaGlyOUFQeHdaUkxwajRLc0x1clU1ZHcyTk5QQUtjRWNINm5lSVdYMjBIMXZoOWR1OUxTZEdlS0RRNGFXbkVWWmxJVHRZQUdXaWNtMi1KbUJTakgxZHhRRlJvQkFMa29HRFY1c0p1ZHJtOWZoRFdHcndmV3c2Z9IBpAFBVV95cUxQQUdmUGM3dllFd1JHMFlPSnc5cVRJeGtSclpiY2pNWWNQaUZGSk1aMUlCT2tTTW1Jel9OSFRRZk50Tmhla3YyYU5DQnA4cHJzWU15Zl9qNEpOZWp2UGx5VnJTWFlUdjEzcDE2SGliMEFpV1V6ZEtBbUNoMlZOdkNXY0szWW1CYmlkOWZCTkxPSFhyc3dBZmEzWGxoZTJjRWNZSEhGUA?oc=5" target="_blank" rel="noopener">Quem é Luiz Carlos Trabuco, o novo ministro da Fazenda de Lula</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="ferramenta gratuita reúne mudanças para meis e pequenos negócios agência brasil ">
     <small>Agência Brasil · 27/11/2026, 14:26</small>
@@ -443,6 +443,12 @@
   <article class="card" data-t="Outros" data-b="comitê de segurança pública do irb reúne 24 tribunais de contas em auditoria nacional e apresenta painel com resultados bomba bomba ">
     <small>BOMBA BOMBA · 27/11/2026, 13:44</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi3wFBVV95cUxQd24zMFV4cndQUlE2OGtZeTAyaXhhTEdLaHRZRE9Vb3ZZUGlfQ1lIeHF6eGdiWFcybXRuOE4tamJRRVZEYjBOeHpONkYzMEZoX0xZQUZrOEhRaU1NYVJCbmVxQ2xJMGl6c0ZUVlhwakJxTFhyTVo0TmJqbkFMc0R0LVd3RGhKY1YzUzdFRXBSV05va3V6dGo0QjNHUk84Y19vSnRDTklOd051RHZEUGlCbDJWSDZWc2lDTmczbVE3UjZNZ3FqbnhCRjBEcFNmbE9hOU1paTBLNDVLVVdoUklB?oc=5" target="_blank" rel="noopener">Comitê de Segurança Pública do IRB reúne 24 Tribunais de Contas em auditoria nacional e apresenta painel com resultados</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="as famílias brasileiras estão gastando uma parcela maior da renda com alimentação e saúde. segundo a pesquisa de orçamentos familiares (pof) 2024-2025, divulgada pelo ibge, a comida passou a representar 14% das despesas, ante 13,1% em 2017-2 instagram ">
+    <small>Instagram · 27/11/2026, 13:31</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBVE9wcmRKWllYcTlMY0J5aW1teXlZUXd6Q0FmWXhSZU5uYXpHZUF0WVNVeWNxSENNN08zUm1iWE1uM1pRYm9yWUpuRW9VTUNQX0E?oc=5" target="_blank" rel="noopener">As famílias brasileiras estão gastando uma parcela maior da renda com alimentação e saúde. Segundo a Pesquisa de Orçamentos Familiares (POF) 2024-2025, divulgada pelo IBGE, a comida passou a representar 14% das despesas, ante 13,1% em 2017-2</a></h2>
     
     <div class="tg"><span>Outros</span></div>
   </article>
@@ -500,6 +506,12 @@
     
     <div class="tg"><span>Laticínios</span><span>Varejo</span></div>
   </article>
+  <article class="card" data-t="Economia" data-b="um banqueiro à frente da economia brasileira? - misto brasil um banqueiro à frente da economia brasileira?  - misto brasil">
+    <small>Misto Brasil · 27/11/2026, 12:32</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxQdU1NVlN6ZmtWQ3ZZUUk2RWxFekc0UndwUVcxd1JmbGcyZy1iNEg1SE5YX0dwMS00aUJjSTFmdVZoaWlrRndDVXdIeVY0aFl1d0xQSTlUZDhSTUhzY0x0Y2NTLVNmaHdyV1NFODRVSHhmZGxhVTAyeEJoVUN2cnhueHk5WUdfMzTSAY8BQVVfeXFMTm16ZFNxbENBbFlHbkFTazFZNUxaQ0FfaDl5eEhremhsYVpZbUxUNGRObWlxMFkteGhJRmF2NUd1blpvR2pLZUtZZUFzQ2F5SEg1emRMc2lKWTZCMXRGWFdVZWw2X21Ud0hQcjc2RnF0c2IwUlBoeUZVbGtHdzN5VGg1ckZfakJRLTBBSFRJOGM?oc=5" target="_blank" rel="noopener">Um banqueiro à frente da economia brasileira? -</a></h2>
+    <p>Um banqueiro à frente da economia brasileira?  - Misto Brasil</p>
+    <div class="tg"><span>Economia</span></div>
+  </article>
   <article class="card" data-t="Outros" data-b="inicio agência brasil ">
     <small>Agência Brasil · 27/11/2026, 12:16</small>
     <h2><a href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNNHA4RDRKY2N2cS1GRU1Nc21EOUpELUV3S3RKRWpBalQxR3oxbXJMRHVBa0RLWkxUaUFRV2s2bmpOMk9udkpEbFg0aWtEdmdQNUN2RWpDYi04ZS1QVUNfcUw2dE11Z3AxZzdOYzNRczlEVkhnenBvUjhtalJZNlpkRXB1YmNya1pJcmU5VDRnTzcwb1ctS0h2anNibjllekZsc0s4OGotZHBYU2hlUkg0MlFtTDZwak0?oc=5" target="_blank" rel="noopener">Inicio</a></h2>
@@ -554,23 +566,11 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="os caminhoneiros que se arriscam e ganham pouco para entregar suas compras na black friday: 'querem que a gente trabalhe sem parar' folha de s.paulo ">
-    <small>Folha de S.Paulo · 27/11/2026, 11:35</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMijAJBVV95cUxPRzM5TWNNbE9FQVRuTHE3YWVFc2h3RVZ1eUhhUGxxVjBkRTZVU0JnMk1lZmM0YmVnYnRqQzBObXVqdkx5OWtSRjRKSlJvZkpsdFNfUXRBX3J0aDV1dEgxUFdWQldZankwazFOOVl3ZU9KLWttT2VzWWlaU21WTTJrVC0zZUV6bXVpTG1OalVoYWpKWjVBOXBQWEN3c0hDNFR1WDI5THBxLWhsb3Z0MjJXODFsN2JGWTA4NE1IY0I1NGFmWjYwdXFTWUI2b1lPWU5VVkZPNjJReGNBU1hRRGNFeXlTZUxtUWpub3BWaTlLdkFLeDFhZ2VObEZKcFEwRWtjTlFLanJ3S2RrU3ZN?oc=5" target="_blank" rel="noopener">Os caminhoneiros que se arriscam e ganham pouco para entregar suas compras na Black Friday: 'Querem que a gente trabalhe sem parar'</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
   <article class="card" data-t="Diabetes" data-b="governo de alagoas adere à campanha “24 dias pelo diabetes” e ilumina antiga sede correio dos municípios ">
     <small>Correio dos Municípios · 27/11/2026, 11:28</small>
     <h2><a href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY2p3YUFwX3RBSmhiTnlsNkFEU2Jqa0lxck5PMzRkdW5XcnJoUHQ5NGJodzdnVUNrWWFqQ0dkM2RERDR5bVNUeWlDR0ZGaERJUDhYUEVFUFBSRng4RXhaQUFEVFNqanAxNjJZNDZFVXBPNk1VZFA0VWhNSS1LODdaMDJLV2FqOWJDc0xzOEVGcW1YWkNQVEpTYzRKT0xlQTc1Nk9UdWNWYXVGYkxfOURsWnZtQVNiVjhBM3dzSVRXQmxubkdlZVJ3cGh2Wll0ZUlpV0VsMmhWcTNYQQ?oc=5" target="_blank" rel="noopener">Governo de Alagoas adere à campanha “24 Dias pelo Diabetes” e ilumina antiga sede</a></h2>
     
     <div class="tg"><span>Diabetes</span></div>
-  </article>
-  <article class="card" data-t="Economia" data-b="frança entra em recessão técnica após pib cair no 3º trimestre cnn brasil ">
-    <small>CNN Brasil · 27/11/2026, 11:26</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNekVRRk5JY0x2TVVyc3Q2M0Zic29seUNPLVVCc1FncTJuSWRybGZpQzRWRjFZQ1dHai15UzJ0LURZR0F4SVIyUllyd3pkRzE2X0pleGpkY0psUkpZOWtOdWZ5cWd3VnhYYS0tS09HcmI3QUROd1pMaWZfZnFVeExRdjJWajRtT1g0ZUZvc2tvMlhwREN6QlliMUE3dTVVa214b2puLTdWd0lIR2lWOFFObg?oc=5" target="_blank" rel="noopener">França entra em recessão técnica após PIB cair no 3º trimestre</a></h2>
-    
-    <div class="tg"><span>Economia</span></div>
   </article>
   <article class="card" data-t="Outros" data-b="jsl, amazon, logber e mais: confira as vagas de emprego no setor de logística, nesta sexta (27) tecnologística ">
     <small>Tecnologística · 27/11/2026, 11:21</small>
@@ -668,12 +668,6 @@
     
     <div class="tg"><span>Outros</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="rendimento real do trabalhador cresceu 3,5% em um ano agência brasil ">
-    <small>Agência Brasil · 27/11/2026, 09:51</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMirgFBVV95cUxNQjZvU1pvT1QyVzhDSVpOTUg4eFptUEY1WTRjeFA3c0pEc2k2aS11bVlrR0JWSkdSbnQ3cWtaUXJlUmNwbGcxVTJhajVWb0l0UkRBbHljZmtqMGpBS2gtd3NrcmNSRTlLaVdnMEI1X0dKdEdnRVhoMGM1UU1qVUNVSGozMWx1QkY3U3l1WlR6eWx0MDJidG9CWFZPbC1ubGxfdWgzTk5GeGNrM3IwZFE?oc=5" target="_blank" rel="noopener">Rendimento real do trabalhador cresceu 3,5% em um ano</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
   <article class="card" data-t="Outros" data-b="expectativa de vida no brasil sobe para 76,9 anos em 2025, aponta ibge g1 ">
     <small>G1 · 27/11/2026, 09:38</small>
     <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxQcGhkRVJYenc0bjRDZ1ZNVkN4NTVIbDJPSkhDVUJfSnA0SkpZV0ZJb1o2THZZRXlOM3RoS0hvcHVwQWllZFNadjJ5cFdFYzY2UzBZT2NweHl6clFxSkYwOEpQanFBVnVibFRxbFhjeWVhTlQzY3VwTzZhcGN6TGViV2Zud3R5OXhPRjJITVJtaWp4OVJPOE9ydE5rQWRydDd5MmJ3dlVOVFJtU2N6T3oxSFoxWEhQVXY4TFNKWtIBywFBVV95cUxPMHFkMlZ1WlEzLUtyMkRTTFRwS2U4SHpqUUt4TzRfVGQ5dElNeTdIejFYNE5ReUpmRmpyMlFlaWhZc1Z6a0VQOEk2alM4OXFYa250MkdPZVVWSmdlV2RJdzlTYzhRUFFBcVcxZlZRSkVMeXM0bm1EcF9TUEozRGNibUFjOEZhbXphWFRzeW9oY2pXYmtQMDZjNzgxcW5YMjBwNkEzcUdBQXNSZVQ4TmF4RENRMFo5STBRZkNPTl9JdDVUNWhBc3ljQXFuUQ?oc=5" target="_blank" rel="noopener">Expectativa de vida no Brasil sobe para 76,9 anos em 2025, aponta IBGE</a></h2>
@@ -728,18 +722,6 @@
     
     <div class="tg"><span>Economia</span></div>
   </article>
-  <article class="card" data-t="Outros" data-b="taxa de desemprego recua para 5,1% e iguala menor patamar da história uol economia ">
-    <small>UOL Economia · 27/11/2026, 09:01</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxPYzRnN1g5aC1SMTMycFUyeXN6ZFBDYzdET19mZ1lmQ0ZOTGd2WHVVXzhwXzFJYS1hYnFTM3VkZUVaZ3MyV2NSc2tpNjBLcUZhY0dRdkN1OVZzdWpHbDRDOGpEaHNwYjlHQ2NFaEdzSGx4cW5OSWlDME5tOTZYazFjR01TUEtQN28wRG5EMg?oc=5" target="_blank" rel="noopener">Taxa de desemprego recua para 5,1% e iguala menor patamar da história</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
-  <article class="card" data-t="Outros" data-b="desemprego fica em 5,1% e iguala mínima histórica; rendimento bate recorde g1 ">
-    <small>G1 · 27/11/2026, 09:00</small>
-    <h2><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmpuRGQxblFlbTdpQmVyYl9zWFlVdFhZR0FFQ3Z6QTNoZzZDNVRFd2JkT3U2SE5xYjBXMUZKeUpXR3BBbmpxZXFwcjJXOW9KOXFhRk9aZC1DMV9TSHBkWWJOQTg2dUV0aGo4UnA1LXhJV3ZrWjVoTHVMMzRGcm9lSlhDWXnSAZMBQVVfeXFMTkczUW51RVVRYlZGbWZiNWJSMDdtRE82RF9wYVZBZXZuQjRWOUt4MnctbUlTQUxWem1ONkVLVGM0dVc2Q2pxMk1hc2Z6YklSc2prLXpMWFczUlVrTG80TnRvMVlYN3Q1c2JpQzZtUlRPbTV4U1ljU2sxWUlTaG5VNUdMRWtrbnRWLVh6WlFBMEhEQVU0?oc=5" target="_blank" rel="noopener">Desemprego fica em 5,1% e iguala mínima histórica; rendimento bate recorde</a></h2>
-    
-    <div class="tg"><span>Outros</span></div>
-  </article>
   <article class="card" data-t="Diabetes|Varejo" data-b="glp-1 leva grande varejo global a rever lojas superhiper ">
     <small>SuperHiper · 27/11/2026, 09:00</small>
     <h2><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxPMVhnYlFrRXRET3BmcEp4RFhOSzduaGZkb2RIb1ZqUTBLSVRMdnVzMjUxZGpCTktyRUZ6bXlwaGV6dS1GOFlIaDdFUzc2eGdENUVEakFvWjdKa2FHQTZualljaHFJV2FVOG14Qk12cGtyYWRSUDVyZURFSUlReWxVZnZR?oc=5" target="_blank" rel="noopener">GLP-1 leva grande varejo global a rever lojas</a></h2>
@@ -769,6 +751,24 @@
     <h2><a href="https://news.google.com/rss/articles/CBMiywFBVV95cUxPNmdJYW1FakZGVXQwREpUemVid2ZCdDFyYU1udWxJeWxIUkQ2ZWdpODVpXy1fU0tRSHhjOGpZeDRSMnY3clF5cHp1QXZzNERtRVl0T2Y1OTlnSnVnTGpkdnZkNnZHN2FHcVV6WnMtNkxRb0F0Zk1Kb0tNV1dTWWpPUE8yVzQtVFdpa1d4S21FbEFWWnVheEY5QW5KSnNjNEJSWFZEX01OeFVZZjJ3OEtsLXZyaFNUUlpoZXVxRlRQLWwzZkJhMXVramhFaw?oc=5" target="_blank" rel="noopener">Confiança de serviços no Brasil cai e atinge menor nível em 5 anos e meio</a></h2>
     
     <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="'efeito trabuco': setores financeiro e produtivo veem 'sinal positivo', ala da esquerda critica; veja a repercussão g1 ">
+    <small>G1 · 27/11/2026, 08:33</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTF8tdzZRRUhoeUpaNk5rY01La0FjSDA5eGdIanhLT0FlYmZGSHFsa2ZvdlB0cE82ZTFBY2ZYeUVBMnFrRlQ3VUJoUGoxS204V3dnYkdVaS1FN0pGMG1sdVZiRklpazlpTnF3RDVUYkx3QnlnWEQ4alJSczk5SmwySjJ3TlBPbmw30gGXAUFVX3lxTE9OZC05dkoxV3pFSVgyWVc1a1pndlVUQ1hhNjVFcmxGcnl2aWVqLU9ldklmbDByWWM2ekdJdUNDb2ltNzk2bHlwVnUyQURLelF5R2taZm5jT0FTeGJERG9odGhEcFB4QTB0cFFvOEFYU09pYWx4ZU5nQi1GZnc4cGRvbXd6UFAtVk5qVWFUSHdwZkg3aTN1d3c?oc=5" target="_blank" rel="noopener">'Efeito Trabuco': setores financeiro e produtivo veem 'sinal positivo', ala da esquerda critica; veja a repercussão</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Outros" data-b="a reação da imprensa internacional à indicação de trabuco para o ministério da fazenda folha de s.paulo ">
+    <small>Folha de S.Paulo · 27/11/2026, 08:27</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGJEUlhBczVZalRwLThkZ19TZEFJVVZaNFpkRjRYYWJYQW9RVUxhd0xwclRzWlhNTlUxa2ltMDhtNENiM3NzVVVHMWFNaks4elpIUDVZSktEekQ4ZURTX3lYWWF1SHFGekFwNnlMaXlNaVMtMHg5dHZpZ0hObHVyellJYUN2WlNuY1NVemlUQ1lCZ2tSU3djOFM2UE1BYWlwdng3T1FyOGxWb21ianZzZmN5QUZuaEhOb0dGekcxVGJxTnFjNWVoZHpWOVM4SmhNMVdXZQ?oc=5" target="_blank" rel="noopener">A reação da imprensa internacional à indicação de Trabuco para o Ministério da Fazenda</a></h2>
+    
+    <div class="tg"><span>Outros</span></div>
+  </article>
+  <article class="card" data-t="Economia" data-b="brasil envelhece: quem vai sustentar a economia? movimento econômico ">
+    <small>Movimento Econômico · 27/11/2026, 08:24</small>
+    <h2><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUVubngyOTBIR19DNzhReDN3THhhTUJQQ0dWdC14aGFyN1JiTXNHazFoM1otRVBrU1lMY0VIVHBnUVRsY3FXdkdhZGt5ZmpqTWNrZTJ3NTNyLTVwT3AzWnlSNFN5d2lJWXNDSERNbVkzV1NCUTlFbXNEZ2hJTk1FVERaSUFTV2JULXk4Vnd2dTVGaVlLY09LaU03QnBaN0lfMmZrQ1J2S0lPUzZqYXFtX1g4cVFIN1I5Y3VFUQ?oc=5" target="_blank" rel="noopener">Brasil envelhece: quem vai sustentar a economia?</a></h2>
+    
+    <div class="tg"><span>Economia</span></div>
   </article>
   <div id="vz" hidden>Nenhuma notícia encontrada. Tente outra palavra ou outro assunto.</div>
 </main>
